@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: Mon blog personnel
+title: Découverte de POE2
 
 # Your name to show in the footer
 author: Sébastien Place
@@ -22,9 +22,9 @@ author: Sébastien Place
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+    - Builders: "https://mobalytics.gg/poe-2"
+    - Vidéos de Henip: "https://www.youtube.com/@Henip/videos"
+  Author's home: "https://splc.be"
 
 ################
 # --- Logo --- #
@@ -32,7 +32,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+avatar: "/assets/img/POE2logo.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -52,12 +52,12 @@ round-avatar: true
 social-network-links:
   email: "seb@splc.be"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
-  whatsapp: 15551212
+# facebook: deanattali
+# github: daattali
+  twitter: placeseb
+# patreon: DeanAttali
+  youtube: "https://splc.be/youtube"
+# whatsapp: 15551212
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
 #  linkedin: daattali
@@ -76,7 +76,7 @@ social-network-links:
 #  bluesky: yourname
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
-#  discord: "invite_code" or "users/userid" or "invite/invite_code"
+   discord: "users/placeseb"
 #  kaggle: yourname
 #  hackerrank: yourname
 #  gitlab: yourname
