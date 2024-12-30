@@ -10,16 +10,12 @@ tags: [POE2, craft]
 author: Sébastien Place
 ---
 
-<header>
-
 <!--
   <<< Author notes: Course header >>>
   Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
   In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
   Add your open source license, GitHub uses MIT license.
 -->
-
-</header>
 
 <!--
   <<< Author notes: Step 1 >>>
@@ -94,8 +90,6 @@ Le document souligne que le Présage de Corruption est sous-évalué et peut gé
 *   Au moment de la rédaction, les Présages de Corruption ne coûtent que 40 *exalts*, ce qui est peu comparé à d'autres objets de modification.
 
 En résumé, l'utilisation des orbes de Vaal et des présages de corruption peut être un moyen très lucratif d'améliorer vos objets dans Path of Exile 2.
-
-<footer>
 
 <!--
   <<< Author notes: Footer >>>
