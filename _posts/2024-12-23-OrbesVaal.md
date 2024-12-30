@@ -101,5 +101,3 @@ En résumé, l'utilisation des orbes de Vaal et des présages de corruption peut
   <<< Author notes: Footer >>>
   Add a link to get support, GitHub status page, code of conduct, license link.
 -->
-
----
