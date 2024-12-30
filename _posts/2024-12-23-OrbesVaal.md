@@ -3,7 +3,7 @@ layout: post
 title: "Orbes Vaal"
 date: 2024-12-23
 subtitle: Guide sur la corruption
-cover-img: /assets/img/poe-2-vaal-orbs.webp
+cover-img: /assets/img/POE2.jpg
 thumbnail-img: /assets/img/poe-2-vaal-orbs.webp
 share-img: /assets/img/poe-2-vaal-orbs.webp
 tags: [POE2, craft]
