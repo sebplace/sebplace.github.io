@@ -1,6 +1,13 @@
 ---
+layout: post
 title: "Orbes Vaal"
 date: 2024-12-23
+subtitle: Guide sur la corruption
+cover-img: /assets/img/path.jpg
+thumbnail-img: /assets/img/thumb.png
+share-img: /assets/img/path.jpg
+tags: [POE2, craft]
+author: Sébastien Place
 ---
 
 <header>
