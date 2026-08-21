@@ -4008,8 +4008,21 @@ def generate_site(content, root, langs, lang_label):
             ("about", nav["about"]),
         ]
         link_html = "".join(f'<a href="{local_href(key, lang)}">{esc(label)}</a>' for key, label in links)
+        promo = footer.get("crosspromo")
+        promo_html = ""
+        if promo:
+            promo_html = f"""<a class="footer-crosspromo" href="{esc(promo["url"])}" target="_blank" rel="noopener">
+      <span class="footer-crosspromo-icon" aria-hidden="true">📅</span>
+      <span class="footer-crosspromo-body">
+        <span class="footer-crosspromo-eyebrow">{esc(promo["eyebrow"])}</span>
+        <strong class="footer-crosspromo-title">{esc(promo["title"])}</strong>
+        <span class="footer-crosspromo-text">{esc(promo["text"])}</span>
+      </span>
+      <span class="footer-crosspromo-cta">{esc(promo["cta"])} &rarr;</span>
+    </a>"""
         return f"""<footer class="site-footer">
   <div class="container footer-inner">
+    {promo_html}
     <p>© {CURRENT_YEAR} {esc(meta["site_name"])}. {esc(footer["text"])}</p>
     <div class="footer-links">{link_html}</div>
   </div>

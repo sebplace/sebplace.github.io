@@ -44,6 +44,15 @@ CONTENT["en"] = {
     "footer": {
         "text": "An independent, free learning resource for vibe coding in higher education, "
                 "powered by GitHub Copilot. Not affiliated with or endorsed by GitHub or Microsoft.",
+        "crosspromo": {
+            "eyebrow": "Also from Jochem & S\u00e9bastien",
+            "title": "Prefer to meet us in person?",
+            "text": "Check the Microsoft Belux Higher Education event calendar: workshops, "
+                    "research days (MBRC), Ignite and more \u2014 hosted by Jochem Claes and "
+                    "S\u00e9bastien Place.",
+            "cta": "See the event calendar",
+            "url": "https://sebplace.github.io/belux-higher-ed-calendar-2026-2027/",
+        },
     },
     "home": {
         "eyebrow": "Free course \u00b7 Vibe Coding with GitHub Copilot",
@@ -1096,6 +1105,15 @@ CONTENT["fr"] = {
         "text": "Une ressource p\u00e9dagogique ind\u00e9pendante et gratuite pour le vibe coding "
                 "dans l'enseignement sup\u00e9rieur, propuls\u00e9e par GitHub Copilot. Non "
                 "affili\u00e9e \u00e0 GitHub ni \u00e0 Microsoft et non approuv\u00e9e par eux.",
+        "crosspromo": {
+            "eyebrow": "Aussi sign\u00e9 Jochem & S\u00e9bastien",
+            "title": "Envie de nous rencontrer en direct ?",
+            "text": "D\u00e9couvrez le calendrier des \u00e9v\u00e9nements Microsoft Belux d\u00e9di\u00e9s "
+                    "\u00e0 l'enseignement sup\u00e9rieur : ateliers, journ\u00e9es recherche (MBRC), "
+                    "Ignite\u2026 anim\u00e9s par Jochem Claes et S\u00e9bastien Place.",
+            "cta": "Voir le calendrier des \u00e9v\u00e9nements",
+            "url": "https://sebplace.github.io/belux-higher-ed-calendar-2026-2027/",
+        },
     },
     "home": {
         "eyebrow": "Formation gratuite \u00b7 Vibe Coding avec GitHub Copilot",
@@ -2308,6 +2326,15 @@ CONTENT["nl"] = {
         "text": "Een onafhankelijke, gratis leerbron voor vibe coding in het hoger onderwijs, "
                 "aangedreven door GitHub Copilot. Niet verbonden aan of goedgekeurd door "
                 "GitHub of Microsoft.",
+        "crosspromo": {
+            "eyebrow": "Ook van Jochem & S\u00e9bastien",
+            "title": "Wilt u ons persoonlijk ontmoeten?",
+            "text": "Bekijk de Microsoft Belux-eventkalender voor hoger onderwijs: workshops, "
+                    "onderzoeksdagen (MBRC), Ignite en meer \u2014 gepresenteerd door Jochem Claes "
+                    "en S\u00e9bastien Place.",
+            "cta": "Bekijk de eventkalender",
+            "url": "https://sebplace.github.io/belux-higher-ed-calendar-2026-2027/",
+        },
     },
     "home": {
         "eyebrow": "Gratis training \u00b7 Vibe Coding met GitHub Copilot",
