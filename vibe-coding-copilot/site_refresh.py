@@ -123,7 +123,7 @@ PLACEHOLDER_SITE_BASE = "https://sebplace.github.io/vibe-coding-copilot/"
 # dashboard URL is https://vibecodingcopilot.goatcounter.com). Leave as-is to ship the site
 # with the feedback widget working purely visually but with no analytics call sent
 # (the script tag is simply omitted and the click handler no-ops safely).
-GOATCOUNTER_CODE = "PLACEHOLDER_GOATCOUNTER_CODE"
+GOATCOUNTER_CODE = "vibecodingcopilot"
 
 DOC_URLS = {
     "plans": "https://docs.github.com/en/copilot/get-started/plans",
