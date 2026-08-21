@@ -47,25 +47,27 @@ n'est pas configuré.
 
 ## Analytics & feedback (GoatCounter)
 
-Le site peut envoyer des statistiques de visite **sans cookies, sans données personnelles**, via
+Le site envoie des statistiques de visite **sans cookies, sans données personnelles**, via
 [GoatCounter](https://www.goatcounter.com) (gratuit, open source, hébergement EU disponible).
-Tant que ce n'est pas configuré, aucun script n'est injecté et aucune donnée n'est envoyée nulle
-part — le widget de feedback continue de fonctionner visuellement mais sans compter de vote.
 
-Pour l'activer :
-1. Créer un compte gratuit sur https://www.goatcounter.com/signup (aucune carte requise) et
-   choisir un code de site, par ex. `vibecodingcopilot` → tableau de bord sur
-   `https://vibecodingcopilot.goatcounter.com`.
-2. Remplacer `GOATCOUNTER_CODE = "PLACEHOLDER_GOATCOUNTER_CODE"` par le vrai code choisi, ligne
-   ~124 de `site_refresh.py`.
+**Activé et en production** (21/08/2026) : compte créé (`vibecodingcopilot`, email vérifié
+`splace@microsoft.com`), tableau de bord sur `https://vibecodingcopilot.goatcounter.com`.
+`GOATCOUNTER_CODE = "vibecodingcopilot"` dans `site_refresh.py` (ligne ~124) — script injecté et
+confirmé en production sur toutes les pages.
+
+Pour changer de compte ou de code de site à l'avenir :
+1. Créer/utiliser un compte sur https://www.goatcounter.com et choisir un code de site.
+2. Mettre à jour `GOATCOUNTER_CODE` dans `site_refresh.py`.
 3. Régénérer (`python generate_site.py`), vérifier, redéployer (voir « Site publié » ci-dessus).
 
-Une fois activé, le script `<script data-goatcounter="…">` est injecté sur chaque page, et le
-widget « Cette page t'a-t-elle aidé ? » (visible sur les pages de contenu — cf. `FEEDBACK_WIDGET_PAGES`
-dans `site_refresh.py`) envoie un événement `feedback-up-<page>` / `feedback-down-<page>` au clic,
+Le script `<script data-goatcounter="…">` est injecté sur chaque page, et le widget « Cette page
+t'a-t-elle aidé ? » (visible sur les pages de contenu — cf. `FEEDBACK_WIDGET_PAGES` dans
+`site_refresh.py`) envoie un événement `feedback-up-<page>` / `feedback-down-<page>` au clic,
 visible dans le tableau de bord GoatCounter sous « Pages » ou via l'onglet Events. Le vote est
 mémorisé en `localStorage` (`vcc-feedback-voted-<page>`) pour ne pas relancer la question à chaque
-visite.
+visite. Note : GoatCounter filtre les navigateurs automatisés (Playwright, robots) — seules les
+vraies visites humaines apparaissent dans le tableau de bord, ce qui a été vérifié comme un
+comportement voulu (pas un bug) lors de la mise en service.
 
 ## Architecture — le point le plus important à comprendre
 
