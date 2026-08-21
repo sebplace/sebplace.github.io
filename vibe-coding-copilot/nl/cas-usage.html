@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+  <html lang="nl">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GitHub Copilot use-case explorer — Vibe Coding Copilot</title>
+  <meta name="description" content="36 concrete, direct bruikbare use cases voor elk onderdeel van het hoger onderwijs. Filter op rol of op echte GitHub Copilot-featurefamilies en open daarna een kaart voor de exacte stappen.">
+  <meta property="og:title" content="GitHub Copilot use-case explorer — Vibe Coding Copilot">
+  <meta property="og:description" content="36 concrete, direct bruikbare use cases voor elk onderdeel van het hoger onderwijs. Filter op rol of op echte GitHub Copilot-featurefamilies en open daarna een kaart voor de exacte stappen.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="nl_NL">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="GitHub Copilot use-case explorer — Vibe Coding Copilot">
+  <meta name="twitter:description" content="36 concrete, direct bruikbare use cases voor elk onderdeel van het hoger onderwijs. Filter op rol of op echte GitHub Copilot-featurefamilies en open daarna een kaart voor de exacte stappen.">
+  <link rel="alternate" hreflang="fr" href="../fr/cas-usage.html">
+  <link rel="alternate" hreflang="nl" href="../nl/cas-usage.html">
+  <link rel="alternate" hreflang="en" href="../en/cas-usage.html">
+  <link rel="alternate" hreflang="x-default" href="../en/cas-usage.html">
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+  <link rel="stylesheet" href="../assets/style.min.css">
+  </head>
+  <body class="page-explorer" data-search-index="../assets/search-index.nl.json" data-lang="nl">
+  <a class="skip-link" href="#main-content">Naar de inhoud gaan</a>
+  <header class="site-header">
+  <div class="container header-inner">
+    <a class="brand-mark" href="index.html" aria-label="Vibe Coding Copilot">
+      <svg width="26" height="26" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0a8 8 0 0 0-2.53 15.59c.4.07.55-.17.55-.38l-.01-1.49c-2.01.44-2.43-.97-2.43-.97-.33-.83-.8-1.05-.8-1.05-.66-.45.05-.44.05-.44.72.05 1.1.74 1.1.74.64 1.1 1.68.78 2.09.6.07-.46.25-.78.46-.96-1.6-.18-3.29-.8-3.29-3.57 0-.79.28-1.43.74-1.93-.07-.18-.32-.92.07-1.92 0 0 .61-.19 1.99.74a6.9 6.9 0 0 1 3.63 0c1.38-.93 1.99-.74 1.99-.74.39 1 .14 1.74.07 1.92.46.5.74 1.14.74 1.93 0 2.78-1.69 3.39-3.3 3.57.26.22.49.66.49 1.33l-.01 1.97c0 .21.14.45.55.38A8 8 0 0 0 8 0Z"/></svg>
+      <span class="brand-text"><span class="b1">Vibe Coding Copilot</span><span class="b2">Hoger Onderwijs</span></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Main">
+      <span><a class="nav-trigger active accent" href="cas-usage.html">Use cases</a></span>
+      <span><a class="nav-trigger" href="scenarios.html">8 echte scenario’s</a></span>
+      <div class="nav-course-group">
+      <a class="nav-trigger" href="vibe-basics.html">Leertrajecten</a>
+      <div class="nav-lesson-panel">
+        <div class="nav-lesson-panel-head"><span>Leertrajecten</span></div>
+        <ol class="nav-lesson-list"><li><a href="vibe-basics.html"><span>1</span><strong>Vibe Coding Basis</strong></a></li><li><a href="vibe-advanced.html"><span>2</span><strong>Vibe Coding Gevorderd</strong></a></li><li><a href="vibe-expert.html"><span>3</span><strong>Vibe Coding Expert</strong></a></li></ol>
+        <a class="nav-lesson-overview" href="first-commit.html">Jouw eerste commit<span aria-hidden="true">→</span></a>
+        <a class="nav-certificate-link" data-certificate-cta href="certificate.html" hidden>Bekijk mijn certificaat<span aria-hidden="true">↘</span></a>
+      </div>
+    </div>
+      <span><a class="nav-trigger" href="plans.html">Plannen &amp; realiteit</a></span>
+      <span><a class="nav-trigger" href="toolkit.html">Toolkit</a></span>
+      <span><a class="nav-trigger" href="best-practices.html">Best practices</a></span>
+      <span><a class="nav-trigger" href="about.html">Over dit project</a></span>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-switch desktop-only"><a class="" href="../fr/cas-usage.html">FR</a><a class="active" href="../nl/cas-usage.html">NL</a><a class="" href="../en/cas-usage.html">EN</a></div>
+      <button class="search-toggle" type="button" data-search-open aria-label="Zoeken openen">🔍</button>
+      <button class="mobile-nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav-panel"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="mobile-nav-panel container" id="mobile-nav-panel" hidden>
+    <div class="mobile-nav-group">
+      <div class="mobile-nav-group-label">Leren</div>
+      <a href="scenarios.html" class="mobile-nav-link">8 echte scenario’s</a>
+      <details class="mobile-course-details">
+      <summary class="mobile-course-summary"><span>Vibe Coding Basis</span></summary>
+      <div class="mobile-course-body">
+        <ol class="nav-lesson-list"><li><a href="vibe-basics.html#lesson-1"><span>1</span><strong>Wat is vibe coding?</strong></a></li><li><a href="vibe-basics.html#lesson-2"><span>2</span><strong>Van een echt campusprobleem naar een app-idee</strong></a></li><li><a href="vibe-basics.html#lesson-3"><span>3</span><strong>Je eerste webapp met GitHub Copilot</strong></a></li><li><a href="vibe-basics.html#lesson-4"><span>4</span><strong>Bewaren en publiceren met GitHub</strong></a></li><li><a href="vibe-basics.html#lesson-5"><span>5</span><strong>Testen en verbeteren met Copilot Chat</strong></a></li><li><a href="vibe-basics.html#lesson-6"><span>6</span><strong>Stijl en uitstraling verbeteren</strong></a></li><li><a href="vibe-basics.html#lesson-7"><span>7</span><strong>Afbeeldingen, bestanden en documenten toevoegen</strong></a></li><li><a href="vibe-basics.html#lesson-8"><span>8</span><strong>Samenvatting en op naar het traject Gevorderd</strong></a></li></ol>
+        <a class="nav-lesson-overview" href="vibe-basics.html">Bekijk het volledige traject<span aria-hidden="true">→</span></a>
+      </div>
+    </details><details class="mobile-course-details">
+      <summary class="mobile-course-summary"><span>Vibe Coding Gevorderd</span></summary>
+      <div class="mobile-course-body">
+        <ol class="nav-lesson-list"><li><a href="vibe-advanced.html#lesson-1"><span>1</span><strong>Werken met de agent-modus van Copilot</strong></a></li><li><a href="vibe-advanced.html#lesson-2"><span>2</span><strong>Een database koppelen aan je app</strong></a></li><li><a href="vibe-advanced.html#lesson-3"><span>3</span><strong>Die database veilig gebruiken</strong></a></li><li><a href="vibe-advanced.html#lesson-4"><span>4</span><strong>Bewust ontwerpen voor leren</strong></a></li><li><a href="vibe-advanced.html#lesson-5"><span>5</span><strong>Een goed bouwplan maken</strong></a></li><li><a href="vibe-advanced.html#lesson-6"><span>6</span><strong>Slim itereren zonder je app te breken</strong></a></li><li><a href="vibe-advanced.html#lesson-7"><span>7</span><strong>Je project een blijvend geheugen geven</strong></a></li><li><a href="vibe-advanced.html#lesson-8"><span>8</span><strong>AI gebruiken als tester</strong></a></li><li><a href="vibe-advanced.html#lesson-9"><span>9</span><strong>Je code beheren als een echt project met GitHub</strong></a></li></ol>
+        <a class="nav-lesson-overview" href="vibe-advanced.html">Bekijk het volledige traject<span aria-hidden="true">→</span></a>
+      </div>
+    </details><details class="mobile-course-details">
+      <summary class="mobile-course-summary"><span>Vibe Coding Expert</span></summary>
+      <div class="mobile-course-body">
+        <ol class="nav-lesson-list"><li><a href="vibe-expert.html#lesson-1"><span>1</span><strong>AI toevoegen aan je onderwijsapp</strong></a></li><li><a href="vibe-expert.html#lesson-2"><span>2</span><strong>AI-modellen kiezen en vergelijken</strong></a></li><li><a href="vibe-expert.html#lesson-3"><span>3</span><strong>Je toegangssleutels veilig instellen</strong></a></li><li><a href="vibe-expert.html#lesson-4"><span>4</span><strong>Eerste klein project: een AI-uitlegknop</strong></a></li><li><a href="vibe-expert.html#lesson-5"><span>5</span><strong>Je AI-integratie veilig implementeren</strong></a></li><li><a href="vibe-expert.html#lesson-6"><span>6</span><strong>Veilig en betaalbaar bouwen</strong></a></li><li><a href="vibe-expert.html#lesson-7"><span>7</span><strong>Verder dan tekst gaan</strong></a></li><li><a href="vibe-expert.html#lesson-8"><span>8</span><strong>Volledig voorbeeld en afsluiting</strong></a></li></ol>
+        <a class="nav-lesson-overview" href="vibe-expert.html">Bekijk het volledige traject<span aria-hidden="true">→</span></a>
+      </div>
+    </details>
+      <a href="first-commit.html" class="mobile-nav-link">Jouw eerste commit</a>
+      <a href="build-vs-buy.html" class="mobile-nav-link">Vibe coding vs een kant-en-klare oplossing kopen</a>
+    </div>
+    <div class="mobile-nav-group">
+      <div class="mobile-nav-group-label">Tools</div>
+      <button type="button" class="mobile-nav-link mobile-nav-button" data-search-open>Zoeken</button>
+      <a href="cas-usage.html" class="mobile-nav-link accent">Use cases</a>
+      <a href="plans.html" class="mobile-nav-link">Plannen &amp; realiteit</a>
+      <a href="toolkit.html" class="mobile-nav-link">Toolkit</a>
+      <a href="quick-reference.html" class="mobile-nav-link">Wegwijzer in 2 minuten</a>
+      <a href="maturity.html" class="mobile-nav-link">Diagnose van institutionele maturiteit</a>
+    </div>
+    <div class="mobile-nav-group">
+      <div class="mobile-nav-group-label">Hulpmiddelen</div>
+      <a href="workshop.html" class="mobile-nav-link">Workshopkit “Vibe Coding Challenge”</a>
+      <a href="glossary.html" class="mobile-nav-link">Glossarium</a>
+      <a href="sitemap.html" class="mobile-nav-link">Sitemap</a>
+      <a href="changelog.html" class="mobile-nav-link">Sitechangelog</a>
+      <a href="best-practices.html" class="mobile-nav-link">Best practices</a>
+      <a href="about.html" class="mobile-nav-link">Over dit project</a>
+    </div>
+  </div>
+  </header>
+  <div class="language-banner-shell" data-language-banner hidden
+  data-alt-fr="../fr/cas-usage.html" data-alt-nl="../nl/cas-usage.html" data-alt-en="../en/cas-usage.html" data-label-fr="Français" data-label-nl="Nederlands" data-label-en="English"
+  data-prefix="Je browser lijkt voorkeur te hebben voor "
+  data-cta="Schakel naar deze taal"
+  data-dismiss="Verberg deze suggestie"></div>
+  <main id="main-content">
+<section class="explorer-page">
+  <div class="container">
+    <div class="section-head" data-reveal>
+      <div class="page-wayfinding">
+      <nav class="page-breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a><span class="page-breadcrumb-sep" aria-hidden="true">/</span><span aria-current="page">Use cases</span></nav>
+    </div>
+      <h1>GitHub Copilot use-case explorer</h1>
+      <p>36 concrete, direct bruikbare use cases voor elk onderdeel van het hoger onderwijs. Filter op rol of op echte GitHub Copilot-featurefamilies en open daarna een kaart voor de exacte stappen.</p>
+    </div>
+    <div class="fact-banner" data-reveal>
+      <strong>Feiten gecontroleerd</strong>
+      <span>Feiten gecontroleerd in augustus 2026 op docs.github.com — GitHub Copilot evolueert snel, dus controleer exacte cijfers opnieuw vóór een aankoopbeslissing.</span>
+    </div>
+    <div class="feature-legend"><div class="feature-legend-item" data-reveal><span class="feature-chip">Inline-suggesties</span><p>Codevoorstellen in je IDE, met next edit suggestions in ondersteunde editors.</p></div><div class="feature-legend-item" data-reveal><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a><p>Vragen stellen, verfijnen, uitleggen en bouwen in natuurlijke taal op github.com/copilot, mobiel, IDE of Windows Terminal.</p></div><div class="feature-legend-item" data-reveal><span class="feature-chip">Agent-modus</span><p>Copilot werkt autonomer in je IDE, plant en past multi-file wijzigingen toe met goedkeuringspunten.</p></div><div class="feature-legend-item" data-reveal><span class="feature-chip">Copilot CLI</span><p>Terminalwerk in natuurlijke taal beschrijven en de flow in de command line houden.</p></div><div class="feature-legend-item" data-reveal><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot code review</a><p>AI-reviewsuggesties en aandachtspunten vóór of tijdens menselijke review.</p></div><div class="feature-legend-item" data-reveal><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/how-tos/use-copilot-agents/cloud-agent" target="_blank" rel="noopener">Copilot cloud agent</a><p>Een taak of issue toewijzen, Copilot op een branch laten werken en daarna de pull request reviewen.</p></div><div class="feature-legend-item" data-reveal><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/concepts/context/spaces" target="_blank" rel="noopener">Copilot Spaces</a><p>Copilot verankeren met repos, bestanden, vrije tekst, transcripties en afbeeldingen in een deelbare Space.</p></div><div class="feature-legend-item" data-reveal><span class="feature-chip">MCP-servers</span><p>Copilot verbinden met vertrouwde tools en databronnen.</p></div><div class="feature-legend-item" data-reveal><span class="feature-chip">GitHub Copilot-app</span><p>Aparte Copilot-agentsessies in hun eigen worktrees draaien, diffs vergelijken en meerdere taken parallel laten lopen.</p></div><div class="feature-legend-item" data-reveal><span class="feature-chip">Custom instructions</span><p>Repository- of padgebonden richtlijnen die naamgeving, toon, toegankelijkheid en buildstappen consistent houden.</p></div><div class="feature-legend-item" data-reveal><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/reference/customization-cheat-sheet" target="_blank" rel="noopener">Prompt files</a><p>Herbruikbare taaktemplates in de repository zodat terugkerend werk start vanuit een gedeelde prompt in plaats van een lege chat.</p></div><div class="feature-legend-item" data-reveal><span class="feature-chip">Custom agents</span><p>Repository-gedefinieerde agents met een specifieke taak, stijl of workflow.</p></div><div class="feature-legend-item" data-reveal><span class="feature-chip">Agent skills</span><p>Herbruikbare skillbundels die agents leren hoe je team repetitief werk wil aanpakken.</p></div><div class="feature-legend-item" data-reveal><span class="feature-chip">Copilot Memory</span><p>Nuttige projectcontext onthouden zodat terugkerend werk niet elke sessie opnieuw van nul start.</p></div></div>
+    <div class="explorer-toolbar" data-reveal>
+      <div class="explorer-search"><input type="text" placeholder="Zoek een use case (“quiz”, “budget”, “chat”...)"></div>
+      <div class="filter-row"><span class="filter-label">Functie</span><button type="button" class="filter-pill active" data-persona="all">Alle functies</button><button type="button" class="filter-pill" data-persona="teaching">🎓 Docenten</button><button type="button" class="filter-pill" data-persona="students">🧑‍🎓 Studenten</button><button type="button" class="filter-pill" data-persona="it">🖥️ IT- en digitale diensten</button><button type="button" class="filter-pill" data-persona="hr">🤝 HR</button><button type="button" class="filter-pill" data-persona="leadership">🧭 Directie en beleid</button><button type="button" class="filter-pill" data-persona="finance">💶 Financiën en administratie</button><button type="button" class="filter-pill" data-persona="research">🔬 Onderzoekers</button><button type="button" class="filter-pill" data-persona="campus">📚 Bibliotheek, communicatie &amp; campusleven</button></div>
+      <div class="filter-row"><span class="filter-label">Copilot-feature</span><button type="button" class="filter-pill" data-feature="inline">Inline-suggesties</button><button type="button" class="filter-pill" data-feature="chat">Copilot Chat</button><button type="button" class="filter-pill" data-feature="agent">Agent-modus</button><button type="button" class="filter-pill" data-feature="cli">Copilot CLI</button><button type="button" class="filter-pill" data-feature="review">Copilot code review</button><button type="button" class="filter-pill" data-feature="cloudagent">Copilot cloud agent</button><button type="button" class="filter-pill" data-feature="spaces">Copilot Spaces</button><button type="button" class="filter-pill" data-feature="mcp">MCP-servers</button><button type="button" class="filter-pill" data-feature="app">GitHub Copilot-app</button><button type="button" class="filter-pill" data-feature="instructions">Custom instructions</button><button type="button" class="filter-pill" data-feature="promptfiles">Prompt files</button><button type="button" class="filter-pill" data-feature="customagents">Custom agents</button><button type="button" class="filter-pill" data-feature="skills">Agent skills</button><button type="button" class="filter-pill" data-feature="memory">Copilot Memory</button></div>
+    </div>
+    <p class="explorer-count">Weergave van <strong>36</strong> use cases</p>
+    <div class="usecase-grid"><div class="usecase-card" data-reveal id="usecase-1" data-persona="teaching" data-features="chat inline" data-search="bouw in één sessie een zelfnakijkende quiz je wilt een quiz die je studenten kunnen gebruiken om een hoofdstuk te herhalen, zonder een externe betaalde tool. een werkende, aangepaste quiz voor je vak, klaar om te publiceren. vraag copilot om de vraagvolgorde bij elke start te schudden. open copilot chat en beschrijf je quiz: “bouw een html-pagina met een quiz van 5 meerkeuzevragen over [onderwerp], met een eindscore.” lees de gegenereerde code, test ze in je browser, en vraag daarna telkens één precieze aanpassing, bijvoorbeeld: “voeg een korte uitleg toe onder elke vraag zodra ze beantwoord is.” zodra het resultaat je bevalt, vraag je copilot om een knop “quiz herstarten” toe te voegen. copilot chat inline-suggesties">
+      <div class="usecase-top">
+        <span class="persona-chip">🎓 Docenten</span>
+        <a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a><span class="feature-chip">Inline-suggesties</span>
+      </div>
+      <h3>Bouw in één sessie een zelfnakijkende quiz</h3>
+      <p class="usecase-situation">Je wilt een quiz die je studenten kunnen gebruiken om een hoofdstuk te herhalen, zonder een externe betaalde tool.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Open Copilot Chat en beschrijf je quiz: “Bouw een HTML-pagina met een quiz van 5 meerkeuzevragen over [onderwerp], met een eindscore.”</li><li>Lees de gegenereerde code, test ze in je browser, en vraag daarna telkens één precieze aanpassing, bijvoorbeeld: “Voeg een korte uitleg toe onder elke vraag zodra ze beantwoord is.”</li><li>Zodra het resultaat je bevalt, vraag je Copilot om een knop “quiz herstarten” toe te voegen.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Een werkende, aangepaste quiz voor je vak, klaar om te publiceren.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Vraag Copilot om de vraagvolgorde bij elke start te schudden.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-2" data-persona="teaching" data-features="spaces chat" data-search="veranker een schemauitleg met copilot spaces je hebt slides, een gescand schema en tutor-notities en wilt een toegankelijke digitale uitleg in plaats van nog een afbeelding in een pdf. een duidelijkere, herbruikbare uitleg die in je eigen lesmateriaal verankerd is. gebruik dezelfde space voor het volgende schema-intensieve onderwerp in plaats van alles opnieuw uit te leggen. maak een space aan en voeg de schema-afbeelding, de relevante slidetekst en een heldere legenda toe. vraag copilot chat om dat gegronde materiaal om te zetten in een html/css-pagina met labels, alt-tekst en een kleine begrippenlijst. publiceer de goedgekeurde versie op github pages zodat studenten er buiten de les naar kunnen terugkeren. copilot spaces copilot chat">
+      <div class="usecase-top">
+        <span class="persona-chip">🎓 Docenten</span>
+        <a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/concepts/context/spaces" target="_blank" rel="noopener">Copilot Spaces</a><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a>
+      </div>
+      <h3>Veranker een schemauitleg met Copilot Spaces</h3>
+      <p class="usecase-situation">Je hebt slides, een gescand schema en tutor-notities en wilt een toegankelijke digitale uitleg in plaats van nog een afbeelding in een pdf.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Maak een Space aan en voeg de schema-afbeelding, de relevante slidetekst en een heldere legenda toe.</li><li>Vraag Copilot Chat om dat gegronde materiaal om te zetten in een HTML/CSS-pagina met labels, alt-tekst en een kleine begrippenlijst.</li><li>Publiceer de goedgekeurde versie op GitHub Pages zodat studenten er buiten de les naar kunnen terugkeren.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Een duidelijkere, herbruikbare uitleg die in je eigen lesmateriaal verankerd is.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Gebruik dezelfde Space voor het volgende schema-intensieve onderwerp in plaats van alles opnieuw uit te leggen.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-3" data-persona="teaching" data-features="chat" data-search="genereer varianten van oefeningen om overschrijven te beperken je wilt meerdere versies van dezelfde oefening voor verschillende groepen studenten. meerdere klaar-om-te-verspreiden versies, met een consistent correctiemodel. vraag copilot om ook een toegankelijke versie te genereren voor schermlezers. geef copilot chat een bestaande oefening en vraag: “genereer 4 varianten van deze oefening met andere waarden maar dezelfde moeilijkheidsgraad.” vraag om een gedeeld correctiemodel: “voeg een correctiemodel toe dat elke stap uitlegt.” vraag copilot om alles te exporteren naar één gestructureerd document. copilot chat">
+      <div class="usecase-top">
+        <span class="persona-chip">🎓 Docenten</span>
+        <a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a>
+      </div>
+      <h3>Genereer varianten van oefeningen om overschrijven te beperken</h3>
+      <p class="usecase-situation">Je wilt meerdere versies van dezelfde oefening voor verschillende groepen studenten.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Geef Copilot Chat een bestaande oefening en vraag: “Genereer 4 varianten van deze oefening met andere waarden maar dezelfde moeilijkheidsgraad.”</li><li>Vraag om een gedeeld correctiemodel: “Voeg een correctiemodel toe dat elke stap uitlegt.”</li><li>Vraag Copilot om alles te exporteren naar één gestructureerd document.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Meerdere klaar-om-te-verspreiden versies, met een consistent correctiemodel.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Vraag Copilot om ook een toegankelijke versie te genereren voor schermlezers.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-4" data-persona="teaching" data-features="agent chat" data-search="automatiseer een gewogen-gemiddelde calculator met de agent-modus je beheert een complex puntenoverzicht en wilt automatisch gewogen gemiddelden berekenen. een betrouwbare calculator, afgestemd op jouw eigen puntensysteem. koppel hem aan een echte database (zie het traject gevorderd) om hem elk semester te hergebruiken. beschrijf je puntensysteem aan de agent-modus: “bouw een pagina die een gewogen gemiddelde berekent op basis van deze categorieën: [lijst].” bekijk het voorgestelde plan van de agent voordat je het goedkeurt. vraag om een csv-export toe te voegen om resultaten met collega's te delen. agent-modus copilot chat">
+      <div class="usecase-top">
+        <span class="persona-chip">🎓 Docenten</span>
+        <span class="feature-chip">Agent-modus</span><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a>
+      </div>
+      <h3>Automatiseer een gewogen-gemiddelde calculator met de agent-modus</h3>
+      <p class="usecase-situation">Je beheert een complex puntenoverzicht en wilt automatisch gewogen gemiddelden berekenen.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Beschrijf je puntensysteem aan de agent-modus: “Bouw een pagina die een gewogen gemiddelde berekent op basis van deze categorieën: [lijst].”</li><li>Bekijk het voorgestelde plan van de agent voordat je het goedkeurt.</li><li>Vraag om een CSV-export toe te voegen om resultaten met collega's te delen.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Een betrouwbare calculator, afgestemd op jouw eigen puntensysteem.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Koppel hem aan een echte database (zie het traject Gevorderd) om hem elk semester te hergebruiken.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-5" data-persona="students" data-features="inline chat" data-search="leer coderen met copilot als tutor, niet als kruk je begint met programmeren en wilt code begrijpen, niet enkel kopiëren. een echt begrip van de code, niet zomaar kopiëren en plakken. vraag copilot om een iets moeilijkere oefening over hetzelfde concept. schrijf eerst zelf een eenvoudige functie, ook al is ze onvolledig. vraag copilot chat: “leg regel voor regel uit wat deze code doet.” vraag daarna: “overhoor me over één punt om te controleren of ik het begrepen heb.” inline-suggesties copilot chat">
+      <div class="usecase-top">
+        <span class="persona-chip">🧑‍🎓 Studenten</span>
+        <span class="feature-chip">Inline-suggesties</span><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a>
+      </div>
+      <h3>Leer coderen met Copilot als tutor, niet als kruk</h3>
+      <p class="usecase-situation">Je begint met programmeren en wilt code begrijpen, niet enkel kopiëren.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Schrijf eerst zelf een eenvoudige functie, ook al is ze onvolledig.</li><li>Vraag Copilot Chat: “Leg regel voor regel uit wat deze code doet.”</li><li>Vraag daarna: “Overhoor me over één punt om te controleren of ik het begrepen heb.”</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Een echt begrip van de code, niet zomaar kopiëren en plakken.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Vraag Copilot om een iets moeilijkere oefening over hetzelfde concept.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-6" data-persona="students" data-features="chat cli" data-search="bouw een gedeelde herhalingssite voor je studiegroep je studiegroep wil één gedeelde plek om samen te herhalen voor het examen. een gratis, gedeeld herhalingsinstrument onder controle van de groep. voeg een eenvoudig stemsysteem toe voor de beste fiches. beschrijf de flashcard-app die jullie willen aan copilot chat. gebruik copilot in de terminal om de repository aan te maken: beschrijf wat je wilt doen, copilot stelt het exacte git-commando voor. deel de github pages-link met de groep. copilot chat copilot cli">
+      <div class="usecase-top">
+        <span class="persona-chip">🧑‍🎓 Studenten</span>
+        <a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a><span class="feature-chip">Copilot CLI</span>
+      </div>
+      <h3>Bouw een gedeelde herhalingssite voor je studiegroep</h3>
+      <p class="usecase-situation">Je studiegroep wil één gedeelde plek om samen te herhalen voor het examen.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Beschrijf de flashcard-app die jullie willen aan Copilot Chat.</li><li>Gebruik Copilot in de terminal om de repository aan te maken: beschrijf wat je wilt doen, Copilot stelt het exacte git-commando voor.</li><li>Deel de GitHub Pages-link met de groep.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Een gratis, gedeeld herhalingsinstrument onder controle van de groep.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Voeg een eenvoudig stemsysteem toe voor de beste fiches.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-7" data-persona="students" data-features="chat" data-search="presenteer je thesis of stageverslag online je moet een lang document structureren en repetitieve delen zoals een inhoudstafel automatiseren. een online, presenteerbare versie van je thesis, naast het klassieke document. vraag copilot om zoeken op trefwoord toe te voegen aan de inhoud. vraag copilot om een sitestructuur te genereren om je thesis online te presenteren (samenvatting, hoofdstukken, bijlagen). vraag om een interactieve inhoudstafel opgebouwd uit je sectietitels. voeg een contactpagina toe om feedback te ontvangen. copilot chat">
+      <div class="usecase-top">
+        <span class="persona-chip">🧑‍🎓 Studenten</span>
+        <a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a>
+      </div>
+      <h3>Presenteer je thesis of stageverslag online</h3>
+      <p class="usecase-situation">Je moet een lang document structureren en repetitieve delen zoals een inhoudstafel automatiseren.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Vraag Copilot om een sitestructuur te genereren om je thesis online te presenteren (samenvatting, hoofdstukken, bijlagen).</li><li>Vraag om een interactieve inhoudstafel opgebouwd uit je sectietitels.</li><li>Voeg een contactpagina toe om feedback te ontvangen.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Een online, presenteerbare versie van je thesis, naast het klassieke document.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Vraag Copilot om zoeken op trefwoord toe te voegen aan de inhoud.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-8" data-persona="students" data-features="spaces chat" data-search="bouw een portfolio dat in je echte projectbestanden verankerd is je wilt een portfolio zonder elke projectbeschrijving opnieuw uit de losse pols te schrijven. een portfolio dat sneller gebouwd is omdat het bronmateriaal al gegrond is. houd de space elk semester bij zodat volgende portfolio-updates een korte bewerkingsronde worden. maak een space met readme-bestanden, screenshots, stagesamenvatting en belangrijke links. vraag copilot chat om een portfolio van één pagina met projectkaarten en korte resultaatgerichte bullets. verfijn de toon en publiceer daarna de gekozen versie op github pages. copilot spaces copilot chat">
+      <div class="usecase-top">
+        <span class="persona-chip">🧑‍🎓 Studenten</span>
+        <a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/concepts/context/spaces" target="_blank" rel="noopener">Copilot Spaces</a><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a>
+      </div>
+      <h3>Bouw een portfolio dat in je echte projectbestanden verankerd is</h3>
+      <p class="usecase-situation">Je wilt een portfolio zonder elke projectbeschrijving opnieuw uit de losse pols te schrijven.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Maak een Space met README-bestanden, screenshots, stagesamenvatting en belangrijke links.</li><li>Vraag Copilot Chat om een portfolio van één pagina met projectkaarten en korte resultaatgerichte bullets.</li><li>Verfijn de toon en publiceer daarna de gekozen versie op GitHub Pages.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Een portfolio dat sneller gebouwd is omdat het bronmateriaal al gegrond is.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Houd de Space elk semester bij zodat volgende portfolio-updates een korte bewerkingsronde worden.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-9" data-persona="it" data-features="agent chat" data-search="prototype een interne tool in één uur een dienst vraagt om een kleine interne tool en je wilt snel een werkend prototype, voordat je engineeringtijd investeert. een werkend prototype in minder dan een uur, om de behoefte te valideren vóór een volledige bouw. als het nuttig blijkt, plan dan een volwaardige versie met een echte database en toegangsbeheer. beschrijf de kernbehoefte van de tool aan de agent-modus: “bouw een pagina waar personeel een aanvraag kan indienen en de status kan zien.” bekijk het voorgestelde plan en laat de agent een eerste versie bouwen. vraag om een realistische verfijning, zoals formuliervalidatie of een statuskleurcode. agent-modus copilot chat">
+      <div class="usecase-top">
+        <span class="persona-chip">🖥️ IT- en digitale diensten</span>
+        <span class="feature-chip">Agent-modus</span><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a>
+      </div>
+      <h3>Prototype een interne tool in één uur</h3>
+      <p class="usecase-situation">Een dienst vraagt om een kleine interne tool en je wilt snel een werkend prototype, voordat je engineeringtijd investeert.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Beschrijf de kernbehoefte van de tool aan de agent-modus: “Bouw een pagina waar personeel een aanvraag kan indienen en de status kan zien.”</li><li>Bekijk het voorgestelde plan en laat de agent een eerste versie bouwen.</li><li>Vraag om een realistische verfijning, zoals formuliervalidatie of een statuskleurcode.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Een werkend prototype in minder dan een uur, om de behoefte te valideren vóór een volledige bouw.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Als het nuttig blijkt, plan dan een volwaardige versie met een echte database en toegangsbeheer.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-10" data-persona="it" data-features="chat" data-search="documenteer een bestaand script automatisch je hebt een niet-gedocumenteerd intern script geërfd en moet het snel begrijpen en documenteren. duidelijke documentatie voor een script dat voorheen maar één persoon begreep. voeg de gegenereerde readme rechtstreeks toe aan de repository van het script. open het script en vraag copilot chat: “leg stap voor stap uit wat dit script doet.” vraag: “genereer een readme die het doel, de invoer en de uitvoering beschrijft.” vraag copilot om risicovolle of onduidelijke delen van de code te signaleren. copilot chat">
+      <div class="usecase-top">
+        <span class="persona-chip">🖥️ IT- en digitale diensten</span>
+        <a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a>
+      </div>
+      <h3>Documenteer een bestaand script automatisch</h3>
+      <p class="usecase-situation">Je hebt een niet-gedocumenteerd intern script geërfd en moet het snel begrijpen en documenteren.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Open het script en vraag Copilot Chat: “Leg stap voor stap uit wat dit script doet.”</li><li>Vraag: “Genereer een README die het doel, de invoer en de uitvoering beschrijft.”</li><li>Vraag Copilot om risicovolle of onduidelijke delen van de code te signaleren.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Duidelijke documentatie voor een script dat voorheen maar één persoon begreep.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Voeg de gegenereerde README rechtstreeks toe aan de repository van het script.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-11" data-persona="it" data-features="chat agent" data-search="automatiseer een deployment met github actions je wilt dat een kleine site of tool automatisch opnieuw wordt uitgerold bij elke wijziging. een site die zichzelf automatisch bijwerkt, zonder handmatige herdeployment. hergebruik hetzelfde workflow-bestand als sjabloon voor andere interne projecten. vraag copilot chat: “genereer een github actions-workflow die deze site bij elke push naar main naar github pages deployt.” voeg het voorgestelde bestand toe aan je repository en push een kleine wijziging om te testen. vraag copilot om een melding toe te voegen bij een mislukte deployment. copilot chat agent-modus">
+      <div class="usecase-top">
+        <span class="persona-chip">🖥️ IT- en digitale diensten</span>
+        <a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a><span class="feature-chip">Agent-modus</span>
+      </div>
+      <h3>Automatiseer een deployment met GitHub Actions</h3>
+      <p class="usecase-situation">Je wilt dat een kleine site of tool automatisch opnieuw wordt uitgerold bij elke wijziging.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Vraag Copilot Chat: “Genereer een GitHub Actions-workflow die deze site bij elke push naar main naar GitHub Pages deployt.”</li><li>Voeg het voorgestelde bestand toe aan je repository en push een kleine wijziging om te testen.</li><li>Vraag Copilot om een melding toe te voegen bij een mislukte deployment.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Een site die zichzelf automatisch bijwerkt, zonder handmatige herdeployment.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Hergebruik hetzelfde workflow-bestand als sjabloon voor andere interne projecten.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-12" data-persona="hr" data-features="chat" data-search="bouw een interactieve onboardingchecklist nieuwe medewerkers krijgen een lang, statisch onboardingdocument dat makkelijk uit het oog verloren wordt. een vriendelijke, opvolgbare onboardingervaring voor nieuwe collega's. personaliseer de checklist per functie met een eenvoudig keuzemenu vooraf. beschrijf de onboardingstappen aan copilot chat en vraag om een interactieve checklistpagina. vraag dat de voortgang bewaard wordt zodat iemand later kan verdergaan. vraag copilot om een afdrukbare samenvatting toe te voegen voor het hr-dossier. copilot chat">
+      <div class="usecase-top">
+        <span class="persona-chip">🤝 HR</span>
+        <a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a>
+      </div>
+      <h3>Bouw een interactieve onboardingchecklist</h3>
+      <p class="usecase-situation">Nieuwe medewerkers krijgen een lang, statisch onboardingdocument dat makkelijk uit het oog verloren wordt.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Beschrijf de onboardingstappen aan Copilot Chat en vraag om een interactieve checklistpagina.</li><li>Vraag dat de voortgang bewaard wordt zodat iemand later kan verdergaan.</li><li>Vraag Copilot om een afdrukbare samenvatting toe te voegen voor het HR-dossier.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Een vriendelijke, opvolgbare onboardingervaring voor nieuwe collega's.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Personaliseer de checklist per functie met een eenvoudig keuzemenu vooraf.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-13" data-persona="hr" data-features="chat" data-search="maak in enkele minuten een opleidingsfeedbackformulier je hebt snel een manier nodig om feedback te verzamelen na een opleiding, zonder te wachten op een licentie voor een enquêtetool. een werkend feedbackformulier, live nog vóór het einde van de sessie. hergebruik dezelfde pagina als sjabloon voor elke volgende opleiding. vraag copilot chat om een pagina te bouwen met een score van 1 tot 5 en een opmerkingenveld. vraag dat de antwoorden worden opgeslagen zodat je ze achteraf kunt bekijken. vraag om een eenvoudig overzicht dat de gemiddelde score toont. copilot chat">
+      <div class="usecase-top">
+        <span class="persona-chip">🤝 HR</span>
+        <a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a>
+      </div>
+      <h3>Maak in enkele minuten een opleidingsfeedbackformulier</h3>
+      <p class="usecase-situation">Je hebt snel een manier nodig om feedback te verzamelen na een opleiding, zonder te wachten op een licentie voor een enquêtetool.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Vraag Copilot Chat om een pagina te bouwen met een score van 1 tot 5 en een opmerkingenveld.</li><li>Vraag dat de antwoorden worden opgeslagen zodat je ze achteraf kunt bekijken.</li><li>Vraag om een eenvoudig overzicht dat de gemiddelde score toont.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Een werkend feedbackformulier, live nog vóór het einde van de sessie.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Hergebruik dezelfde pagina als sjabloon voor elke volgende opleiding.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-14" data-persona="hr" data-features="chat" data-search="bouw een calculator voor het verlofsaldo personeel vraagt hr voortdurend hoeveel vakantiedagen er nog over zijn. een zelfbedieningstool die repetitieve vragen aan hr vermindert. koppel hem aan de onboardingchecklist hierboven. beschrijf het verlofbeleid van je instelling aan copilot chat. vraag om een kleine calculator te bouwen die een startdatum neemt en de resterende dagen toont. vraag om een duidelijke uitleg naast het resultaat, voor bijzondere gevallen. copilot chat">
+      <div class="usecase-top">
+        <span class="persona-chip">🤝 HR</span>
+        <a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a>
+      </div>
+      <h3>Bouw een calculator voor het verlofsaldo</h3>
+      <p class="usecase-situation">Personeel vraagt HR voortdurend hoeveel vakantiedagen er nog over zijn.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Beschrijf het verlofbeleid van je instelling aan Copilot Chat.</li><li>Vraag om een kleine calculator te bouwen die een startdatum neemt en de resterende dagen toont.</li><li>Vraag om een duidelijke uitleg naast het resultaat, voor bijzondere gevallen.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Een zelfbedieningstool die repetitieve vragen aan HR vermindert.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Koppel hem aan de onboardingchecklist hierboven.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-15" data-persona="leadership" data-features="chat agent" data-search="organiseer een live peiling tijdens een vergadering je wilt real-time feedback van het personeel tijdens een personeelsvergadering, zonder betaalde peilingtool. directe, zichtbare feedback uit de zaal, zonder externe dienst. hergebruik exact dezelfde pagina voor elke volgende vergadering, en verander enkel de vraag. beschrijf de vraag en de opties aan copilot chat, volgens hetzelfde stramien als het voorbeeld van de snelle peiling in het begeleide traject. test ze zelf, en projecteer daarna de link tijdens de vergadering. vraag copilot om een live bijgewerkte resultatenweergave toe te voegen. copilot chat agent-modus">
+      <div class="usecase-top">
+        <span class="persona-chip">🧭 Directie en beleid</span>
+        <a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a><span class="feature-chip">Agent-modus</span>
+      </div>
+      <h3>Organiseer een live peiling tijdens een vergadering</h3>
+      <p class="usecase-situation">Je wilt real-time feedback van het personeel tijdens een personeelsvergadering, zonder betaalde peilingtool.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Beschrijf de vraag en de opties aan Copilot Chat, volgens hetzelfde stramien als het voorbeeld van de Snelle Peiling in het begeleide traject.</li><li>Test ze zelf, en projecteer daarna de link tijdens de vergadering.</li><li>Vraag Copilot om een live bijgewerkte resultatenweergave toe te voegen.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Directe, zichtbare feedback uit de zaal, zonder externe dienst.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Hergebruik exact dezelfde pagina voor elke volgende vergadering, en verander enkel de vraag.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-16" data-persona="leadership" data-features="chat" data-search="bouw een eenvoudig kpi-dashboard je wilt drie of vier cijfers in de tijd opvolgen zonder een volledige bi-tool. een licht dashboard dat je volledig zelf beheert en begrijpt. vraag copilot om een kleine trendgrafiek toe te voegen zodra je enkele maanden gegevens hebt. beschrijf je kpi's aan copilot chat en plak enkele voorbeeldcijfers. vraag om een overzichtelijk dashboard op één pagina dat ze samenvat. vraag om een eenvoudige manier om de cijfers elke maand bij te werken. copilot chat">
+      <div class="usecase-top">
+        <span class="persona-chip">🧭 Directie en beleid</span>
+        <a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a>
+      </div>
+      <h3>Bouw een eenvoudig KPI-dashboard</h3>
+      <p class="usecase-situation">Je wilt drie of vier cijfers in de tijd opvolgen zonder een volledige BI-tool.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Beschrijf je KPI's aan Copilot Chat en plak enkele voorbeeldcijfers.</li><li>Vraag om een overzichtelijk dashboard op één pagina dat ze samenvat.</li><li>Vraag om een eenvoudige manier om de cijfers elke maand bij te werken.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Een licht dashboard dat je volledig zelf beheert en begrijpt.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Vraag Copilot om een kleine trendgrafiek toe te voegen zodra je enkele maanden gegevens hebt.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-17" data-persona="leadership" data-features="spaces chat" data-search="zet strategienotities om in een deelbare one-pager met copilot spaces je hebt vergadernotities, kpi-context en een nog ruwe verhaallijn en wilt iets beters dan een muur van bullets. een helderdere beleidspagina die in je echte interne materiaal verankerd is. gebruik dezelfde space opnieuw voor maand- of kwartaalupdates zodat het vocabulaire consistent blijft. maak een space met de strategienotities, het kpi-overzicht en de kerntermen die intern gebruikt worden. vraag copilot chat om een samenvatting van één pagina met prioriteiten, risico’s en volgende acties in gewone taal. bekijk de tekst en publiceer of exporteer daarna de versie die je wilt delen. copilot spaces copilot chat">
+      <div class="usecase-top">
+        <span class="persona-chip">🧭 Directie en beleid</span>
+        <a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/concepts/context/spaces" target="_blank" rel="noopener">Copilot Spaces</a><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a>
+      </div>
+      <h3>Zet strategienotities om in een deelbare one-pager met Copilot Spaces</h3>
+      <p class="usecase-situation">Je hebt vergadernotities, KPI-context en een nog ruwe verhaallijn en wilt iets beters dan een muur van bullets.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Maak een Space met de strategienotities, het KPI-overzicht en de kerntermen die intern gebruikt worden.</li><li>Vraag Copilot Chat om een samenvatting van één pagina met prioriteiten, risico’s en volgende acties in gewone taal.</li><li>Bekijk de tekst en publiceer of exporteer daarna de versie die je wilt delen.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Een helderdere beleidspagina die in je echte interne materiaal verankerd is.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Gebruik dezelfde Space opnieuw voor maand- of kwartaalupdates zodat het vocabulaire consistent blijft.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-18" data-persona="finance" data-features="chat" data-search="bouw een calculator voor reiskosten personeel vraagt vaak hoeveel het terugbetaald krijgt voor een verplaatsing vóór het indienen van een onkostennota. een zelfbedieningsschatter die e-mailverkeer vermindert. koppel hem aan de interne pagina van het financeteam. beschrijf je terugbetalingsregels aan copilot chat (afstand, tarief, plafonds). vraag om een kleine calculator te bouwen op basis van die regels. vraag om een duidelijke uitsplitsing van de berekening te tonen aan de gebruiker. copilot chat">
+      <div class="usecase-top">
+        <span class="persona-chip">💶 Financiën en administratie</span>
+        <a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a>
+      </div>
+      <h3>Bouw een calculator voor reiskosten</h3>
+      <p class="usecase-situation">Personeel vraagt vaak hoeveel het terugbetaald krijgt voor een verplaatsing vóór het indienen van een onkostennota.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Beschrijf je terugbetalingsregels aan Copilot Chat (afstand, tarief, plafonds).</li><li>Vraag om een kleine calculator te bouwen op basis van die regels.</li><li>Vraag om een duidelijke uitsplitsing van de berekening te tonen aan de gebruiker.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Een zelfbedieningsschatter die e-mailverkeer vermindert.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Koppel hem aan de interne pagina van het financeteam.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-19" data-persona="finance" data-features="chat" data-search="volg een klein terugkerend budget op je beheert een kleine, terugkerende budgetlijn en wilt een lichter alternatief voor een volledig rekenblad. een lichte tracker, afgestemd op precies jouw eigen categorieën. exporteer de gegevens naar een rekenblad voor de officiële registers. beschrijf de budgetcategorieën aan copilot chat. vraag om een eenvoudige pagina om uitgaven te loggen met een bijgewerkt totaal. vraag om een maandelijks overzicht. copilot chat">
+      <div class="usecase-top">
+        <span class="persona-chip">💶 Financiën en administratie</span>
+        <a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a>
+      </div>
+      <h3>Volg een klein terugkerend budget op</h3>
+      <p class="usecase-situation">Je beheert een kleine, terugkerende budgetlijn en wilt een lichter alternatief voor een volledig rekenblad.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Beschrijf de budgetcategorieën aan Copilot Chat.</li><li>Vraag om een eenvoudige pagina om uitgaven te loggen met een bijgewerkt totaal.</li><li>Vraag om een maandelijks overzicht.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Een lichte tracker, afgestemd op precies jouw eigen categorieën.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Exporteer de gegevens naar een rekenblad voor de officiële registers.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-20" data-persona="finance" data-features="chat" data-search="zet geplakte gegevens om in een sorteerbare tabel je krijgt regelmatig gegevens als platte tekst of gekopieerde rijen die moeilijk te verwerken zijn. een leesbare, doorzoekbare weergave van gegevens die voorheen een muur van tekst waren. vraag copilot om een csv-exportknop toe te voegen. plak de ruwe gegevens in copilot chat. vraag om er een overzichtelijke, sorteerbare html-tabel van te maken. vraag om een zoekbalk om rijen te filteren. copilot chat">
+      <div class="usecase-top">
+        <span class="persona-chip">💶 Financiën en administratie</span>
+        <a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a>
+      </div>
+      <h3>Zet geplakte gegevens om in een sorteerbare tabel</h3>
+      <p class="usecase-situation">Je krijgt regelmatig gegevens als platte tekst of gekopieerde rijen die moeilijk te verwerken zijn.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Plak de ruwe gegevens in Copilot Chat.</li><li>Vraag om er een overzichtelijke, sorteerbare HTML-tabel van te maken.</li><li>Vraag om een zoekbalk om rijen te filteren.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Een leesbare, doorzoekbare weergave van gegevens die voorheen een muur van tekst waren.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Vraag Copilot om een CSV-exportknop toe te voegen.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-21" data-persona="research" data-features="chat agent" data-search="ruim een rommelige dataset op met hulp van copilot je hebt een dataset vol inconsistenties (typfouten, ontbrekende waarden, gemengde formaten) voordat je ze kunt analyseren. een propere, analyseklare dataset, met een gedocumenteerd script dat precies toont wat er veranderd is. vraag copilot om een samenvattend rapport toe te voegen van wat er is opgeschoond en waarom. beschrijf de problemen van de dataset aan copilot chat en plak een voorbeeld. vraag om een script dat ze opschoont en standaardiseert. bekijk elke opschoningsregel voordat je ze op de volledige dataset toepast. copilot chat agent-modus">
+      <div class="usecase-top">
+        <span class="persona-chip">🔬 Onderzoekers</span>
+        <a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a><span class="feature-chip">Agent-modus</span>
+      </div>
+      <h3>Ruim een rommelige dataset op met hulp van Copilot</h3>
+      <p class="usecase-situation">Je hebt een dataset vol inconsistenties (typfouten, ontbrekende waarden, gemengde formaten) voordat je ze kunt analyseren.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Beschrijf de problemen van de dataset aan Copilot Chat en plak een voorbeeld.</li><li>Vraag om een script dat ze opschoont en standaardiseert.</li><li>Bekijk elke opschoningsregel voordat je ze op de volledige dataset toepast.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Een propere, analyseklare dataset, met een gedocumenteerd script dat precies toont wat er veranderd is.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Vraag Copilot om een samenvattend rapport toe te voegen van wat er is opgeschoond en waarom.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-22" data-persona="research" data-features="chat" data-search="genereer een eerste statistisch analysescript je wilt een startpunt voor een standaardanalyse zonder telkens standaardcode te herschrijven. een analysescript dat je regel voor regel begrijpt, geen zwarte doos. vraag copilot om een eenvoudige grafiek van de resultaten toe te voegen. beschrijf je gegevens en onderzoeksvraag aan copilot chat. vraag om een script dat de relevante statistische toets uitvoert en een duidelijke samenvatting toont. vraag copilot om elke stap van het script toe te lichten in commentaar. copilot chat">
+      <div class="usecase-top">
+        <span class="persona-chip">🔬 Onderzoekers</span>
+        <a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a>
+      </div>
+      <h3>Genereer een eerste statistisch analysescript</h3>
+      <p class="usecase-situation">Je wilt een startpunt voor een standaardanalyse zonder telkens standaardcode te herschrijven.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Beschrijf je gegevens en onderzoeksvraag aan Copilot Chat.</li><li>Vraag om een script dat de relevante statistische toets uitvoert en een duidelijke samenvatting toont.</li><li>Vraag Copilot om elke stap van het script toe te lichten in commentaar.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Een analysescript dat je regel voor regel begrijpt, geen zwarte doos.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Vraag Copilot om een eenvoudige grafiek van de resultaten toe te voegen.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-23" data-persona="research" data-features="spaces chat" data-search="bouw een onderzoekspagina die in je figuren verankerd is je wilt een publieke pagina over je bevindingen, maar de tekst moet dicht bij abstract, figuren en congresnotities blijven. een gegronde, toegankelijke resultatenpagina die je makkelijk in talks of projectopvolging hergebruikt. voeg een samenwerkingssectie toe en gebruik de space als bron voor toekomstig disseminatiemateriaal. maak een space met het abstract, figuurlegendes, postertekst en je samenvatting in gewone taal. vraag copilot chat om een resultatenpagina met een korte methodesectie en een heldere samenvatting voor niet-specialisten. bekijk de tekst en publiceer de pagina naast de link naar het formele artikel. copilot spaces copilot chat">
+      <div class="usecase-top">
+        <span class="persona-chip">🔬 Onderzoekers</span>
+        <a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/concepts/context/spaces" target="_blank" rel="noopener">Copilot Spaces</a><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a>
+      </div>
+      <h3>Bouw een onderzoekspagina die in je figuren verankerd is</h3>
+      <p class="usecase-situation">Je wilt een publieke pagina over je bevindingen, maar de tekst moet dicht bij abstract, figuren en congresnotities blijven.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Maak een Space met het abstract, figuurlegendes, postertekst en je samenvatting in gewone taal.</li><li>Vraag Copilot Chat om een resultatenpagina met een korte methodesectie en een heldere samenvatting voor niet-specialisten.</li><li>Bekijk de tekst en publiceer de pagina naast de link naar het formele artikel.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Een gegronde, toegankelijke resultatenpagina die je makkelijk in talks of projectopvolging hergebruikt.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Voeg een samenwerkingssectie toe en gebruik de Space als bron voor toekomstig disseminatiemateriaal.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-24" data-persona="campus" data-features="chat" data-search="bouw een interactieve bronnencatalogus je wilt een eenvoudige manier voor studenten om aanbevolen bronnen per onderwerp te doorbladeren. een levende catalogus, makkelijker te doorbladeren dan een statische pdf-lijst. vraag copilot om labels toe te voegen zodat bronnen tot meerdere categorieën kunnen behoren. beschrijf je bronnenlijst en categorieën aan copilot chat. vraag om een doorzoekbare, filterbare cataloguspagina. vraag om een eenvoudige manier om na verloop van tijd nieuwe bronnen toe te voegen. copilot chat">
+      <div class="usecase-top">
+        <span class="persona-chip">📚 Bibliotheek, communicatie &amp; campusleven</span>
+        <a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a>
+      </div>
+      <h3>Bouw een interactieve bronnencatalogus</h3>
+      <p class="usecase-situation">Je wilt een eenvoudige manier voor studenten om aanbevolen bronnen per onderwerp te doorbladeren.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Beschrijf je bronnenlijst en categorieën aan Copilot Chat.</li><li>Vraag om een doorzoekbare, filterbare cataloguspagina.</li><li>Vraag om een eenvoudige manier om na verloop van tijd nieuwe bronnen toe te voegen.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Een levende catalogus, makkelijker te doorbladeren dan een statische pdf-lijst.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Vraag Copilot om labels toe te voegen zodat bronnen tot meerdere categorieën kunnen behoren.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-25" data-persona="campus" data-features="chat" data-search="genereer een automatische faq-pagina je beantwoordt steeds dezelfde vragen per e-mail en wilt in plaats daarvan een publieke faq. een zelfbedienings-faq die repetitieve e-mails vermindert. voeg onderaan een contactlink “nog hulp nodig” toe. plak je meest voorkomende vragen en antwoorden in copilot chat. vraag om een overzichtelijke faq-pagina met een zoekbalk. vraag copilot om vragen te groeperen in duidelijke categorieën. copilot chat">
+      <div class="usecase-top">
+        <span class="persona-chip">📚 Bibliotheek, communicatie &amp; campusleven</span>
+        <a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a>
+      </div>
+      <h3>Genereer een automatische FAQ-pagina</h3>
+      <p class="usecase-situation">Je beantwoordt steeds dezelfde vragen per e-mail en wilt in plaats daarvan een publieke FAQ.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Plak je meest voorkomende vragen en antwoorden in Copilot Chat.</li><li>Vraag om een overzichtelijke FAQ-pagina met een zoekbalk.</li><li>Vraag Copilot om vragen te groeperen in duidelijke categorieën.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Een zelfbedienings-FAQ die repetitieve e-mails vermindert.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Voeg onderaan een contactlink “nog hulp nodig” toe.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-26" data-persona="campus" data-features="spaces chat" data-search="publiceer een campusevenementenpagina vanuit een gegrond eventpack je hebt kalenderexports, affichetekst en toegankelijkheidsnotities en wilt een betere evenementenpagina dan losse posters. een lichte evenementenpagina die makkelijker te onderhouden is dan een statisch posterarchief. voeg een blok “contacteer de organisator” toe en hergebruik dezelfde structuur elke nieuwe maand. maak een space met de titels, data, beschrijvingen en toegankelijkheidsnotities van de evenementen. vraag copilot chat om een pagina die evenementen op datum sorteert en de eerstvolgende activiteiten bovenaan zet. publiceer de pagina op github pages en werk de space maandelijks bij in plaats van telkens opnieuw te beginnen. copilot spaces copilot chat">
+      <div class="usecase-top">
+        <span class="persona-chip">📚 Bibliotheek, communicatie &amp; campusleven</span>
+        <a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/concepts/context/spaces" target="_blank" rel="noopener">Copilot Spaces</a><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a>
+      </div>
+      <h3>Publiceer een campusevenementenpagina vanuit een gegrond eventpack</h3>
+      <p class="usecase-situation">Je hebt kalenderexports, affichetekst en toegankelijkheidsnotities en wilt een betere evenementenpagina dan losse posters.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Maak een Space met de titels, data, beschrijvingen en toegankelijkheidsnotities van de evenementen.</li><li>Vraag Copilot Chat om een pagina die evenementen op datum sorteert en de eerstvolgende activiteiten bovenaan zet.</li><li>Publiceer de pagina op GitHub Pages en werk de Space maandelijks bij in plaats van telkens opnieuw te beginnen.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Een lichte evenementenpagina die makkelijker te onderhouden is dan een statisch posterarchief.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Voeg een blok “contacteer de organisator” toe en hergebruik dezelfde structuur elke nieuwe maand.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-27" data-persona="teaching" data-features="promptfiles instructions chat" data-search="maak van één labobrief drie veilige oefenvarianten je hebt één practicumopdracht en wilt meerdere varianten die dezelfde leerdoelen, rubrictaal en veiligheidsformuleringen behouden. een herbruikbare workflow voor oefenvarianten in plaats van elke semester alles opnieuw te schrijven. bewaar de prompt file in de repo zodat collega’s de volgende set vanuit dezelfde structuur kunnen genereren. maak in de repository een prompt file die een variant, een antwoordmodel en een korte docentennota vraagt. voeg custom instructions toe voor toon, toegankelijkheid en veiligheidszinnen die onveranderd moeten blijven. vraag copilot chat om drie versies en bewaar daarna de goedgekeurde set in dezelfde cursusrepository. prompt files custom instructions copilot chat">
+      <div class="usecase-top">
+        <span class="persona-chip">🎓 Docenten</span>
+        <a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/reference/customization-cheat-sheet" target="_blank" rel="noopener">Prompt files</a><span class="feature-chip">Custom instructions</span><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a>
+      </div>
+      <h3>Maak van één labobrief drie veilige oefenvarianten</h3>
+      <p class="usecase-situation">Je hebt één practicumopdracht en wilt meerdere varianten die dezelfde leerdoelen, rubrictaal en veiligheidsformuleringen behouden.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Maak in de repository een prompt file die een variant, een antwoordmodel en een korte docentennota vraagt.</li><li>Voeg custom instructions toe voor toon, toegankelijkheid en veiligheidszinnen die onveranderd moeten blijven.</li><li>Vraag Copilot Chat om drie versies en bewaar daarna de goedgekeurde set in dezelfde cursusrepository.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Een herbruikbare workflow voor oefenvarianten in plaats van elke semester alles opnieuw te schrijven.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Bewaar de prompt file in de repo zodat collega’s de volgende set vanuit dezelfde structuur kunnen genereren.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-28" data-persona="teaching" data-features="cloudagent review spaces" data-search="laat copilot cloud agent een cursus-faq bijwerken vanuit issues studenten stellen elke week dezelfde vragen en je wilt de faq via reviewbare pull requests updaten in plaats van met handmatig kopiëren en plakken. een cursus-faq die week na week beter wordt zonder dat het docententeam webbeheerders moet worden. herhaal hetzelfde issuepatroon na elk lesblok zodat de faq een levend lesinstrument wordt. open een issue zoals “voeg de terugkerende vragen van deze week toe aan de faq” en koppel de cursus-space als je die al gebruikt. wijs het issue toe aan copilot zodat de cloud agent de update op een eigen branch voorbereidt. vraag daarna copilot code review op de pull request, lees de tekst zelf na en merge de goedgekeurde versie. copilot cloud agent copilot code review copilot spaces">
+      <div class="usecase-top">
+        <span class="persona-chip">🎓 Docenten</span>
+        <a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/how-tos/use-copilot-agents/cloud-agent" target="_blank" rel="noopener">Copilot cloud agent</a><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot code review</a><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/concepts/context/spaces" target="_blank" rel="noopener">Copilot Spaces</a>
+      </div>
+      <h3>Laat Copilot cloud agent een cursus-FAQ bijwerken vanuit issues</h3>
+      <p class="usecase-situation">Studenten stellen elke week dezelfde vragen en je wilt de FAQ via reviewbare pull requests updaten in plaats van met handmatig kopiëren en plakken.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Open een issue zoals “Voeg de terugkerende vragen van deze week toe aan de FAQ” en koppel de cursus-Space als je die al gebruikt.</li><li>Wijs het issue toe aan Copilot zodat de cloud agent de update op een eigen branch voorbereidt.</li><li>Vraag daarna Copilot code review op de pull request, lees de tekst zelf na en merge de goedgekeurde versie.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Een cursus-FAQ die week na week beter wordt zonder dat het docententeam webbeheerders moet worden.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Herhaal hetzelfde issuepatroon na elk lesblok zodat de FAQ een levend lesinstrument wordt.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-29" data-persona="students" data-features="memory chat" data-search="houd een stage- of thesisproject op koers met copilot memory je keert elke week naar hetzelfde project terug en wilt niet telkens opnieuw de context, stack, deadlines en randvoorwaarden uitleggen. een gelijkmatiger projectritme met minder tijdverlies aan dezelfde achtergrond opnieuw uitleggen. memory helpt voor continuïteit, maar de echte bron van waarheid moet in de repository blijven staan. bewaar de stabiele projectcontext in een memory-geschikte copilot-flow en zet de belangrijkste beslissingen ook in de readme van de repository. vraag copilot chat naar de volgende mijlpaal, een voortgangssamenvatting of een opschoonbeurt op de huidige code. commit elke goedgekeurde wijziging zodat de historiek zichtbaar blijft voor begeleiders en teamgenoten. copilot memory copilot chat">
+      <div class="usecase-top">
+        <span class="persona-chip">🧑‍🎓 Studenten</span>
+        <span class="feature-chip">Copilot Memory</span><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a>
+      </div>
+      <h3>Houd een stage- of thesisproject op koers met Copilot Memory</h3>
+      <p class="usecase-situation">Je keert elke week naar hetzelfde project terug en wilt niet telkens opnieuw de context, stack, deadlines en randvoorwaarden uitleggen.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Bewaar de stabiele projectcontext in een Memory-geschikte Copilot-flow en zet de belangrijkste beslissingen ook in de README van de repository.</li><li>Vraag Copilot Chat naar de volgende mijlpaal, een voortgangssamenvatting of een opschoonbeurt op de huidige code.</li><li>Commit elke goedgekeurde wijziging zodat de historiek zichtbaar blijft voor begeleiders en teamgenoten.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Een gelijkmatiger projectritme met minder tijdverlies aan dezelfde achtergrond opnieuw uitleggen.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Memory helpt voor continuïteit, maar de echte bron van waarheid moet in de repository blijven staan.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-30" data-persona="it" data-features="skills agent cli" data-search="standaardiseer repetitieve helpdeskscripts met agent skills verschillende technici lossen hetzelfde account-opruim- of logverzamelingsprobleem elk net iets anders op, en die variatie creëert onnodig risico. herhaalbare interne automatiseringen met minder copy-paste-afwijking tussen technici. versioneer de skill op github zodat één update het vertrekpunt van het hele team verbetert. definieer een agent skill met het goedgekeurde scriptpatroon, logformaat en rollbackverwachtingen. vraag daarna aan agent-modus of copilot cli om die skill op het ticket van vandaag toe te passen in plaats van van een lege shell te vertrekken. bekijk het script of de diff eerst na vóór je iets uitvoert in de doelomgeving. agent skills agent-modus copilot cli">
+      <div class="usecase-top">
+        <span class="persona-chip">🖥️ IT- en digitale diensten</span>
+        <span class="feature-chip">Agent skills</span><span class="feature-chip">Agent-modus</span><span class="feature-chip">Copilot CLI</span>
+      </div>
+      <h3>Standaardiseer repetitieve helpdeskscripts met Agent skills</h3>
+      <p class="usecase-situation">Verschillende technici lossen hetzelfde account-opruim- of logverzamelingsprobleem elk net iets anders op, en die variatie creëert onnodig risico.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Definieer een Agent skill met het goedgekeurde scriptpatroon, logformaat en rollbackverwachtingen.</li><li>Vraag daarna aan Agent-modus of Copilot CLI om die skill op het ticket van vandaag toe te passen in plaats van van een lege shell te vertrekken.</li><li>Bekijk het script of de diff eerst na vóór je iets uitvoert in de doelomgeving.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Herhaalbare interne automatiseringen met minder copy-paste-afwijking tussen technici.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Versioneer de skill op GitHub zodat één update het vertrekpunt van het hele team verbetert.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-31" data-persona="hr" data-features="instructions review chat" data-search="houd beleidspagina’s consistent met custom instructions hr actualiseert vaak beleidspagina’s, maar koppen, toon, verplichte disclaimers en inclusieve formulering gaan al snel uiteenlopen. snellere beleidsredactie met minder vormcorrecties op het einde van het proces. breid het instructiebestand uit telkens wanneer hr of legal een nieuwe verplichte sectie toevoegt. zet de vereiste toon, sectievolgorde, inclusieve formulering en goedkeuringsnotities in .github/copilot-instructions.md. vraag copilot chat om de bijgewerkte pagina te schrijven op basis van die repositoryregels. open een pull request en gebruik copilot code review als extra check vóór interne publicatie. custom instructions copilot code review copilot chat">
+      <div class="usecase-top">
+        <span class="persona-chip">🤝 HR</span>
+        <span class="feature-chip">Custom instructions</span><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot code review</a><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a>
+      </div>
+      <h3>Houd beleidspagina’s consistent met custom instructions</h3>
+      <p class="usecase-situation">HR actualiseert vaak beleidspagina’s, maar koppen, toon, verplichte disclaimers en inclusieve formulering gaan al snel uiteenlopen.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Zet de vereiste toon, sectievolgorde, inclusieve formulering en goedkeuringsnotities in .github/copilot-instructions.md.</li><li>Vraag Copilot Chat om de bijgewerkte pagina te schrijven op basis van die repositoryregels.</li><li>Open een pull request en gebruik Copilot code review als extra check vóór interne publicatie.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Snellere beleidsredactie met minder vormcorrecties op het einde van het proces.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Breid het instructiebestand uit telkens wanneer HR of Legal een nieuwe verplichte sectie toevoegt.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-32" data-persona="leadership" data-features="customagents app review" data-search="maak een custom agent die pilootideeën omzet in vergelijkbare briefs meerdere diensten pitchen tegelijk kleine interne tools en de directie wil voor elk voorstel eerst een vergelijkbare briefing zien. een reviewbare pijplijn van lichte prototypes in plaats van een backlog vol vage verzoeken. bewaar de winnende briefs in een gedeelde galerijrepository zodat het volgende team op een bestaand idee kan voortbouwen. definieer een custom agent die altijd dezelfde rubrieken moet opleveren: probleem, doelgebruikers, eerste laag-risicoversie, datasensitiviteit en volgende stap. draai die agent in aparte sessies van de github copilot-app, één voorstel per worktree. vergelijk daarna de briefs en pr-samenvattingen naast elkaar in plaats van informele ganggesprekken te moeten vergelijken. custom agents github copilot-app copilot code review">
+      <div class="usecase-top">
+        <span class="persona-chip">🧭 Directie en beleid</span>
+        <span class="feature-chip">Custom agents</span><span class="feature-chip">GitHub Copilot-app</span><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot code review</a>
+      </div>
+      <h3>Maak een custom agent die pilootideeën omzet in vergelijkbare briefs</h3>
+      <p class="usecase-situation">Meerdere diensten pitchen tegelijk kleine interne tools en de directie wil voor elk voorstel eerst een vergelijkbare briefing zien.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Definieer een custom agent die altijd dezelfde rubrieken moet opleveren: probleem, doelgebruikers, eerste laag-risicoversie, datasensitiviteit en volgende stap.</li><li>Draai die agent in aparte sessies van de GitHub Copilot-app, één voorstel per worktree.</li><li>Vergelijk daarna de briefs en PR-samenvattingen naast elkaar in plaats van informele ganggesprekken te moeten vergelijken.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Een reviewbare pijplijn van lichte prototypes in plaats van een backlog vol vage verzoeken.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Bewaar de winnende briefs in een gedeelde galerijrepository zodat het volgende team op een bestaand idee kan voortbouwen.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-33" data-persona="finance" data-features="promptfiles instructions chat" data-search="genereer maandelijkse budgetnota’s in één gedeelde huisstijl financiën maakt elke maand van dezelfde export een commentaarnota, maar formulering en tabellen verschillen per persoon. consistenter maandrapporteren met zichtbare regels in de repository. dat is vooral handig wanneer verschillende collega’s hetzelfde rapporteringsritueel afwisselend opnemen. bewaar opmaakregels en verplichte tussentitels in de custom instructions. maak een prompt file die uit de geplakte export een variantiesamenvatting, grootste uitzonderingen en volgende acties vraagt. voer die prompt elke maand uit en bekijk de conceptnota daarna in een pull request voordat ze circuleert. prompt files custom instructions copilot chat">
+      <div class="usecase-top">
+        <span class="persona-chip">💶 Financiën en administratie</span>
+        <a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/reference/customization-cheat-sheet" target="_blank" rel="noopener">Prompt files</a><span class="feature-chip">Custom instructions</span><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a>
+      </div>
+      <h3>Genereer maandelijkse budgetnota’s in één gedeelde huisstijl</h3>
+      <p class="usecase-situation">Financiën maakt elke maand van dezelfde export een commentaarnota, maar formulering en tabellen verschillen per persoon.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Bewaar opmaakregels en verplichte tussentitels in de custom instructions.</li><li>Maak een prompt file die uit de geplakte export een variantiesamenvatting, grootste uitzonderingen en volgende acties vraagt.</li><li>Voer die prompt elke maand uit en bekijk de conceptnota daarna in een pull request voordat ze circuleert.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Consistenter maandrapporteren met zichtbare regels in de repository.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Dat is vooral handig wanneer verschillende collega’s hetzelfde rapporteringsritueel afwisselend opnemen.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-34" data-persona="research" data-features="mcp agent chat" data-search="vraag benuttingspatronen op uit een labo-planningssysteem via mcp een onderzoeksplatformteam wil weten welke equipment-slots onderbenut blijven zonder elke maand opnieuw dezelfde exports te trekken en te herwerken. een snellere weg van operationele vraag naar reproduceerbaar benuttingsoverzicht. beperk de koppeling strikt tot goedgekeurde data en hergebruik dezelfde prompts elk semester. verbind copilot met het goedgekeurde planningssysteem via een mcp-server of een andere governed connector. vraag in gewone taal om benutting per dag, ruimte of labo zodat duidelijke onderbenuttingspatronen zichtbaar worden. laat agent-modus vervolgens het dashboard of notebook genereren dat het antwoord reproduceert zodat de methode inspecteerbaar blijft. mcp-servers agent-modus copilot chat">
+      <div class="usecase-top">
+        <span class="persona-chip">🔬 Onderzoekers</span>
+        <span class="feature-chip">MCP-servers</span><span class="feature-chip">Agent-modus</span><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a>
+      </div>
+      <h3>Vraag benuttingspatronen op uit een labo-planningssysteem via MCP</h3>
+      <p class="usecase-situation">Een onderzoeksplatformteam wil weten welke equipment-slots onderbenut blijven zonder elke maand opnieuw dezelfde exports te trekken en te herwerken.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Verbind Copilot met het goedgekeurde planningssysteem via een MCP-server of een andere governed connector.</li><li>Vraag in gewone taal om benutting per dag, ruimte of labo zodat duidelijke onderbenuttingspatronen zichtbaar worden.</li><li>Laat Agent-modus vervolgens het dashboard of notebook genereren dat het antwoord reproduceert zodat de methode inspecteerbaar blijft.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Een snellere weg van operationele vraag naar reproduceerbaar benuttingsoverzicht.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Beperk de koppeling strikt tot goedgekeurde data en hergebruik dezelfde prompts elk semester.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-35" data-persona="campus" data-features="spaces chat" data-search="bouw een brongegronde citeerhulp voor de bibliotheek bibliotheekmedewerkers beantwoorden voortdurend dezelfde “hoe citeer ik dit?”-vragen in handleidingen, workshops en supportmails. een citeerhulp die gegrond is in de eigen richtlijnen van de bibliotheek. ververs de space telkens wanneer de stijlgidspagina’s of uitzonderingen veranderen. maak een copilot space met citeergidsen, lokale bibliotheeknotities en uitgewerkte voorbeelden. vraag copilot chat om een doorzoekbare hulppagina of chatbottekst op basis van dat materiaal. publiceer de goedgekeurde versie op github pages en werk de space bij zodra de gids wijzigt. copilot spaces copilot chat">
+      <div class="usecase-top">
+        <span class="persona-chip">📚 Bibliotheek, communicatie &amp; campusleven</span>
+        <a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/concepts/context/spaces" target="_blank" rel="noopener">Copilot Spaces</a><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a>
+      </div>
+      <h3>Bouw een brongegronde citeerhulp voor de bibliotheek</h3>
+      <p class="usecase-situation">Bibliotheekmedewerkers beantwoorden voortdurend dezelfde “Hoe citeer ik dit?”-vragen in handleidingen, workshops en supportmails.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Maak een Copilot Space met citeergidsen, lokale bibliotheeknotities en uitgewerkte voorbeelden.</li><li>Vraag Copilot Chat om een doorzoekbare hulppagina of chatbottekst op basis van dat materiaal.</li><li>Publiceer de goedgekeurde versie op GitHub Pages en werk de Space bij zodra de gids wijzigt.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Een citeerhulp die gegrond is in de eigen richtlijnen van de bibliotheek.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Ververs de Space telkens wanneer de stijlgidspagina’s of uitzonderingen veranderen.</p>
+      </div>
+    </div><div class="usecase-card" data-reveal id="usecase-36" data-persona="campus" data-features="agent review chat" data-search="lanceer een klein incidentmeldingsformulier voor facilitaire diensten facilitaire teams hebben een lichte manier nodig om locatie, foto, urgentie en opvolgstatus voor kleine incidenten te verzamelen zonder op een volledige platformvervanging te wachten. een praktische meldflow die klein kan starten en toch reviewbaar blijft. als de pilot werkt, verhuis de tool dan naar een gedeelde repo met een code owner in plaats van naar één laptop. vraag agent-modus om het formulier, het bevestigingsscherm en de eenvoudigste zinvolle opslag voor een pilot op te zetten. gebruik copilot code review om veldlabels, validatie en de duidelijkheid van de opvolgflow te controleren. test de eerste versie in één gebouw voordat je beslist of de tool een groter systeem verdient. agent-modus copilot code review copilot chat">
+      <div class="usecase-top">
+        <span class="persona-chip">📚 Bibliotheek, communicatie &amp; campusleven</span>
+        <span class="feature-chip">Agent-modus</span><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot code review</a><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a>
+      </div>
+      <h3>Lanceer een klein incidentmeldingsformulier voor facilitaire diensten</h3>
+      <p class="usecase-situation">Facilitaire teams hebben een lichte manier nodig om locatie, foto, urgentie en opvolgstatus voor kleine incidenten te verzamelen zonder op een volledige platformvervanging te wachten.</p>
+      <button type="button" class="usecase-toggle" data-label-show="Toon de stappen" data-label-hide="Verberg de stappen"><span class="toggle-label">Toon de stappen</span><span class="chevron" aria-hidden="true">▾</span></button>
+      <div class="usecase-details" hidden>
+        <ol class="usecase-steps"><li>Vraag Agent-modus om het formulier, het bevestigingsscherm en de eenvoudigste zinvolle opslag voor een pilot op te zetten.</li><li>Gebruik Copilot code review om veldlabels, validatie en de duidelijkheid van de opvolgflow te controleren.</li><li>Test de eerste versie in één gebouw voordat je beslist of de tool een groter systeem verdient.</li></ol>
+        <p class="usecase-result"><strong>Resultaat:</strong> Een praktische meldflow die klein kan starten en toch reviewbaar blijft.</p>
+        <p class="usecase-further"><strong>Ga verder:</strong> Als de pilot werkt, verhuis de tool dan naar een gedeelde repo met een code owner in plaats van naar één laptop.</p>
+      </div>
+    </div></div>
+    <div class="explorer-empty">Geen enkele use case past nog bij deze filters — probeer een filter te verwijderen of het zoekveld te wissen.</div>
+  </div>
+</section>
+</main>
+  <footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2026 Vibe Coding Copilot. Een onafhankelijke, gratis leerbron voor vibe coding in het hoger onderwijs, aangedreven door GitHub Copilot. Niet verbonden aan of goedgekeurd door GitHub of Microsoft.</p>
+    <div class="footer-links"><a href="index.html">Home</a><a href="cas-usage.html">Use cases</a><a href="scenarios.html">8 echte scenario’s</a><a href="first-commit.html">Jouw eerste commit</a><a href="build-vs-buy.html">Vibe coding vs een kant-en-klare oplossing kopen</a><a href="plans.html">Plannen &amp; realiteit</a><a href="quick-reference.html">Wegwijzer in 2 minuten</a><a href="maturity.html">Diagnose van institutionele maturiteit</a><a href="workshop.html">Workshopkit “Vibe Coding Challenge”</a><a href="glossary.html">Glossarium</a><a href="sitemap.html">Sitemap</a><a href="changelog.html">Sitechangelog</a><a href="best-practices.html">Best practices</a><a href="about.html">Over dit project</a></div>
+  </div>
+  </footer>
+  <div class="search-modal" data-search-modal hidden>
+  <div class="search-modal-backdrop" data-search-close></div>
+  <div class="search-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="search-modal-title">
+    <div class="search-modal-head">
+      <div>
+        <h2 id="search-modal-title">Zoek in de site</h2>
+        <p>Begin te typen om pagina’s, lessen, scenario’s, use cases en termen uit het glossarium te filteren.</p>
+      </div>
+      <button type="button" class="search-close" data-search-close aria-label="Sluiten">×</button>
+    </div>
+    <label class="search-input-wrap">
+      <span class="sr-only">Zoek in de site</span>
+      <input type="search" data-search-input placeholder="Zoek een les, use case, term uit het glossarium…" autocomplete="off">
+    </label>
+    <div class="search-results" data-search-results></div>
+    <p class="search-empty" data-search-empty hidden>Geen resultaten voor deze zoekopdracht.</p>
+  </div>
+  </div>
+  <button type="button" class="back-to-top" data-back-to-top aria-label="Terug naar boven" title="Terug naar boven" hidden>&#8593;</button>
+  <script src="../assets/qrcode.min.js" defer></script>
+  <script src="../assets/script.js" defer></script>
+  </body>
+  </html>

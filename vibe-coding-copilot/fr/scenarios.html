@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+  <html lang="fr">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Huit scénarios réels par rôle — Vibe Coding Copilot</title>
+  <meta name="description" content="Utilise-les comme démos, trames d’atelier ou récits d’adoption interne. Chacun repose sur une vraie fonctionnalité GitHub Copilot nommée dans la documentation officielle.">
+  <meta property="og:title" content="Huit scénarios réels par rôle — Vibe Coding Copilot">
+  <meta property="og:description" content="Utilise-les comme démos, trames d’atelier ou récits d’adoption interne. Chacun repose sur une vraie fonctionnalité GitHub Copilot nommée dans la documentation officielle.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Huit scénarios réels par rôle — Vibe Coding Copilot">
+  <meta name="twitter:description" content="Utilise-les comme démos, trames d’atelier ou récits d’adoption interne. Chacun repose sur une vraie fonctionnalité GitHub Copilot nommée dans la documentation officielle.">
+  <link rel="alternate" hreflang="fr" href="../fr/scenarios.html">
+  <link rel="alternate" hreflang="nl" href="../nl/scenarios.html">
+  <link rel="alternate" hreflang="en" href="../en/scenarios.html">
+  <link rel="alternate" hreflang="x-default" href="../en/scenarios.html">
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+  <link rel="stylesheet" href="../assets/style.min.css">
+  </head>
+  <body class="page-scenarios" data-search-index="../assets/search-index.fr.json" data-lang="fr">
+  <a class="skip-link" href="#main-content">Aller au contenu</a>
+  <header class="site-header">
+  <div class="container header-inner">
+    <a class="brand-mark" href="index.html" aria-label="Vibe Coding Copilot">
+      <svg width="26" height="26" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0a8 8 0 0 0-2.53 15.59c.4.07.55-.17.55-.38l-.01-1.49c-2.01.44-2.43-.97-2.43-.97-.33-.83-.8-1.05-.8-1.05-.66-.45.05-.44.05-.44.72.05 1.1.74 1.1.74.64 1.1 1.68.78 2.09.6.07-.46.25-.78.46-.96-1.6-.18-3.29-.8-3.29-3.57 0-.79.28-1.43.74-1.93-.07-.18-.32-.92.07-1.92 0 0 .61-.19 1.99.74a6.9 6.9 0 0 1 3.63 0c1.38-.93 1.99-.74 1.99-.74.39 1 .14 1.74.07 1.92.46.5.74 1.14.74 1.93 0 2.78-1.69 3.39-3.3 3.57.26.22.49.66.49 1.33l-.01 1.97c0 .21.14.45.55.38A8 8 0 0 0 8 0Z"/></svg>
+      <span class="brand-text"><span class="b1">Vibe Coding Copilot</span><span class="b2">Enseignement Supérieur</span></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Main">
+      <span><a class="nav-trigger accent" href="cas-usage.html">Cas d'usage</a></span>
+      <span><a class="nav-trigger active" href="scenarios.html">8 scénarios réels</a></span>
+      <div class="nav-course-group">
+      <a class="nav-trigger" href="vibe-basics.html">Parcours</a>
+      <div class="nav-lesson-panel">
+        <div class="nav-lesson-panel-head"><span>Parcours</span></div>
+        <ol class="nav-lesson-list"><li><a href="vibe-basics.html"><span>1</span><strong>Vibe Coding Débutant</strong></a></li><li><a href="vibe-advanced.html"><span>2</span><strong>Vibe Coding Avancé</strong></a></li><li><a href="vibe-expert.html"><span>3</span><strong>Vibe Coding Expert</strong></a></li></ol>
+        <a class="nav-lesson-overview" href="first-commit.html">Ton premier commit<span aria-hidden="true">→</span></a>
+        <a class="nav-certificate-link" data-certificate-cta href="certificate.html" hidden>Voir mon certificat<span aria-hidden="true">↘</span></a>
+      </div>
+    </div>
+      <span><a class="nav-trigger" href="plans.html">Plans &amp; réalité</a></span>
+      <span><a class="nav-trigger" href="toolkit.html">Boîte à outils</a></span>
+      <span><a class="nav-trigger" href="best-practices.html">Bonnes pratiques</a></span>
+      <span><a class="nav-trigger" href="about.html">À propos</a></span>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-switch desktop-only"><a class="active" href="../fr/scenarios.html">FR</a><a class="" href="../nl/scenarios.html">NL</a><a class="" href="../en/scenarios.html">EN</a></div>
+      <button class="search-toggle" type="button" data-search-open aria-label="Ouvrir la recherche">🔍</button>
+      <button class="mobile-nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav-panel"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="mobile-nav-panel container" id="mobile-nav-panel" hidden>
+    <div class="mobile-nav-group">
+      <div class="mobile-nav-group-label">Apprendre</div>
+      <a href="scenarios.html" class="mobile-nav-link">8 scénarios réels</a>
+      <details class="mobile-course-details">
+      <summary class="mobile-course-summary"><span>Vibe Coding Débutant</span></summary>
+      <div class="mobile-course-body">
+        <ol class="nav-lesson-list"><li><a href="vibe-basics.html#lesson-1"><span>1</span><strong>Qu'est-ce que le vibe coding ?</strong></a></li><li><a href="vibe-basics.html#lesson-2"><span>2</span><strong>D’un vrai problème de campus à une idée d’application</strong></a></li><li><a href="vibe-basics.html#lesson-3"><span>3</span><strong>Ta première web app avec GitHub Copilot</strong></a></li><li><a href="vibe-basics.html#lesson-4"><span>4</span><strong>Sauvegarder et publier avec GitHub</strong></a></li><li><a href="vibe-basics.html#lesson-5"><span>5</span><strong>Tester et améliorer avec Copilot Chat</strong></a></li><li><a href="vibe-basics.html#lesson-6"><span>6</span><strong>Améliorer le style et l'apparence</strong></a></li><li><a href="vibe-basics.html#lesson-7"><span>7</span><strong>Ajouter images, fichiers et documents</strong></a></li><li><a href="vibe-basics.html#lesson-8"><span>8</span><strong>Synthèse et vers le parcours Avancé</strong></a></li></ol>
+        <a class="nav-lesson-overview" href="vibe-basics.html">Voir le parcours complet<span aria-hidden="true">→</span></a>
+      </div>
+    </details><details class="mobile-course-details">
+      <summary class="mobile-course-summary"><span>Vibe Coding Avancé</span></summary>
+      <div class="mobile-course-body">
+        <ol class="nav-lesson-list"><li><a href="vibe-advanced.html#lesson-1"><span>1</span><strong>Travailler avec l'agent de Copilot</strong></a></li><li><a href="vibe-advanced.html#lesson-2"><span>2</span><strong>Connecter une base de données à ton application</strong></a></li><li><a href="vibe-advanced.html#lesson-3"><span>3</span><strong>Utiliser cette base de données en toute sécurité</strong></a></li><li><a href="vibe-advanced.html#lesson-4"><span>4</span><strong>Concevoir consciemment pour l'apprentissage</strong></a></li><li><a href="vibe-advanced.html#lesson-5"><span>5</span><strong>Faire un bon plan de construction</strong></a></li><li><a href="vibe-advanced.html#lesson-6"><span>6</span><strong>Itérer intelligemment sans casser ton application</strong></a></li><li><a href="vibe-advanced.html#lesson-7"><span>7</span><strong>Donner une mémoire durable à ton projet</strong></a></li><li><a href="vibe-advanced.html#lesson-8"><span>8</span><strong>Utiliser l'IA comme testeuse</strong></a></li><li><a href="vibe-advanced.html#lesson-9"><span>9</span><strong>Gérer ton code comme un vrai projet avec GitHub</strong></a></li></ol>
+        <a class="nav-lesson-overview" href="vibe-advanced.html">Voir le parcours complet<span aria-hidden="true">→</span></a>
+      </div>
+    </details><details class="mobile-course-details">
+      <summary class="mobile-course-summary"><span>Vibe Coding Expert</span></summary>
+      <div class="mobile-course-body">
+        <ol class="nav-lesson-list"><li><a href="vibe-expert.html#lesson-1"><span>1</span><strong>Ajouter de l'IA à ton application pédagogique</strong></a></li><li><a href="vibe-expert.html#lesson-2"><span>2</span><strong>Choisir et comparer les modèles d'IA</strong></a></li><li><a href="vibe-expert.html#lesson-3"><span>3</span><strong>Configurer tes clés d'accès en toute sécurité</strong></a></li><li><a href="vibe-expert.html#lesson-4"><span>4</span><strong>Premier petit projet : un bouton d'explication IA</strong></a></li><li><a href="vibe-expert.html#lesson-5"><span>5</span><strong>Déployer ton intégration IA en toute sécurité</strong></a></li><li><a href="vibe-expert.html#lesson-6"><span>6</span><strong>Construire de façon sûre et abordable</strong></a></li><li><a href="vibe-expert.html#lesson-7"><span>7</span><strong>Aller au-delà du texte</strong></a></li><li><a href="vibe-expert.html#lesson-8"><span>8</span><strong>Exemple complet et conclusion</strong></a></li></ol>
+        <a class="nav-lesson-overview" href="vibe-expert.html">Voir le parcours complet<span aria-hidden="true">→</span></a>
+      </div>
+    </details>
+      <a href="first-commit.html" class="mobile-nav-link">Ton premier commit</a>
+      <a href="build-vs-buy.html" class="mobile-nav-link">Vibe coding vs acheter une solution toute faite</a>
+    </div>
+    <div class="mobile-nav-group">
+      <div class="mobile-nav-group-label">Outils</div>
+      <button type="button" class="mobile-nav-link mobile-nav-button" data-search-open>Recherche</button>
+      <a href="cas-usage.html" class="mobile-nav-link accent">Cas d'usage</a>
+      <a href="plans.html" class="mobile-nav-link">Plans &amp; réalité</a>
+      <a href="toolkit.html" class="mobile-nav-link">Boîte à outils</a>
+      <a href="quick-reference.html" class="mobile-nav-link">Repère en 2 minutes</a>
+      <a href="maturity.html" class="mobile-nav-link">Diagnostic de maturité institutionnelle</a>
+    </div>
+    <div class="mobile-nav-group">
+      <div class="mobile-nav-group-label">Ressources</div>
+      <a href="workshop.html" class="mobile-nav-link">Kit d’atelier « Vibe Coding Challenge »</a>
+      <a href="glossary.html" class="mobile-nav-link">Glossaire</a>
+      <a href="sitemap.html" class="mobile-nav-link">Plan du site</a>
+      <a href="changelog.html" class="mobile-nav-link">Historique du site</a>
+      <a href="best-practices.html" class="mobile-nav-link">Bonnes pratiques</a>
+      <a href="about.html" class="mobile-nav-link">À propos</a>
+    </div>
+  </div>
+  </header>
+  <div class="language-banner-shell" data-language-banner hidden
+  data-alt-fr="../fr/scenarios.html" data-alt-nl="../nl/scenarios.html" data-alt-en="../en/scenarios.html" data-label-fr="Français" data-label-nl="Nederlands" data-label-en="English"
+  data-prefix="Il semble que ton navigateur préfère "
+  data-cta="Passer à cette langue"
+  data-dismiss="Masquer cette suggestion"></div>
+  <main id="main-content">
+<section class="scenario-page">
+  <div class="container">
+    <div class="section-head" data-reveal>
+      <div class="page-wayfinding">
+      <nav class="page-breadcrumb" aria-label="Breadcrumb"><a href="index.html">Accueil</a><span class="page-breadcrumb-sep" aria-hidden="true">/</span><span aria-current="page">8 scénarios réels</span></nav>
+    </div>
+      <h1>Huit scénarios réels par rôle</h1>
+      <p>Utilise-les comme démos, trames d’atelier ou récits d’adoption interne. Chacun repose sur une vraie fonctionnalité GitHub Copilot nommée dans la documentation officielle.</p>
+      <p class="page-hero-note">Si tu hésites encore entre besoin d’exemples, questions de déploiement ou premier vrai flux GitHub, <a href="maturity.html">fais le diagnostic en 2 minutes</a> pour choisir la bonne prochaine page.</p>
+    </div>
+    <div class="fact-banner" data-reveal>
+      <strong>Faits vérifiés</strong>
+      <span>Faits vérifiés en août 2026 sur docs.github.com — GitHub Copilot évolue vite, donc revérifie les chiffres précis avant une décision d’achat.</span>
+    </div>
+    <div class="teaser scenario-bridge" data-reveal>
+      <div>
+        <h3>Besoin du tout début avant les scénarios ?</h3>
+        <p>Utilise le guide du premier commit si ton public a encore besoin du chemin ultra-clair entre inscription GitHub et vraie pull request fusionnée avec Copilot.</p>
+      </div>
+      <a class="btn btn-primary" href="first-commit.html">Ouvrir le guide du premier commit →</a>
+    </div>
+    <div class="glossary-shortcuts" data-reveal>
+      <strong>Mots utiles pour cette page</strong>
+      <div class="glossary-shortcuts-links"><a href="glossary.html#agent-mode">Mode Agent</a><a href="glossary.html#copilot-spaces">Copilot Spaces</a><a href="glossary.html#mcp-servers">MCP servers</a></div>
+    </div>
+    <div class="scenario-jump" data-reveal>
+      <span class="filter-label">Aller vers un rôle</span>
+      <a class="filter-pill" data-persona="teacher" href="#teacher">🎓 Enseignement</a><a class="filter-pill" data-persona="student" href="#student">🧑‍🎓 Études</a><a class="filter-pill" data-persona="it" href="#it">🖥️ IT &amp; numérique</a><a class="filter-pill" data-persona="hr" href="#hr">🤝 RH</a><a class="filter-pill" data-persona="leadership" href="#leadership">🧭 Direction</a><a class="filter-pill" data-persona="finance" href="#finance">💶 Finances</a><a class="filter-pill" data-persona="research" href="#research">🔬 Recherche</a><a class="filter-pill" data-persona="campus" href="#campus">📚 Bibliothèque / campus</a>
+    </div>
+    <div class="scenario-stack"><article class="scenario-card" data-reveal data-persona="teacher" id="teacher">
+      <div class="scenario-card-head">
+        <span class="persona-chip">🎓 Enseignement</span>
+        <div class="scenario-features"><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site" target="_blank" rel="noopener">GitHub Pages</a><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/concepts/context/spaces" target="_blank" rel="noopener">Copilot Spaces</a></div>
+      </div>
+      <h2>Construire quelque chose de visible en direct, sans installation lourde.</h2>
+      <p class="scenario-problem">Une personne du corps enseignant dispose d’un plan de cours, veut un quiz de révision et une page d’exercice, et ne souhaite pas monter tout un environnement pour tester une idée.</p>
+      <div class="scenario-grid-inner">
+        <div>
+          <h3>Ce qui se passe</h3>
+          <ol class="scenario-steps"><li>Ouvrir github.com/copilot dans le navigateur et coller le plan du cours.</li><li>Demander à Copilot Chat une première version statique immédiatement publiable sur GitHub Pages.</li><li>Une fois le site utile, créer un Copilot Space “Mon syllabus” avec slides, lectures et glossaire pour ancrer les futures réponses dans ce cours.</li></ol>
+        </div>
+        <div class="chat-mockup scenario-chat">
+          <div class="chat-head">Copilot</div>
+          <div class="chat-body">
+            <div class="chat-bubble-user">J’enseigne la microbiologie en première année. Construis un mini-site compatible GitHub Pages avec un index.html, un style.css et un script.js. Je veux 6 questions de révision à choix multiple, un exercice de cas, un retour instantané et un bouton de remise à zéro. Garde une formulation très claire pour la communauté étudiante.</div>
+            <div class="chat-bubble-ai">Voici une première version avec les trois fichiers, une mise en page propre et les six questions prêtes à être adaptées à ton cours. J’ai aussi commenté les zones à personnaliser avant publication.</div>
+          </div>
+        </div>
+      </div>
+      <div class="scenario-outcomes">
+        <div>
+          <h3>Résultat concret</h3>
+          <ul class="mini-list"><li>Une page de révision fonctionnelle dans un dépôt</li><li>Une URL GitHub Pages partageable le jour même</li><li>Un Space réutilisable pour le prochain devoir ou la prochaine FAQ</li></ul>
+        </div>
+        <div>
+          <h3>Pourquoi ça donne envie</h3>
+          <p>L’effet waouh est immédiat : on ne “parle pas d’IA”, on montre un objet pédagogique réel qui existe déjà.</p>
+        </div>
+      </div>
+    </article><article class="scenario-card" data-reveal data-persona="student" id="student">
+      <div class="scenario-card-head">
+        <span class="persona-chip">🧑‍🎓 Études</span>
+        <div class="scenario-features"><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-students" target="_blank" rel="noopener">Copilot Student</a><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Mode Agent</a><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot code review</a></div>
+      </div>
+      <h2>Passer d’une idée de projet de fin d’études à une application qui tourne, branche par branche.</h2>
+      <p class="scenario-problem">Une équipe étudiante a un brief, peu de temps et veut avancer vers un MVP tout en comprenant ce que fait le code.</p>
+      <div class="scenario-grid-inner">
+        <div>
+          <h3>Ce qui se passe</h3>
+          <ol class="scenario-steps"><li>Utiliser l’accès gratuit Copilot Student dans VS Code.</li><li>Demander au mode Agent de construire le MVP une branche à la fois plutôt que de produire un gros saut opaque.</li><li>Avant la remise, lancer Copilot code review sur les pull requests pour obtenir des pistes d’amélioration concrètes.</li></ol>
+        </div>
+        <div class="chat-mockup scenario-chat">
+          <div class="chat-head">Copilot</div>
+          <div class="chat-body">
+            <div class="chat-bubble-user">Mode Agent : construis un MVP d’application de réservation de matériel de laboratoire pour un projet de fin d’études. Commence par une landing page, un formulaire de demande, une vue admin, un README, puis ajoute une fonctionnalité par branche. Explique chaque changement important avant de l’appliquer.</div>
+            <div class="chat-bubble-ai">Je peux commencer par le plan du dépôt, préparer la première branche, puis ouvrir des changements relisibles pour le formulaire et la vue admin séparément afin que le projet reste compréhensible.</div>
+          </div>
+        </div>
+      </div>
+      <div class="scenario-outcomes">
+        <div>
+          <h3>Résultat concret</h3>
+          <ul class="mini-list"><li>Un MVP fonctionnel plutôt qu’une simple note d’intention</li><li>Un historique de commits et de branches plus lisible pour l’encadrement</li><li>Des commentaires de revue qui renforcent la qualité avant remise</li></ul>
+        </div>
+        <div>
+          <h3>Pourquoi ça donne envie</h3>
+          <p>L’expérience reste formatrice : Copilot accélère, mais la structure en branches et la revue gardent l’apprentissage visible.</p>
+        </div>
+      </div>
+    </article><article class="scenario-card" data-reveal data-persona="it" id="it">
+      <div class="scenario-card-head">
+        <span class="persona-chip">🖥️ IT &amp; numérique</span>
+        <div class="scenario-features"><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/concepts/agents/github-copilot-app" target="_blank" rel="noopener">GitHub Copilot app</a><span class="feature-chip">Agents parallèles</span><span class="feature-chip">Mode Plan</span></div>
+      </div>
+      <h2>Traiter plusieurs tickets internes en parallèle sans perdre le contrôle sur ce qui change où.</h2>
+      <p class="scenario-problem">Une équipe IT a une pile de petits tickets — page à rafraîchir, script à migrer, formulaire à fiabiliser — et veut aller plus vite sans semer le chaos.</p>
+      <div class="scenario-grid-inner">
+        <div>
+          <h3>Ce qui se passe</h3>
+          <ol class="scenario-steps"><li>Lancer l’application GitHub Copilot et ouvrir plusieurs sessions agentiques en parallèle.</li><li>Rester en mode Plan pour relire les plans et les diffs avant exécution.</li><li>Utiliser l’intégration GitHub native pour faire passer chaque changement accepté dans le flux branche / PR / CI habituel.</li></ol>
+        </div>
+        <div class="chat-mockup scenario-chat">
+          <div class="chat-head">Copilot</div>
+          <div class="chat-body">
+            <div class="chat-bubble-user">Crée trois sessions en mode Plan : 1) migrer ce script de nettoyage CSV vers Python, 2) rafraîchir la page d’accueil de l’annuaire du personnel, 3) ajouter des logs structurés au service de réservation de salles. Garde chaque tâche dans son propre worktree et montre le plan avant toute modification.</div>
+            <div class="chat-bubble-ai">J’ai préparé trois plans séparés, chacun dans sa propre session et sa propre branche. Il ne reste plus qu’à relire les diffs et n’approuver que ce que l’équipe veut publier cette semaine.</div>
+          </div>
+        </div>
+      </div>
+      <div class="scenario-outcomes">
+        <div>
+          <h3>Résultat concret</h3>
+          <ul class="mini-list"><li>Trois flux de travail parallèles au lieu d’une seule file bloquante</li><li>Des diffs relisibles ticket par ticket</li><li>Un rythme de backlog plus rapide avec validation humaine</li></ul>
+        </div>
+        <div>
+          <h3>Pourquoi ça donne envie</h3>
+          <p>C’est là que le développement piloté par agent devient utile opérationnellement : parallèle, isolé et relisible.</p>
+        </div>
+      </div>
+    </article><article class="scenario-card" data-reveal data-persona="hr" id="hr">
+      <div class="scenario-card-head">
+        <span class="persona-chip">🤝 RH</span>
+        <div class="scenario-features"><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/concepts/context/spaces" target="_blank" rel="noopener">Copilot Spaces</a><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a></div>
+      </div>
+      <h2>Construire un assistant interne ancré dans les procédures sans coder un backend à la main.</h2>
+      <p class="scenario-problem">Les RH répondent sans cesse aux mêmes questions d’onboarding, de congés ou de modèles contractuels et veulent des réponses reliées aux vrais documents internes.</p>
+      <div class="scenario-grid-inner">
+        <div>
+          <h3>Ce qui se passe</h3>
+          <ol class="scenario-steps"><li>Créer un Space avec le matériau RH canonique.</li><li>Utiliser Copilot Chat sur ce Space pour rédiger les réponses et une page de FAQ simple.</li><li>Relire, ajuster le ton puis publier la version validée comme page de référence interne.</li></ol>
+        </div>
+        <div class="chat-mockup scenario-chat">
+          <div class="chat-head">Copilot</div>
+          <div class="chat-body">
+            <div class="chat-bubble-user">Crée un Space “Politiques RH” avec les guides d’intégration, les procédures de congés, les modèles de contrat et les notes de FAQ. Rédige ensuite une page de questions fréquentes qui répond aux 12 demandes les plus courantes et cite, pour chaque réponse, la source interne utilisée.</div>
+            <div class="chat-bubble-ai">J’ai regroupé les sources, préparé des schémas de réponse ancrés dans ces documents et produit une page de FAQ claire que les RH peuvent relire avant publication interne.</div>
+          </div>
+        </div>
+      </div>
+      <div class="scenario-outcomes">
+        <div>
+          <h3>Résultat concret</h3>
+          <ul class="mini-list"><li>Une FAQ ancrée dans les documents plutôt qu’une nouvelle boîte mail saturée</li><li>Des réponses plus rapides pour le personnel</li><li>Un Space réutilisable qui améliore les futurs prompts RH</li></ul>
+        </div>
+        <div>
+          <h3>Pourquoi ça donne envie</h3>
+          <p>Le vrai gain est la confiance : les réponses viennent des documents de l’établissement, pas d’une prose générique.</p>
+        </div>
+      </div>
+    </article><article class="scenario-card" data-reveal data-persona="leadership" id="leadership">
+      <div class="scenario-card-head">
+        <span class="persona-chip">🧭 Direction</span>
+        <div class="scenario-features"><span class="feature-chip">Custom agents</span><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/how-tos/use-copilot-agents/cloud-agent" target="_blank" rel="noopener">Copilot cloud agent</a><span class="feature-chip">Automations</span></div>
+      </div>
+      <h2>Transformer la chasse hebdomadaire aux KPI en synthèse planifiée et relisible.</h2>
+      <p class="scenario-problem">Une direction de département ou d’établissement veut une vue hebdomadaire concise sur plusieurs équipes sans compiler manuellement chaque mise à jour.</p>
+      <div class="scenario-grid-inner">
+        <div>
+          <h3>Ce qui se passe</h3>
+          <ol class="scenario-steps"><li>Créer un agent personnalisé correspondant au style de reporting voulu.</li><li>Planifier une exécution hebdomadaire du Copilot cloud agent.</li><li>Relire une PR plutôt qu’une pièce jointe opaque avant diffusion de la synthèse.</li></ol>
+        </div>
+        <div class="chat-mockup scenario-chat">
+          <div class="chat-head">Copilot</div>
+          <div class="chat-body">
+            <div class="chat-bubble-user">Dans .github/agents/reporting.md, définis un agent qui lit les fichiers KPI de /finance, /student-success, /research et /operations, puis rédige un weekly-summary.md avec les avancées, risques et questions ouvertes. Planifie son exécution chaque vendredi après-midi et ouvre une pull request plutôt que de modifier main directement.</div>
+            <div class="chat-bubble-ai">Je peux appliquer les instructions de cet agent personnalisé, rassembler les fichiers sources et ouvrir une PR relisible avec la synthèse proposée, afin que la direction valide le récit avant diffusion.</div>
+          </div>
+        </div>
+      </div>
+      <div class="scenario-outcomes">
+        <div>
+          <h3>Résultat concret</h3>
+          <ul class="mini-list"><li>Un rituel de reporting hebdomadaire reproductible</li><li>Une PR unique que la direction peut commenter</li><li>Moins de temps de coordination passé à copier-coller des statuts</li></ul>
+        </div>
+        <div>
+          <h3>Pourquoi ça donne envie</h3>
+          <p>La direction obtient la vitesse de l’automatisation tout en gardant le point de contrôle institutionnel avant publication.</p>
+        </div>
+      </div>
+    </article><article class="scenario-card" data-reveal data-persona="finance" id="finance">
+      <div class="scenario-card-head">
+        <span class="persona-chip">💶 Finances</span>
+        <div class="scenario-features"><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/reference/customization-cheat-sheet" target="_blank" rel="noopener">Prompt files</a><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/concepts/billing/usage-based-billing-for-organizations-and-enterprises" target="_blank" rel="noopener">AI credits</a></div>
+      </div>
+      <h2>Transformer un export mensuel en tableau de bord en quelques minutes avec une histoire de coût intelligible.</h2>
+      <p class="scenario-problem">L’équipe finances reçoit le même export Excel ou CSV à chaque cycle et veut un tableau de bord léger au lieu de reconstruire la même vue dans un tableur.</p>
+      <div class="scenario-grid-inner">
+        <div>
+          <h3>Ce qui se passe</h3>
+          <ol class="scenario-steps"><li>Créer un prompt file partagé pour ce flux récurrent.</li><li>Injecter l’export du mois au lieu de réexpliquer la demande à chaque fois.</li><li>Suivre ce run dans le pool d’AI credits organisationnel plutôt que dans un coût opaque au forfait.</li></ol>
+        </div>
+        <div class="chat-mockup scenario-chat">
+          <div class="chat-head">Copilot</div>
+          <div class="chat-body">
+            <div class="chat-bubble-user">Utilise .github/prompts/rapport-budget.prompt.md avec les entrées [fichier_export] et [mois]. Transforme l’export budgétaire joint en tableau de bord statique avec cartes de variance, tableau triable et alertes de dépassement. Garde les calculs visibles dans le code et estime l’usage d’AI credits de ce run.</div>
+            <div class="chat-bubble-ai">J’ai préparé le modèle de prompt file, converti l’export en tableau de bord une page et gardé les formules visibles afin que l’équipe puisse auditer les chiffres comme le processus.</div>
+          </div>
+        </div>
+      </div>
+      <div class="scenario-outcomes">
+        <div>
+          <h3>Résultat concret</h3>
+          <ul class="mini-list"><li>Un flux réutilisable de tableau de bord</li><li>Des calculs visibles dans le code</li><li>Une histoire concrète pour expliquer pourquoi les AI credits mutualisées sont plus pilotables qu’un coût uniforme</li></ul>
+        </div>
+        <div>
+          <h3>Pourquoi ça donne envie</h3>
+          <p>Les finances n’ont pas besoin d’aimer le hype : le résultat parle en rapidité de reporting et en lisibilité budgétaire.</p>
+        </div>
+      </div>
+    </article><article class="scenario-card" data-reveal data-persona="research" id="research">
+      <div class="scenario-card-head">
+        <span class="persona-chip">🔬 Recherche</span>
+        <div class="scenario-features"><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/concepts/context/mcp" target="_blank" rel="noopener">MCP servers</a><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Copilot Chat</a><span class="feature-chip">Génération de scripts Python / R</span></div>
+      </div>
+      <h2>Poser une question en langage naturel à un jeu de données tout en recevant le script qui permet de rejouer l’analyse.</h2>
+      <p class="scenario-problem">Les chercheuses et les chercheurs veulent aller plus vite sur des données de confiance sans perdre la reproductibilité.</p>
+      <div class="scenario-grid-inner">
+        <div>
+          <h3>Ce qui se passe</h3>
+          <ol class="scenario-steps"><li>Connecter un serveur MCP approuvé à la source de données pertinente.</li><li>Poser la question dans Copilot Chat plutôt que de bricoler d’abord la requête manuelle.</li><li>Prendre le script Python ou R généré comme artefact reproductible à relire, réutiliser ou joindre à une diffusion scientifique.</li></ol>
+        </div>
+        <div class="chat-mockup scenario-chat">
+          <div class="chat-head">Copilot</div>
+          <div class="chat-body">
+            <div class="chat-bubble-user">En utilisant le serveur MCP approuvé pour les données de rétention, compare la rétention des cohortes 2022 à 2025 par faculté. Ensuite, génère le notebook Python qui reproduit le graphique et commente chaque étape de transformation.</div>
+            <div class="chat-bubble-ai">Je peux interroger la source connectée, résumer la comparaison en langage naturel et générer le notebook pour que l’équipe rejoue ou adapte la méthode.</div>
+          </div>
+        </div>
+      </div>
+      <div class="scenario-outcomes">
+        <div>
+          <h3>Résultat concret</h3>
+          <ul class="mini-list"><li>Un chemin plus rapide entre question et première analyse</li><li>Un script que l’équipe peut inspecter et rejouer</li><li>Un flux ancré qui respecte la traçabilité scientifique</li></ul>
+        </div>
+        <div>
+          <h3>Pourquoi ça donne envie</h3>
+          <p>On garde le confort du langage naturel sans abandonner l’exigence de reproductibilité.</p>
+        </div>
+      </div>
+    </article><article class="scenario-card" data-reveal data-persona="campus" id="campus">
+      <div class="scenario-card-head">
+        <span class="persona-chip">📚 Bibliothèque / campus</span>
+        <div class="scenario-features"><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/copilot/get-started/features" target="_blank" rel="noopener">Mode Agent</a><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site" target="_blank" rel="noopener">GitHub Pages</a><a class="feature-chip feature-chip-link" href="https://docs.github.com/en/education/about-github-education/use-github-at-your-educational-institution/about-github-campus-program" target="_blank" rel="noopener">GitHub Campus Program</a></div>
+      </div>
+      <h2>Permettre à une équipe non développeuse de publier un mini-outil utile ce semestre.</h2>
+      <p class="scenario-problem">Le personnel de bibliothèque ou de services de campus a besoin d’un petit outil de réservation ou d’inventaire et veut quelque chose d’utile rapidement.</p>
+      <div class="scenario-grid-inner">
+        <div>
+          <h3>Ce qui se passe</h3>
+          <ol class="scenario-steps"><li>Utiliser le mode Agent pour créer rapidement la première version.</li><li>Héberger l’application sur GitHub Pages dans l’empreinte GitHub de l’établissement.</li><li>Conserver une structure éditable afin que le personnel de bibliothèque ou de campus garde la main après lancement.</li></ol>
+        </div>
+        <div class="chat-mockup scenario-chat">
+          <div class="chat-head">Copilot</div>
+          <div class="chat-body">
+            <div class="chat-bubble-user">Construis un prototype statique de réservation de salles pour la bibliothèque : sélecteur de date, cartes de salles, statut occupé/libre avec données fictives, notes d’accessibilité et workflow de déploiement GitHub Pages. Garde une structure facile à maintenir pour une équipe non développeuse.</div>
+            <div class="chat-bubble-ai">J’ai généré une petite application statique, ajouté des cartes de salles accessibles et un workflow de déploiement, puis gardé des fichiers de contenu simples pour que l’équipe de service puisse maintenir la page après le lancement.</div>
+          </div>
+        </div>
+      </div>
+      <div class="scenario-outcomes">
+        <div>
+          <h3>Résultat concret</h3>
+          <ul class="mini-list"><li>Un prototype de service fonctionnel plutôt qu’une longue liste d’attente</li><li>Un hébergement statique gratuit sur GitHub Pages</li><li>Une démonstration concrète de ce que la plateforme Campus Program peut permettre</li></ul>
+        </div>
+        <div>
+          <h3>Pourquoi ça donne envie</h3>
+          <p>L’équipe voit tout de suite la valeur parce que le résultat est un service utilisable, pas un pilote IA abstrait.</p>
+        </div>
+      </div>
+    </article></div>
+    <section class="scenario-onepager" id="onepager-generator">
+      <div class="section-head left" data-reveal>
+        <h2>Générer ma fiche personnalisée</h2>
+        <p>Choisis un rôle et un cas d’usage déjà présent sur le site. La fiche réutilise les données existantes pour fabriquer un bref imprimable en une page.</p>
+      </div>
+      <div class="tool-form-layout">
+        <div class="tool-form-card" data-reveal data-onepager-generator>
+          <div class="tool-form-grid">
+            <label class="tool-field">
+              <span>Rôle</span>
+              <select data-onepager-persona>
+                <option value="">Choisir…</option>
+                <option value="teaching">🎓 Enseignantes et enseignants</option><option value="students">🧑‍🎓 Étudiantes et étudiants</option><option value="it">🖥️ Services IT et numériques</option><option value="hr">🤝 Ressources humaines</option><option value="leadership">🧭 Direction et pilotage</option><option value="finance">💶 Finances et administration</option><option value="research">🔬 Chercheuses et chercheurs</option><option value="campus">📚 Bibliothèque, communication et vie de campus</option>
+              </select>
+            </label>
+            <label class="tool-field">
+              <span>Cas d’usage</span>
+              <select data-onepager-usecase disabled>
+                <option value="">Choisir…</option>
+              </select>
+            </label>
+          </div>
+          <script type="application/json" data-onepager-config>{"personas": [{"key": "teaching", "icon": "🎓", "label": "Enseignantes et enseignants", "pitch": "Construis enfin le compagnon de cours, le quiz, la page de révision ou l’aide à la correction que tu imagines depuis longtemps."}, {"key": "students", "icon": "🧑‍🎓", "label": "Étudiantes et étudiants", "pitch": "Transforme une idée de projet de fin d’études en application qui fonctionne, branche par branche, avec revue de code avant remise."}, {"key": "it", "icon": "🖥️", "label": "Services IT et numériques", "pitch": "Lance plusieurs sessions agentiques en parallèle, garde la main avec le mode Plan, puis valide les diffs avant publication."}, {"key": "hr", "icon": "🤝", "label": "Ressources humaines", "pitch": "Ancre Copilot dans les vraies procédures, modèles et documents d’intégration pour obtenir des réponses alignées sur les politiques internes."}, {"key": "leadership", "icon": "🧭", "label": "Direction et pilotage", "pitch": "Automatise les synthèses hebdomadaires grâce aux agents personnalisés et aux exécutions planifiées du cloud agent."}, {"key": "finance", "icon": "💶", "label": "Finances et administration", "pitch": "Transforme les exports en tableaux de bord en gardant un récit de coût honnête grâce au modèle des AI credits mutualisés."}, {"key": "research", "icon": "🔬", "label": "Chercheuses et chercheurs", "pitch": "Connecte des données de confiance via MCP et laisse Copilot rédiger le script Python ou R que tu peux inspecter et rejouer."}, {"key": "campus", "icon": "📚", "label": "Bibliothèque, communication et vie de campus", "pitch": "Crée un outil léger de réservation, d’inventaire, de FAQ ou d’événements sans attendre un grand projet sur mesure."}], "usecases": [{"persona": "teaching", "title": "Construire un quiz auto-corrigé en une seule séance", "situation": "Tu veux un quiz que tes étudiantes et étudiants peuvent utiliser pour réviser un chapitre, sans passer par un outil externe payant.", "steps": ["Ouvre Copilot Chat et décris ton quiz : « Crée une page HTML avec un quiz de 5 questions à choix multiple sur [sujet], affichant un score final. »", "Lis le code généré, teste-le dans ton navigateur, puis demande un ajustement précis à la fois, par exemple : « Ajoute une courte explication sous chaque question une fois qu'elle est répondue. »", "Une fois le résultat satisfaisant, demande à Copilot d'ajouter un bouton « recommencer le quiz »."], "result": "Un quiz fonctionnel et personnalisé pour ton cours, prêt à publier.", "further": "Demande à Copilot de mélanger l'ordre des questions à chaque lancement.", "startHref": "first-commit.html", "startLabel": "Ton premier commit"}, {"persona": "teaching", "title": "Ancrer une explication de schéma avec Copilot Spaces", "situation": "Tu as des slides, un schéma scanné et des notes de tutorat, et tu veux un support numérique accessible plutôt qu’une image de plus dans un PDF.", "steps": ["Crée un Space et ajoute l’image du schéma, le texte des slides concernées et une légende en langage clair.", "Demande à Copilot Chat de transformer ce matériau ancré en page HTML/CSS avec labels, texte alternatif et mini-glossaire.", "Publie la version validée sur GitHub Pages pour que la communauté étudiante y revienne hors cours."], "result": "Une explication plus claire, réutilisable et ancrée dans tes propres supports.", "further": "Réutilise le même Space pour le prochain thème riche en schémas au lieu de réexpliquer tout le contexte.", "startHref": "first-commit.html", "startLabel": "Ton premier commit"}, {"persona": "teaching", "title": "Générer des variantes d'exercices pour limiter la copie", "situation": "Tu veux plusieurs versions d'un même exercice pour différents groupes d'étudiantes et étudiants.", "steps": ["Donne à Copilot Chat un exercice existant et demande : « Génère 4 variantes de cet exercice avec des valeurs différentes mais la même difficulté. »", "Demande une grille de correction commune : « Ajoute une grille de correction expliquant chaque étape. »", "Demande à Copilot d'exporter le tout dans un seul document structuré."], "result": "Plusieurs versions prêtes à distribuer, avec une correction cohérente.", "further": "Demande à Copilot de générer aussi une version accessible pour les lecteurs d'écran.", "startHref": "first-commit.html", "startLabel": "Ton premier commit"}, {"persona": "teaching", "title": "Automatiser un calculateur de moyenne pondérée avec le mode Agent", "situation": "Tu gères un tableau de notation complexe et tu veux calculer automatiquement des moyennes pondérées.", "steps": ["Décris ton barème au mode Agent : « Crée une page qui calcule une moyenne pondérée à partir de ces catégories : [liste]. »", "Relis le plan proposé par l'agent avant de l'approuver.", "Demande-lui d'ajouter un export CSV pour partager les résultats avec tes collègues."], "result": "Un calculateur fiable, adapté à ton propre barème de notation.", "further": "Connecte-le à une vraie base de données (voir le parcours Avancé) pour le réutiliser chaque semestre.", "startHref": "first-commit.html", "startLabel": "Ton premier commit"}, {"persona": "students", "title": "Apprendre à coder avec Copilot comme tuteur, pas comme béquille", "situation": "Tu débutes en programmation et tu veux comprendre le code, pas seulement le copier.", "steps": ["Écris d'abord une fonction simple toi-même, même incomplète.", "Demande à Copilot Chat : « Explique-moi ligne par ligne ce que fait ce code. »", "Demande ensuite : « Interroge-moi sur un point pour vérifier que j'ai compris. »"], "result": "Une vraie compréhension du code, pas seulement un copier-coller.", "further": "Demande à Copilot un exercice légèrement plus difficile sur la même notion.", "startHref": "first-commit.html", "startLabel": "Ton premier commit"}, {"persona": "students", "title": "Construire un site de révision partagé pour ton groupe d'étude", "situation": "Ton groupe d'étude veut un espace commun pour réviser avant l'examen.", "steps": ["Décris à Copilot Chat l'application de flashcards que vous voulez.", "Utilise Copilot dans le terminal pour créer le dépôt : décris ce que tu veux faire, Copilot propose la commande git exacte.", "Partagez le lien GitHub Pages avec le groupe."], "result": "Un outil de révision gratuit et partagé, sous le contrôle du groupe.", "further": "Ajoutez un système de vote simple pour les meilleures fiches.", "startHref": "first-commit.html", "startLabel": "Ton premier commit"}, {"persona": "students", "title": "Présenter ton mémoire ou ton rapport de stage en ligne", "situation": "Tu dois structurer un long document et automatiser des tâches répétitives comme la table des matières.", "steps": ["Demande à Copilot de générer un squelette de site pour présenter ton mémoire en ligne (résumé, chapitres, annexes).", "Demande une table des matières interactive construite à partir des titres de tes sections.", "Ajoute une page de contact pour recevoir des retours."], "result": "Une version en ligne et présentable de ton mémoire, en plus du document classique.", "further": "Demande à Copilot d'ajouter une recherche par mot-clé dans le contenu.", "startHref": "first-commit.html", "startLabel": "Ton premier commit"}, {"persona": "students", "title": "Construire un portfolio ancré dans tes vrais fichiers de projet", "situation": "Tu veux un portfolio sans réécrire à la main chaque description de projet.", "steps": ["Crée un Space avec les README, captures, résumé de stage et liens clés.", "Demande à Copilot Chat une page portfolio avec cartes projet et points de résultats orientés impact.", "Affine le ton puis publie la version retenue sur GitHub Pages."], "result": "Un portfolio plus rapide à produire parce que la matière est déjà ancrée.", "further": "Garde ce Space à jour chaque semestre pour transformer les futures mises à jour en simple passe d’édition.", "startHref": "first-commit.html", "startLabel": "Ton premier commit"}, {"persona": "it", "title": "Prototyper un outil interne en une heure", "situation": "Un service demande un petit outil interne et tu veux un prototype fonctionnel rapidement, avant d'investir du temps d'ingénierie.", "steps": ["Décris le besoin principal de l'outil au mode Agent : « Crée une page où le personnel peut soumettre une demande et voir son statut. »", "Relis le plan proposé et laisse l'agent construire une première version.", "Demande un affinement réaliste, comme une validation de formulaire ou un code couleur de statut."], "result": "Un prototype fonctionnel en moins d'une heure, pour valider le besoin avant un vrai développement.", "further": "S'il se révèle utile, planifie une version complète avec une vraie base de données et une gestion des accès.", "startHref": "plans.html", "startLabel": "Plans & réalité"}, {"persona": "it", "title": "Documenter automatiquement un script existant", "situation": "Tu as hérité d'un script interne non documenté et tu dois le comprendre et le documenter rapidement.", "steps": ["Ouvre le script et demande à Copilot Chat : « Explique-moi ce que fait ce script, étape par étape. »", "Demande : « Génère un README décrivant son objectif, ses entrées et comment l'exécuter. »", "Demande à Copilot de signaler les parties du code risquées ou peu claires."], "result": "Une documentation claire pour un script que seule une personne comprenait auparavant.", "further": "Ajoute le README généré directement dans le dépôt du script.", "startHref": "plans.html", "startLabel": "Plans & réalité"}, {"persona": "it", "title": "Automatiser un déploiement avec GitHub Actions", "situation": "Tu veux qu'un petit site ou outil se redéploie automatiquement à chaque modification.", "steps": ["Demande à Copilot Chat : « Génère un workflow GitHub Actions qui déploie ce site sur GitHub Pages à chaque push sur main. »", "Ajoute le fichier proposé à ton dépôt et pousse un petit changement pour tester.", "Demande à Copilot d'ajouter une notification en cas d'échec du déploiement."], "result": "Un site qui se met à jour tout seul, sans étape manuelle de redéploiement.", "further": "Réutilise le même fichier de workflow comme modèle pour d'autres projets internes.", "startHref": "plans.html", "startLabel": "Plans & réalité"}, {"persona": "hr", "title": "Construire une check-list d'intégration interactive", "situation": "Les nouvelles recrues reçoivent un long document d'intégration statique, facile à perdre de vue.", "steps": ["Décris les étapes d'intégration à Copilot Chat et demande une page de check-list interactive.", "Demande que la progression soit sauvegardée pour que la personne puisse reprendre plus tard.", "Demande à Copilot d'ajouter un résumé imprimable pour les dossiers RH."], "result": "Une expérience d'intégration conviviale et suivie pour les nouveaux collègues.", "further": "Personnalise la check-list par métier grâce à un simple menu déroulant au départ.", "startHref": "first-commit.html", "startLabel": "Ton premier commit"}, {"persona": "hr", "title": "Créer un formulaire de feedback de formation en quelques minutes", "situation": "Tu as besoin d'un moyen rapide de recueillir des retours après une formation, sans attendre la licence d'un outil de sondage.", "steps": ["Demande à Copilot Chat de construire une page avec une note de 1 à 5 et un champ de commentaire.", "Demande que les réponses soient enregistrées pour être consultées ensuite.", "Demande une vue de synthèse affichant la note moyenne."], "result": "Un formulaire de feedback fonctionnel, en ligne avant même la fin de la session.", "further": "Réutilise la même page comme modèle pour chaque future formation.", "startHref": "first-commit.html", "startLabel": "Ton premier commit"}, {"persona": "hr", "title": "Construire un calculateur de solde de congés", "situation": "Le personnel demande régulièrement aux RH combien de jours de congés il lui reste.", "steps": ["Décris la politique de congés de ton établissement à Copilot Chat.", "Demande-lui de construire un petit calculateur qui prend une date de début et affiche les jours restants.", "Demande une explication claire affichée à côté du résultat, en cas de cas particulier."], "result": "Un outil en libre-service qui réduit les questions répétitives aux RH.", "further": "Relie-le à la check-list d'intégration ci-dessus.", "startHref": "first-commit.html", "startLabel": "Ton premier commit"}, {"persona": "leadership", "title": "Lancer un sondage en direct pendant une réunion", "situation": "Tu veux un retour en temps réel du personnel pendant une assemblée générale, sans outil de sondage payant.", "steps": ["Décris la question et les options à Copilot Chat, en suivant le même schéma que l'exemple du Sondage Éclair du parcours guidé.", "Teste-le toi-même, puis projette le lien pendant la réunion.", "Demande à Copilot d'ajouter un affichage des résultats mis à jour en direct."], "result": "Un retour instantané et visible de la salle, sans aucun service externe.", "further": "Réutilise exactement la même page pour chaque future réunion, en changeant simplement la question.", "startHref": "plans.html", "startLabel": "Plans & réalité"}, {"persona": "leadership", "title": "Construire un tableau de bord simple d'indicateurs clés", "situation": "Tu veux suivre trois ou quatre chiffres dans le temps sans un outil de BI complet.", "steps": ["Décris tes indicateurs à Copilot Chat et colle quelques chiffres d'exemple.", "Demande-lui de construire un tableau de bord clair, sur une seule page, qui les résume.", "Demande un moyen simple de mettre à jour les chiffres chaque mois."], "result": "Un tableau de bord léger, que tu contrôles et comprends entièrement.", "further": "Demande à Copilot d'ajouter un petit graphique de tendance une fois quelques mois de données réunis.", "startHref": "plans.html", "startLabel": "Plans & réalité"}, {"persona": "leadership", "title": "Transformer des notes stratégiques en one-pager partageable avec Copilot Spaces", "situation": "Tu as des notes de réunion, du contexte KPI et un récit encore flou, et tu veux mieux qu’un mur de bullet points.", "steps": ["Crée un Space avec les notes stratégiques, le tableau KPI et le vocabulaire interne de référence.", "Demande à Copilot Chat un résumé une page avec priorités, risques et prochaines actions en langage clair.", "Relis le texte, puis publie ou exporte la version à partager."], "result": "Une page de pilotage plus claire, ancrée dans le vrai matériau interne.", "further": "Réutilise le même Space pour les mises à jour mensuelles ou trimestrielles afin de garder un vocabulaire cohérent.", "startHref": "plans.html", "startLabel": "Plans & réalité"}, {"persona": "finance", "title": "Construire un calculateur de frais de déplacement", "situation": "Le personnel demande souvent combien il sera remboursé pour un déplacement avant de soumettre une note de frais.", "steps": ["Décris tes règles de remboursement à Copilot Chat (distance, tarif, plafonds).", "Demande-lui de construire un petit calculateur basé sur ces règles.", "Demande un détail clair du calcul affiché à la personne qui l'utilise."], "result": "Un estimateur en libre-service qui réduit les échanges d'e-mails.", "further": "Relie-le à la page interne de l'équipe finances.", "startHref": "first-commit.html", "startLabel": "Ton premier commit"}, {"persona": "finance", "title": "Suivre un petit budget récurrent", "situation": "Tu gères une petite ligne budgétaire récurrente et tu veux une alternative plus légère qu'un tableur complet.", "steps": ["Décris les catégories de ton budget à Copilot Chat.", "Demande une page simple pour enregistrer les dépenses avec un total qui se met à jour.", "Demande une vue de synthèse mensuelle."], "result": "Un suivi léger, adapté exactement à tes propres catégories.", "further": "Exporte les données vers un tableur pour les registres officiels.", "startHref": "first-commit.html", "startLabel": "Ton premier commit"}, {"persona": "finance", "title": "Transformer des données collées en tableau triable", "situation": "Tu reçois régulièrement des données en texte brut ou en lignes copiées-collées, difficiles à exploiter.", "steps": ["Colle les données brutes dans Copilot Chat.", "Demande-lui de générer un tableau HTML clair et triable à partir de ces données.", "Demande une barre de recherche pour filtrer les lignes."], "result": "Une vue lisible et cherchable de données qui étaient auparavant un mur de texte.", "further": "Demande à Copilot d'ajouter un bouton d'export CSV.", "startHref": "first-commit.html", "startLabel": "Ton premier commit"}, {"persona": "research", "title": "Nettoyer un jeu de données désordonné avec l'aide de Copilot", "situation": "Tu as un jeu de données plein d'incohérences (fautes, valeurs manquantes, formats mélangés) avant de pouvoir l'analyser.", "steps": ["Décris les problèmes du jeu de données à Copilot Chat et colle un échantillon.", "Demande un script qui le nettoie et le standardise.", "Relis chaque règle de nettoyage avant de l'appliquer à l'ensemble des données."], "result": "Un jeu de données propre et prêt pour l'analyse, avec un script documenté montrant exactement ce qui a changé.", "further": "Demande à Copilot d'ajouter un rapport résumant ce qui a été nettoyé et pourquoi.", "startHref": "plans.html", "startLabel": "Plans & réalité"}, {"persona": "research", "title": "Générer un premier script d'analyse statistique", "situation": "Tu veux un point de départ pour une analyse standard sans réécrire du code répétitif à chaque fois.", "steps": ["Décris tes données et ta question de recherche à Copilot Chat.", "Demande un script qui exécute le test statistique pertinent et affiche une synthèse claire.", "Demande à Copilot d'expliquer chaque étape du script en commentaires."], "result": "Un script d'analyse que tu comprends ligne par ligne, pas une boîte noire.", "further": "Demande à Copilot d'ajouter un graphique simple des résultats.", "startHref": "plans.html", "startLabel": "Plans & réalité"}, {"persona": "research", "title": "Construire une page de résultats de recherche ancrée dans tes figures", "situation": "Tu veux une page publique expliquant tes résultats tout en restant fidèle au résumé, aux figures et aux notes de conférence déjà validées.", "steps": ["Crée un Space avec le résumé, les légendes de figures, le texte du poster et les notes de vulgarisation.", "Demande à Copilot Chat une page de résultats avec encadré méthode et résumé clair pour des non-spécialistes.", "Relis le texte puis publie la page à côté du lien vers l’article formel."], "result": "Une page de résultats ancrée, accessible et facile à réutiliser dans des talks ou suites de projet.", "further": "Ajoute une section collaboration et garde le Space comme source de diffusion pour les prochains supports.", "startHref": "plans.html", "startLabel": "Plans & réalité"}, {"persona": "campus", "title": "Construire un catalogue de ressources interactif", "situation": "Tu veux un moyen simple pour les étudiantes et étudiants de parcourir des ressources recommandées par sujet.", "steps": ["Décris ta liste de ressources et tes catégories à Copilot Chat.", "Demande une page de catalogue avec recherche et filtres.", "Demande un moyen simple d'ajouter de nouvelles ressources au fil du temps."], "result": "Un catalogue vivant, plus facile à parcourir qu'une liste PDF statique.", "further": "Demande à Copilot d'ajouter des étiquettes pour que les ressources appartiennent à plusieurs catégories.", "startHref": "first-commit.html", "startLabel": "Ton premier commit"}, {"persona": "campus", "title": "Générer une page de FAQ automatique", "situation": "Tu réponds sans cesse aux mêmes questions par e-mail et tu veux une FAQ publique à la place.", "steps": ["Colle tes questions et réponses les plus fréquentes dans Copilot Chat.", "Demande une page de FAQ claire avec une barre de recherche.", "Demande à Copilot de regrouper les questions par catégories claires."], "result": "Une FAQ en libre-service qui réduit les e-mails répétitifs.", "further": "Ajoute un lien de contact « besoin d'aide en plus » en bas de page.", "startHref": "first-commit.html", "startLabel": "Ton premier commit"}, {"persona": "campus", "title": "Publier une page d’événements de campus à partir d’un pack ancré", "situation": "Tu disposes d’exports calendrier, de textes d’affiche et de notes d’accessibilité, et tu veux une page plus propre que des affiches dispersées.", "steps": ["Crée un Space avec titres, dates, descriptions et notes d’accessibilité des événements.", "Demande à Copilot Chat une page qui trie les événements par date et met en avant les prochains rendez-vous.", "Publie la page sur GitHub Pages et mets à jour le Space chaque mois au lieu de repartir de zéro."], "result": "Une page d’événements légère, plus simple à maintenir qu’une archive d’affiches statiques.", "further": "Ajoute un bloc “contacter l’organisation” et réutilise la même structure mois après mois.", "startHref": "first-commit.html", "startLabel": "Ton premier commit"}, {"persona": "teaching", "title": "Transformer un seul brief de labo en trois variantes sûres", "situation": "Tu disposes d’un seul énoncé pratique et tu veux plusieurs variantes qui gardent les mêmes objectifs d’apprentissage, la même logique de barème et le même vocabulaire de sécurité.", "steps": ["Crée dans le dépôt un prompt file qui demande une variante, un corrigé et une courte note pour la personne enseignante.", "Ajoute des instructions personnalisées pour le ton, l’accessibilité et les formulations de sécurité qui ne doivent pas bouger.", "Demande à Copilot Chat trois versions, puis conserve l’ensemble validé dans le dépôt du cours."], "result": "Un flux réutilisable de variation d’exercices au lieu de tout réécrire chaque quadrimestre.", "further": "Garde le prompt file dans le dépôt afin que les collègues puissent générer la série suivante avec la même structure.", "startHref": "first-commit.html", "startLabel": "Ton premier commit"}, {"persona": "teaching", "title": "Laisser le cloud agent de Copilot rafraîchir la FAQ d’un cours", "situation": "La communauté étudiante pose chaque semaine les mêmes questions et tu veux mettre à jour la FAQ via des pull requests relisibles plutôt qu’à coups de copier-coller.", "steps": ["Ouvre une issue du type « Ajouter les questions récurrentes de cette semaine dans la FAQ » et rattache le Space du cours si tu en utilises déjà un.", "Assigne l’issue à Copilot afin que le cloud agent prépare la mise à jour sur sa propre branche.", "Demande ensuite un Copilot code review sur la PR, relis le texte toi-même et fusionne la version approuvée."], "result": "Une FAQ de cours qui s’améliore semaine après semaine sans transformer l’équipe pédagogique en équipe web.", "further": "Réutilise le même modèle d’issue après chaque bloc de cours pour faire de la FAQ un vrai actif pédagogique vivant.", "startHref": "plans.html", "startLabel": "Plans & réalité"}, {"persona": "students", "title": "Garder un mémoire ou un stage en mouvement avec Copilot Memory", "situation": "Tu reviens chaque semaine sur le même projet et tu ne veux pas réexpliquer à chaque fois le contexte, la stack, les échéances et les contraintes.", "steps": ["Conserve le contexte stable dans un flux Copilot compatible Memory et recopie les décisions importantes dans le README du dépôt.", "Demande à Copilot Chat la prochaine étape, un résumé d’avancement ou une passe de nettoyage sur le code courant.", "Commite chaque changement validé afin que l’historique reste lisible pour l’encadrement et l’équipe."], "result": "Un rythme de projet plus régulier, avec moins de temps perdu à répéter le même contexte.", "further": "Memory aide à la continuité, mais la vraie source de vérité doit rester dans le dépôt.", "startHref": "first-commit.html", "startLabel": "Ton premier commit"}, {"persona": "it", "title": "Standardiser des scripts helpdesk répétitifs avec des Agent skills", "situation": "Des techniciennes et techniciens résolvent le même ticket de nettoyage de comptes ou de collecte de logs de façons légèrement différentes, ce qui crée un risque inutile.", "steps": ["Définis une Agent skill avec le patron de script approuvé, le format de log et les attentes de rollback.", "Demande ensuite au mode Agent ou à Copilot CLI d’adapter cette skill au ticket du jour plutôt que de repartir d’un shell vide.", "Relis le script ou le diff obtenu avant toute exécution dans l’environnement cible."], "result": "Des automatisations internes plus répétables, avec moins de dérive par copier-coller entre collègues.", "further": "Versionne la skill sur GitHub afin qu’une seule mise à jour améliore le point de départ de toute l’équipe.", "startHref": "plans.html", "startLabel": "Plans & réalité"}, {"persona": "hr", "title": "Garder des pages de politiques cohérentes avec des custom instructions", "situation": "Les RH mettent souvent à jour des politiques, mais les titres, le ton, les avertissements obligatoires et les formulations inclusives dérivent d’une page à l’autre.", "steps": ["Place dans .github/copilot-instructions.md le ton requis, l’ordre des sections, l’écriture inclusive et les notes d’approbation obligatoires.", "Demande à Copilot Chat une version mise à jour de la page en s’appuyant sur ces règles de dépôt.", "Ouvre une pull request et utilise Copilot code review comme deuxième regard avant publication interne."], "result": "Une rédaction plus rapide des pages RH, avec moins de corrections de forme en fin de chaîne.", "further": "Étends le fichier d’instructions chaque fois que les RH ou le juridique ajoutent une section indispensable.", "startHref": "plans.html", "startLabel": "Plans & réalité"}, {"persona": "leadership", "title": "Créer un custom agent qui transforme des idées pilotes en briefs comparables", "situation": "Plusieurs services proposent de petits outils internes en même temps, et la direction a besoin d’un brief comparable pour chaque idée avant d’arbitrer.", "steps": ["Définis un custom agent qui doit toujours produire les mêmes rubriques : problème, publics, première version à faible risque, sensibilité des données et prochaine étape.", "Lance cet agent dans plusieurs sessions de l’application GitHub Copilot, une proposition par worktree.", "Compare ensuite les briefs et les résumés de PR côte à côte au lieu de comparer des demandes informelles de couloir."], "result": "Un pipeline relisible de prototypes légers au lieu d’un backlog de demandes vagues.", "further": "Conserve les briefs gagnants dans une galerie partagée afin que le service suivant puisse partir d’une idée existante.", "startHref": "plans.html", "startLabel": "Plans & réalité"}, {"persona": "finance", "title": "Produire les commentaires budgétaires mensuels dans un style partagé", "situation": "L’équipe finances transforme le même export en commentaire mensuel, mais la formulation et les tableaux changent selon la personne qui s’en charge.", "steps": ["Stocke les règles de mise en forme et les intertitres obligatoires dans les instructions personnalisées.", "Crée un prompt file qui demande un résumé des écarts, les exceptions majeures et les actions à suivre à partir de l’export collé.", "Lance ce prompt chaque mois, puis relis la note dans une pull request avant diffusion."], "result": "Un reporting mensuel plus cohérent, avec des règles visibles dans le dépôt.", "further": "C’est particulièrement utile quand plusieurs personnes se relaient sur le même rituel de reporting.", "startHref": "first-commit.html", "startLabel": "Ton premier commit"}, {"persona": "research", "title": "Interroger un planning d’équipements de recherche via MCP", "situation": "Une plateforme de recherche veut comprendre quels créneaux d’équipement restent sous-utilisés sans réexporter et retraiter les mêmes fichiers chaque mois.", "steps": ["Connecte Copilot au système de planning approuvé via un serveur MCP ou un connecteur gouverné équivalent.", "Pose la question en langage naturel par jour, salle ou laboratoire pour repérer les sous-usages évidents.", "Laisse ensuite le mode Agent générer le tableau de bord ou le notebook qui reproduit la réponse afin que la méthode reste inspectable."], "result": "Un chemin plus rapide entre question opérationnelle et vue de fréquentation reproductible.", "further": "Garde la connexion strictement limitée aux données approuvées et réutilise les mêmes prompts à chaque quadrimestre.", "startHref": "plans.html", "startLabel": "Plans & réalité"}, {"persona": "campus", "title": "Construire un assistant de citation pour la bibliothèque", "situation": "L’équipe bibliothèque répond sans cesse aux mêmes questions du type « Comment citer ceci ? » dans les guides, ateliers et messages de support.", "steps": ["Crée un Copilot Space avec les guides de citation, les notes locales de la bibliothèque et des exemples corrigés.", "Demande à Copilot Chat une page d’aide consultable ou un texte de chatbot ancré dans ce matériau.", "Publie la version approuvée sur GitHub Pages et mets le Space à jour dès que le guide change."], "result": "Un aide-mémoire de citation ancré dans les consignes réelles de la bibliothèque.", "further": "Rafraîchis le Space chaque fois que les pages du guide de style ou leurs exceptions évoluent.", "startHref": "first-commit.html", "startLabel": "Ton premier commit"}, {"persona": "campus", "title": "Lancer un petit formulaire de signalement pour les services techniques", "situation": "Les équipes techniques ont besoin d’un moyen léger de collecter lieu, photo, urgence et suivi pour les petits incidents sans attendre le remplacement complet d’une plateforme.", "steps": ["Demande au mode Agent de générer le formulaire, l’écran de confirmation et la solution de stockage la plus simple utile pour un pilote.", "Utilise Copilot code review pour vérifier l’intitulé des champs, la validation et la clarté du suivi.", "Teste la première version dans un seul bâtiment avant de décider si l’outil mérite un système plus large."], "result": "Un flux de signalement pratique qui peut commencer petit tout en restant relisible.", "further": "Si le pilote fonctionne, déplace l’outil dans un dépôt partagé avec une personne responsable du code plutôt que sur un seul ordinateur.", "startHref": "plans.html", "startLabel": "Plans & réalité"}], "ui": {"title": "Générer ma fiche personnalisée", "sub": "Choisis un rôle et un cas d’usage déjà présent sur le site. La fiche réutilise les données existantes pour fabriquer un bref imprimable en une page.", "persona_label": "Rôle", "usecase_label": "Cas d’usage", "default_option": "Choisir…", "brief_title": "Fiche prête à partager", "pitch_label": "Pourquoi ce rôle s’y retrouve", "context_label": "Situation de départ", "steps_label": "Étapes clés", "outcome_label": "Résultat attendu", "further_label": "Pour aller plus loin", "start_label": "Point de départ conseillé", "print": "Imprimer cette fiche"}}</script>
+        </div>
+        <article class="onepager-brief" data-reveal data-onepager-brief hidden>
+          <div class="onepager-brief-head">
+            <div>
+              <p class="tool-output-label">Fiche prête à partager</p>
+              <h3 data-onepager-title>—</h3>
+            </div>
+            <button type="button" class="btn btn-ghost print-action" data-onepager-print>Imprimer cette fiche</button>
+          </div>
+          <div class="onepager-brief-grid">
+            <section>
+              <h4>Pourquoi ce rôle s’y retrouve</h4>
+              <p data-onepager-pitch>—</p>
+            </section>
+            <section>
+              <h4>Situation de départ</h4>
+              <p data-onepager-situation>—</p>
+            </section>
+          </div>
+          <section>
+            <h4>Étapes clés</h4>
+            <ol class="mini-list" data-onepager-steps></ol>
+          </section>
+          <div class="onepager-brief-grid">
+            <section>
+              <h4>Résultat attendu</h4>
+              <p data-onepager-result>—</p>
+            </section>
+            <section>
+              <h4>Pour aller plus loin</h4>
+              <p data-onepager-further>—</p>
+            </section>
+          </div>
+          <section class="onepager-start">
+            <h4>Point de départ conseillé</h4>
+            <a href="first-commit.html" data-onepager-start-link>Ton premier commit →</a>
+          </section>
+        </article>
+      </div>
+    </section>
+  </div>
+</section>
+</main>
+  <footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2026 Vibe Coding Copilot. Une ressource pédagogique indépendante et gratuite pour le vibe coding dans l'enseignement supérieur, propulsée par GitHub Copilot. Non affiliée à GitHub ni à Microsoft et non approuvée par eux.</p>
+    <div class="footer-links"><a href="index.html">Accueil</a><a href="cas-usage.html">Cas d'usage</a><a href="scenarios.html">8 scénarios réels</a><a href="first-commit.html">Ton premier commit</a><a href="build-vs-buy.html">Vibe coding vs acheter une solution toute faite</a><a href="plans.html">Plans &amp; réalité</a><a href="quick-reference.html">Repère en 2 minutes</a><a href="maturity.html">Diagnostic de maturité institutionnelle</a><a href="workshop.html">Kit d’atelier « Vibe Coding Challenge »</a><a href="glossary.html">Glossaire</a><a href="sitemap.html">Plan du site</a><a href="changelog.html">Historique du site</a><a href="best-practices.html">Bonnes pratiques</a><a href="about.html">À propos</a></div>
+  </div>
+  </footer>
+  <div class="search-modal" data-search-modal hidden>
+  <div class="search-modal-backdrop" data-search-close></div>
+  <div class="search-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="search-modal-title">
+    <div class="search-modal-head">
+      <div>
+        <h2 id="search-modal-title">Rechercher dans le site</h2>
+        <p>Commence à taper pour filtrer les pages, leçons, scénarios, cas d’usage et termes du glossaire.</p>
+      </div>
+      <button type="button" class="search-close" data-search-close aria-label="Fermer">×</button>
+    </div>
+    <label class="search-input-wrap">
+      <span class="sr-only">Rechercher dans le site</span>
+      <input type="search" data-search-input placeholder="Chercher une leçon, un cas d’usage, un terme du glossaire…" autocomplete="off">
+    </label>
+    <div class="search-results" data-search-results></div>
+    <p class="search-empty" data-search-empty hidden>Aucun résultat pour cette recherche.</p>
+  </div>
+  </div>
+  <button type="button" class="back-to-top" data-back-to-top aria-label="Retour en haut de page" title="Retour en haut de page" hidden>&#8593;</button>
+  <script src="../assets/qrcode.min.js" defer></script>
+  <script src="../assets/script.js" defer></script>
+  </body>
+  </html>

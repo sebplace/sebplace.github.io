@@ -1,0 +1,765 @@
+[
+  {
+    "title": "Vibe Coding Copilot",
+    "description": "Een gratis training om vibe coding te leren met GitHub Copilot: bouw, test en publiceer je eigen digitale tools voor het hoger onderwijs, zonder ontwikkelaar te zijn.",
+    "href": "index.html",
+    "category": "page",
+    "keywords": "Vibe Coding met GitHub Copilot voor het hoger onderwijs"
+  },
+  {
+    "title": "GitHub Copilot use-case explorer",
+    "description": "36 concrete, direct bruikbare use cases voor elk onderdeel van het hoger onderwijs. Filter op rol of op echte GitHub Copilot-featurefamilies en open daarna een kaart voor de exacte stappen.",
+    "href": "cas-usage.html",
+    "category": "page",
+    "keywords": ""
+  },
+  {
+    "title": "Acht echte scenario’s per rol",
+    "description": "Gebruik ze als demo, workshopscript of intern adoptieverhaal. Elk scenario hieronder is verankerd in een echte GitHub Copilot-feature uit de officiële documentatie.",
+    "href": "scenarios.html",
+    "category": "page",
+    "keywords": ""
+  },
+  {
+    "title": "Plannen & realiteit",
+    "description": "De eerlijke kaart voor 2026: sommige individuele onderwijsroutes blijven gratis, maar institutionele adoptie voor alle rollen loopt nu via een betaald organisatieplan.",
+    "href": "plans.html",
+    "category": "page",
+    "keywords": ""
+  },
+  {
+    "title": "Jouw eerste commit",
+    "description": "Het meest beginner-proof pad van “ik code niet” naar “mijn code staat op GitHub” — met GitHub Copilot als gids, niet met rauwe git-syntax uit het hoofd.",
+    "href": "first-commit.html",
+    "category": "page",
+    "keywords": ""
+  },
+  {
+    "title": "Vibe coding vs een kant-en-klare oplossing kopen",
+    "description": "De eerlijke vergelijking is niet “Kan Copilot elke leverancier vervangen?” Dat kan het niet. De echte vraag is welke kleine interne tools moeten ophouden te leven als shadow IT, verspreide SaaS-abonnementen of backlogtickets die nooit landen.",
+    "href": "build-vs-buy.html",
+    "category": "page",
+    "keywords": ""
+  },
+  {
+    "title": "Toolkit — promptbibliotheek",
+    "description": "Kant-en-klare Copilot-prompts, gegroepeerd per vakgebied. Kopieer er één, pas de details tussen haakjes aan, en plak hem in Copilot Chat.",
+    "href": "toolkit.html",
+    "category": "page",
+    "keywords": ""
+  },
+  {
+    "title": "Best practices",
+    "description": "Een checklist van één pagina om sterk te starten, feitelijk te blijven en je uitrol realistisch te houden van eerste prompt tot institutionele adoptie.",
+    "href": "best-practices.html",
+    "category": "page",
+    "keywords": ""
+  },
+  {
+    "title": "Over dit traject",
+    "description": "Vibe Coding Copilot is een onafhankelijke, gratis leerbron voor het hoger onderwijs: docenten, studenten, IT, HR, directie, financiën, onderzoek, bibliotheek en campusdiensten die met GitHub Copilot en GitHub praktische tools willen bouwen.",
+    "href": "about.html",
+    "category": "page",
+    "keywords": ""
+  },
+  {
+    "title": "Wegwijzer in 2 minuten",
+    "description": "De korte, sturende pagina om te begrijpen wat deze site bevat en welke volgende klik het nuttigst is.",
+    "href": "quick-reference.html",
+    "category": "page",
+    "keywords": ""
+  },
+  {
+    "title": "Diagnose van institutionele maturiteit",
+    "description": "Een korte, eerlijke zelfscan die je naar de nuttigste volgende pagina stuurt — niet naar een kunstmatige certificeerbare score.",
+    "href": "maturity.html",
+    "category": "page",
+    "keywords": ""
+  },
+  {
+    "title": "Sitechangelog",
+    "description": "De belangrijkste evolutiegolven van deze site zelf, gegroepeerd in fases van augustus 2026 in plaats van kunstmatig exact per dag te doen.",
+    "href": "changelog.html",
+    "category": "page",
+    "keywords": ""
+  },
+  {
+    "title": "Workshopkit “Vibe Coding Challenge”",
+    "description": "Een kant-en-klare interne workshop van 90 tot 120 minuten waarmee een team van een campusidee naar een gepubliceerd prototype gaat.",
+    "href": "workshop.html",
+    "category": "page",
+    "keywords": ""
+  },
+  {
+    "title": "Glossarium",
+    "description": "Korte definities van termen die overal op de site terugkomen, met een bronlink wanneer die bestaat.",
+    "href": "glossary.html",
+    "category": "page",
+    "keywords": ""
+  },
+  {
+    "title": "Sitemap",
+    "description": "Alle pagina’s en leertrajecten van Vibe Coding Copilot, logisch gegroepeerd zodat je snel het juiste startpunt vindt.",
+    "href": "sitemap.html",
+    "category": "page",
+    "keywords": ""
+  },
+  {
+    "title": "Vibe Coding Copilot-certificaat",
+    "description": "Zodra alle 25 lessen aangevinkt zijn en de 3 quizzen gehaald zijn, kun je dit certificaat afdrukken of als PDF bewaren.",
+    "href": "certificate.html",
+    "category": "page",
+    "keywords": ""
+  },
+  {
+    "title": "Persoonlijke promptconfigurator",
+    "description": "Kies een rol, beschrijf de behoefte van dit moment, voeg enkele randvoorwaarden toe en kopieer daarna een prompt die klaarstaat voor Copilot Chat.",
+    "href": "toolkit.html#prompt-configurator",
+    "category": "tool",
+    "keywords": ""
+  },
+  {
+    "title": "Genereer mijn persoonlijke fiche",
+    "description": "Kies een rol en een bestaande use case van de site. De fiche hergebruikt de live data van de site voor een compacte afdrukbare hand-out.",
+    "href": "scenarios.html#onepager-generator",
+    "category": "tool",
+    "keywords": ""
+  },
+  {
+    "title": "Vibe Coding Basis",
+    "description": "Je eerste stappen in vibe coding: verander een echt campusprobleem in een nuttige app met GitHub Copilot.",
+    "href": "vibe-basics.html",
+    "category": "track",
+    "keywords": "Basis"
+  },
+  {
+    "title": "Wat is vibe coding?",
+    "description": "Les 1",
+    "href": "vibe-basics.html#lesson-1",
+    "category": "lesson",
+    "keywords": "Vibe coding betekent een applicatie bouwen door aan een AI te beschrijven wat je wilt, in plaats van elke regel code zelf te schrijven. Met GitHub Copilot leg je je behoefte uit in gewone taal en stelt de AI de code voor; jij blijft aan het stuur: je leest, past aan en keurt goed. Voor het hoger onderwijs verandert dit alles: je kunt eindelijk het kleine hulpmiddel bouwen dat je al jaren voor ogen hebt, zonder te wachten op een IT-dienst of zes maanden te leren programmeren. Dit traject begeleidt je stap voor stap, met één echt lesproject als rode draad. Welk vakgebied je ook hebt (onderwijs, studie, IT, HR, directie, financiën): schrijf in één zin de kleine app die je zou willen hebben. In les 3 bouw je er echt één."
+  },
+  {
+    "title": "Van een echt campusprobleem naar een app-idee",
+    "description": "Les 2",
+    "href": "vibe-basics.html#lesson-2",
+    "category": "lesson",
+    "keywords": "Het beste vertrekpunt is nooit een technologie, maar een echt campusprobleem: studenten hebben geen eenvoudige manier om te herhalen, een dienst beantwoordt steeds dezelfde vraag per e-mail, een team volgt een budgetlijn in tien spreadsheets, een labo wil een lichte reservatiepagina. Vertrek van echte frictie. Beschrijf dat probleem in één zin en bedenk dan de kleinst mogelijke app die die frictie vermindert. Een quiz, een pagina, een calculator, een tracker, een doorzoekbare FAQ: houd de eerste versie eenvoudig en breid pas uit zodra echte mensen ze gebruiken. Kies ÉéN echt probleem waar jij of een collega elke week over klaagt — in de les, aan de helpdesk, bij onboarding, in een budgetvergadering — en schrijf je idee met de zin hierboven."
+  },
+  {
+    "title": "Je eerste webapp met GitHub Copilot",
+    "description": "Les 3",
+    "href": "vibe-basics.html#lesson-3",
+    "category": "lesson",
+    "keywords": "Dit is de les waarin je echt iets bouwt. Installeer de GitHub Copilot-extensie in Visual Studio Code, of open Copilot Chat rechtstreeks op github.com/copilot met je GitHub-account, en maak daarna een nieuw index.html-bestand aan. Hieronder bouwen we samen een echt werkend voorbeeld: een “Snelle Peiling” die je in een les, opleiding, teamvergadering of personeelsbijeenkomst kunt gebruiken. Volg de stappen met je eigen Copilot en probeer het resultaat op het einde live uit. Bouw deze exacte Snelle Peiling zelf opnieuw in een nieuw bestand index.html, en pas dan de vraag en de vier opties aan je eigen context aan: een lesonderwerp, een onboardingvraag, een budgetprioriteit, iets echts voor jou."
+  },
+  {
+    "title": "Bewaren en publiceren met GitHub",
+    "description": "Les 4",
+    "href": "vibe-basics.html#lesson-4",
+    "category": "lesson",
+    "keywords": "Zodra je eerste versie werkt, maak je een repository aan op GitHub en stuur je je code ernaartoe: dat heet een commit. Vanaf dat moment is je werk online opgeslagen, geversioneerd, en kun je altijd terug naar een vorige versie als er iets misgaat. Zet daarna GitHub Pages aan voor die repository: in een paar klikken wordt je app bereikbaar via een simpele link, die je kunt delen met studenten of collega's, zonder een server te beheren. Maak een gratis GitHub-account aan als je er nog geen hebt, push je Snelle Peiling naar een gloednieuwe repository, en zet er GitHub Pages voor aan."
+  },
+  {
+    "title": "Testen en verbeteren met Copilot Chat",
+    "description": "Les 5",
+    "href": "vibe-basics.html#lesson-5",
+    "category": "lesson",
+    "keywords": "Laat een of twee collega's je app uitproberen, of test het zelf door je in de plaats van een student te stellen. Noteer elke bug of onhandigheid en beschrijf ze een voor een aan Copilot Chat: “als ik op deze knop klik, gebeurt er niets, los dit op”. Copilot kan ook bestaande code uitleggen die je nog niet volledig begrijpt: vraag “leg dit deel aan me uit” voordat je om een wijziging vraagt. Stuur je gepubliceerde link naar twee collega's (of medestudenten) en vraag hen overal doorheen te klikken. Noteer elke onhandigheid die ze tegenkomen, en los de eerste op met Copilot Chat."
+  },
+  {
+    "title": "Stijl en uitstraling verbeteren",
+    "description": "Les 6",
+    "href": "vibe-basics.html#lesson-6",
+    "category": "lesson",
+    "keywords": "Zodra je app nuttig is, vraag je Copilot om de presentatie te verbeteren: kleuren van de instelling, leesbaardere spacing, toegankelijkere tekst en een duidelijkere visuele hiërarchie. Je kunt ook een kleine Copilot Space maken met slides, een stijlgids of voorbeeldtekst zodat suggesties gegrond blijven in je eigen materiaal. Denk ook aan toegankelijkheid: voldoende contrast, leesbare tekst, duidelijke labels en knoppen die gemakkelijk te gebruiken zijn. Vraag Copilot expliciet om die punten te controleren vóór publicatie. Vraag Copilot om je Snelle Peiling opnieuw te stylen met twee kleuren van je instelling of team, en bekijk het resultaat ook op je telefoon."
+  },
+  {
+    "title": "Afbeeldingen, bestanden en documenten toevoegen",
+    "description": "Les 7",
+    "href": "vibe-basics.html#lesson-7",
+    "category": "lesson",
+    "keywords": "Veel lestools hebben afbeeldingen, pdf's of downloadbare documenten nodig: een cursusnota, een schema, een formulier. Vraag Copilot om een afbeeldingsweergave of een downloadknop toe te voegen, en zet het bestand vervolgens gewoon in je GitHub-repository. GitHub host zowel je code als deze bestanden: geen ander hulpmiddel nodig om de bronnen van je app op te slaan. Voeg een afbeelding of downloadbare pdf toe aan je Snelle Peiling (zelfs een placeholder), commit het, en controleer of het correct laadt op de gepubliceerde pagina."
+  },
+  {
+    "title": "Samenvatting en op naar het traject Gevorderd",
+    "description": "Les 8",
+    "href": "vibe-basics.html#lesson-8",
+    "category": "lesson",
+    "keywords": "Je weet nu hoe je een lesidee omzet in een echte app: bouwen met Copilot, bewaren en publiceren met GitHub, testen, stijl verbeteren, bestanden toevoegen. De belangrijkste gewoonte: ga altijd vooruit in kleine, controleerbare stapjes. Het traject Gevorderd pakt hier de draad op om verder te gaan: een echte database koppelen, je project een blijvend geheugen geven, en je code beheren met GitHub als een echt project dat standhoudt. Schrijf een README van drie regels voor je project: wat het doet, voor wie, en hoe je het de volgende keer opnieuw opent met Copilot."
+  },
+  {
+    "title": "Vibe Coding Gevorderd",
+    "description": "Koppel een database, geef je project duurzame instructies en beheer je code als een echt project dat moet standhouden.",
+    "href": "vibe-advanced.html",
+    "category": "track",
+    "keywords": "Gevorderd"
+  },
+  {
+    "title": "Werken met de agent-modus van Copilot",
+    "description": "Les 1",
+    "href": "vibe-advanced.html#lesson-1",
+    "category": "lesson",
+    "keywords": "Naast suggesties regel voor regel biedt Copilot een agent-modus: je beschrijft een grotere taak (“voeg een inschrijfformulier toe aan mijn quiz en controleer of het werkt”), en Copilot plant meerdere wijzigingen, voert ze uit en controleert het resultaat, met controlepunten die jij goedkeurt. Dit is het ideale hulpmiddel zodra je app groeit en je niet langer elke kleine regel apart wilt beschrijven. Beschrijf een taak in meerdere stappen aan Copilots agent-modus (bijvoorbeeld een resultatenpagina toevoegen aan je Snelle Peiling) en bekijk zijn plan zorgvuldig voordat je het laat uitvoeren."
+  },
+  {
+    "title": "Een database koppelen aan je app",
+    "description": "Les 2",
+    "href": "vibe-advanced.html#lesson-2",
+    "category": "lesson",
+    "keywords": "Zodra je tool informatie moet onthouden van de ene sessie naar de andere (quizantwoorden, inschrijvingen, cijfers), heb je een database nodig. Diensten zoals Supabase laten je er gratis één aanmaken, zonder serverconfiguratie, en Copilot helpt je de verbindingscode te schrijven. Beschrijf aan Copilot wat je wilt opslaan (bijvoorbeeld: de naam van de student en zijn of haar score), en laat het de databasestructuur en de nodige code voorstellen om erin te lezen en te schrijven. Maak een gratis Supabase-project en koppel het aan een kleine testpagina die één stukje informatie opslaat, zoals een naam en een stem."
+  },
+  {
+    "title": "Die database veilig gebruiken",
+    "description": "Les 3",
+    "href": "vibe-advanced.html#lesson-3",
+    "category": "lesson",
+    "keywords": "Een slecht beveiligde database kan de gegevens van je studenten blootleggen. Vraag Copilot systematisch om beveiligingsregels toe te voegen (wie mag wat lezen of schrijven), en sla nooit meer persoonlijke gegevens op dan nodig. Denk vanaf nu al aan de bescherming van je studentgegevens (AVG in Europa): anonimiseer wat kan, en leg duidelijk uit waarvoor de gegevens die je verzamelt dienen. Vraag Copilot om je databasecode te controleren op veiligheidsproblemen, en los minstens één gesignaleerd punt op."
+  },
+  {
+    "title": "Bewust ontwerpen voor leren",
+    "description": "Les 4",
+    "href": "vibe-advanced.html#lesson-4",
+    "category": "lesson",
+    "keywords": "Een goede onderwijstool is niet alleen functioneel, hij is ontworpen voor leren: onmiddellijke feedback na een antwoord, zichtbare vooruitgang, aanmoediging in plaats van straf. Beschrijf deze onderwijskundige intenties aan Copilot, niet alleen technische functies. Vraag bijvoorbeeld niet “toon de score”, maar “toon de score met een uitleg bij elke fout, zodat de student begrijpt waarom hij of zij het fout had”. Herschrijf één functieverzoek voor je project als een leer- of gebruikersgerichte prompt, volgens het voorbeeld hierboven, in plaats van een zuiver technische vraag."
+  },
+  {
+    "title": "Een goed bouwplan maken",
+    "description": "Les 5",
+    "href": "vibe-advanced.html#lesson-5",
+    "category": "lesson",
+    "keywords": "Voordat je Copilot om een grote functie vraagt, schrijf je zelf een kort plan in een paar regels: de stappen, de logische volgorde, wat essentieel is en wat kan wachten. Een goed plan levert veel betere suggesties op dan een vage vraag. Deel dit plan vervolgens met Copilot Chat voordat je begint te coderen: het kan ontbrekende stappen of een logischere volgorde signaleren. Schrijf een bouwplan van vijf regels voor je volgende functie voordat je Copilot om code vraagt, en deel het eerst met Copilot Chat."
+  },
+  {
+    "title": "Slim itereren zonder je app te breken",
+    "description": "Les 6",
+    "href": "vibe-advanced.html#lesson-6",
+    "category": "lesson",
+    "keywords": "Hoe groter je project wordt, hoe verleidelijker het is om meerdere wijzigingen tegelijk te vragen. Weersta die verleiding: één wijziging, één test, één commit op GitHub. Als er iets breekt, weet je precies wat je moet terugdraaien. GitHub laat je heel eenvoudig terugkeren dankzij de commitgeschiedenis: dat is je vangnet om zonder stress te blijven itereren. Doe vandaag drie kleine, aparte commits, elk met één duidelijke wijziging en één duidelijk commitbericht."
+  },
+  {
+    "title": "Je project een blijvend geheugen geven",
+    "description": "Les 7",
+    "href": "vibe-advanced.html#lesson-7",
+    "category": "lesson",
+    "keywords": "Zonder specifieke instructies onthoudt Copilot niet automatisch alle projectconventies. Plaats een bestand .github/copilot-instructions.md in de repository en noteer de regels die je anders elke sessie herhaalt: naamgeving, toon, buildstappen, toegankelijkheidsvereisten of visuele afspraken. Later kun je dat aanvullen met prompt files, gerichte instructiebestanden, AGENTS.md of gespecialiseerde agents. Begin met dat ene altijd actieve bestand zodat het project niet telkens terugvalt naar “generiek”. Maak je eerste .github/copilot-instructions.md met minstens drie regels die in jouw context belangrijk zijn: stijl, buildstappen en één institutionele randvoorwaarde."
+  },
+  {
+    "title": "AI gebruiken als tester",
+    "description": "Les 8",
+    "href": "vibe-advanced.html#lesson-8",
+    "category": "lesson",
+    "keywords": "Voordat je je app aan echte studenten laat zien, vraag je Copilot Chat om een onhandige of afgeleide gebruiker te spelen: “probeer dit formulier te laten crashen”, “wat gebeurt er als ik dit veld leeg laat?”. Vraag het ook om testgevallen te genereren: voorbeelden van correcte, onjuiste of volledig onverwachte antwoorden op je quiz of formulier. Vraag Copilot Chat om je app op drie verschillende manieren te proberen breken, en los daarna op wat het vindt."
+  },
+  {
+    "title": "Je code beheren als een echt project met GitHub",
+    "description": "Les 9",
+    "href": "vibe-advanced.html#lesson-9",
+    "category": "lesson",
+    "keywords": "Een project dat standhoudt heeft echte organisatie nodig: duidelijke commits, kleine branches, pull requests en review. Als de instelling GitHub als platform breed wil inzetten, kan het GitHub Campus Program GitHub Enterprise Cloud of Server aan de hele school leveren — maar dat is de platformlaag, niet automatisch een gratis Copilot-licentie voor elke personeelsrol. Voor Copilot zelf kunnen studenten nog altijd individueel Copilot Student gebruiken en kunnen geverifieerde docenten nog altijd individueel gratis Copilot Pro gebruiken. Voor IT, HR, financiën, directie en andere functies vraagt brede uitrol om Copilot Business of Copilot Enterprise met de juiste governance en budgetlogica. Maak een branch aan, doe er een kleine wijziging op, en open je eerste pull request om die terug te voegen in je hoofdversie."
+  },
+  {
+    "title": "Vibe Coding Expert",
+    "description": "Voeg kunstmatige intelligentie toe aan je app en bouw een volledig voorbeeld, klaar voor een echt vak.",
+    "href": "vibe-expert.html",
+    "category": "track",
+    "keywords": "Expert"
+  },
+  {
+    "title": "AI toevoegen aan je onderwijsapp",
+    "description": "Les 1",
+    "href": "vibe-expert.html#lesson-1",
+    "category": "lesson",
+    "keywords": "Tot nu toe heeft Copilot je geholpen de code van je app te schrijven. Deze les gaat verder: een AI-functie toevoegen die je studenten rechtstreeks kunnen gebruiken, zoals een “leg dit anders uit” -knop die live een AI-model raadpleegt. Vraag Copilot om je te helpen deze integratie te bouwen: een knop die een vraag naar een AI-model stuurt en het antwoord op je pagina toont. Voeg één AI-gestuurde knop toe aan een bestaand project, al is het maar een placeholder die de vraag gewoon teruggeeft, om het hele circuit te zien werken."
+  },
+  {
+    "title": "AI-modellen kiezen en vergelijken",
+    "description": "Les 2",
+    "href": "vibe-expert.html#lesson-2",
+    "category": "lesson",
+    "keywords": "Er bestaan meerdere families AI-modellen (GPT, Claude, Gemini, onder andere), met verschillen in kwaliteit, snelheid en kosten. In Copilot Chat kun je trouwens al kiezen tussen meerdere modellen, afhankelijk van de taak. Begin voor de AI in je onderwijsapp eenvoudig met een goedkoop model, en stap pas over naar een krachtiger model als je dat echt nodig hebt. Stel dezelfde vraag aan twee verschillende modellen in Copilot Chat en vergelijk de antwoorden op kwaliteit, toon en snelheid."
+  },
+  {
+    "title": "Je toegangssleutels veilig instellen",
+    "description": "Les 3",
+    "href": "vibe-expert.html#lesson-3",
+    "category": "lesson",
+    "keywords": "Om een AI-model in je app te gebruiken, heb je een toegangssleutel (API key) nodig: een soort wachtwoord voor die dienst. Zet deze sleutel nooit rechtstreeks in code die zichtbaar is op GitHub. Vraag Copilot om je te helpen ze op te slaan als een beschermd geheim (omgevingsvariabele of GitHub-secret): de IT-dienst van je instelling kan je hierbij helpen indien nodig. Sla één API-sleutel op als beschermd geheim in plaats van rechtstreeks in je code, en controleer of je code nog werkt als hij ze vandaar leest."
+  },
+  {
+    "title": "Eerste klein project: een AI-uitlegknop",
+    "description": "Les 4",
+    "href": "vibe-expert.html#lesson-4",
+    "category": "lesson",
+    "keywords": "Bouw een concreet voorbeeld: op je cursuspagina een knop “ik begrijp het niet” die de vraag van de student naar een AI-model stuurt en een andere uitleg toont, eenvoudiger of met een ander voorbeeld. Vraag Copilot om deze functie stap voor stap te bouwen, waarbij je elk onderdeel test voordat je verdergaat. Bouw de knop “ik begrijp het niet” helemaal af op een echte pagina van jezelf — je Snelle Peiling of een ander project."
+  },
+  {
+    "title": "Je AI-integratie veilig implementeren",
+    "description": "Les 5",
+    "href": "vibe-expert.html#lesson-5",
+    "category": "lesson",
+    "keywords": "Een AI-integratie mag nooit je toegangssleutel blootleggen in de browser van de student. Vraag Copilot om een kleine server-side-functie op te zetten die de vraag ontvangt, het AI-model aanroept met de verborgen sleutel, en enkel het antwoord teruggeeft. Platformen zoals Vercel of Netlify laten je dit soort functie gratis hosten voor een klein project, in een paar klikken rechtstreeks vanuit je GitHub-repository. Implementeer je AI-functie via een kleine serverless functie, en controleer in het netwerktabblad van je browser dat de sleutel er nooit verschijnt."
+  },
+  {
+    "title": "Veilig en betaalbaar bouwen",
+    "description": "Les 6",
+    "href": "vibe-expert.html#lesson-6",
+    "category": "lesson",
+    "keywords": "Een AI-model kost iets bij elke vraag. Op betaalde Copilot-plannen voor organisaties gebruiken modelzware functies zoals Chat, CLI, Spaces, de cloud agent en vergelijkbare agentische tools AI credits — maar codecompletions en next edit suggestions blijven onbeperkt en worden niet in credits aangerekend. Business bevat 1.900 AI credits per gebruiker per maand en Enterprise bevat er 3.900, met hogere promotionele allocaties tot 1 september 2026. Die credits worden over de hele facturatie-entiteit gedeeld, zodat zware en lichte gebruikers elkaar in evenwicht houden in plaats van elk in een apart silo te zitten. Schrijf op welk deel van je workflow onbeperkte autocomplete nodig heeft en welk deel echt modelzware agentische functies vraagt. Dat onderscheid is de basis van eerlijk kostenbeheer."
+  },
+  {
+    "title": "Verder dan tekst gaan",
+    "description": "Les 7",
+    "href": "vibe-expert.html#lesson-7",
+    "category": "lesson",
+    "keywords": "AI beperkt zich niet tot tekst: sommige modellen kunnen een afbeelding beschrijven, een audio-opname transcriberen, of zelfs een afbeelding genereren op basis van een beschrijving. Voor een vak opent dit mogelijkheden zoals een met de hand getekend schema nakijken of een mondelinge presentatie transcriberen. Deze functies vragen wat meer voorbereiding, maar de methode blijft dezelfde: beschrijf precies aan Copilot wat je wilt, test, pas aan. Vraag een AI-model om één afbeelding of opname die relevant is voor jouw eigen vakgebied te beschrijven of samen te vatten."
+  },
+  {
+    "title": "Volledig voorbeeld en afsluiting",
+    "description": "Les 8",
+    "href": "vibe-expert.html#lesson-8",
+    "category": "lesson",
+    "keywords": "Om dit traject af te sluiten, hier een volledig voorbeeld dat je helemaal zelf kunt bouwen: een interactieve quiz met automatische verbetering, scores opgeslagen in een database, en een AI-uitlegknop voor elke gemiste vraag, alles online gepubliceerd via GitHub. Je hebt nu alle hulpmiddelen om je eigen onderwijsapps te bouwen, te testen, te publiceren en te laten groeien. De enige echte grens is nu de tijd die je eraan wilt besteden: bedankt om dit traject te volgen, en veel plezier met vibe coden! Schrijf op wat je hierna gaat bouwen met alles wat je in deze training hebt geleerd — en ga het dan ook echt bouwen."
+  },
+  {
+    "title": "Bouw in één sessie een zelfnakijkende quiz",
+    "description": "Je wilt een quiz die je studenten kunnen gebruiken om een hoofdstuk te herhalen, zonder een externe betaalde tool.",
+    "href": "cas-usage.html#usecase-1",
+    "category": "use case",
+    "keywords": "Open Copilot Chat en beschrijf je quiz: “Bouw een HTML-pagina met een quiz van 5 meerkeuzevragen over [onderwerp], met een eindscore.” Lees de gegenereerde code, test ze in je browser, en vraag daarna telkens één precieze aanpassing, bijvoorbeeld: “Voeg een korte uitleg toe onder elke vraag zodra ze beantwoord is.” Zodra het resultaat je bevalt, vraag je Copilot om een knop “quiz herstarten” toe te voegen. Een werkende, aangepaste quiz voor je vak, klaar om te publiceren. Vraag Copilot om de vraagvolgorde bij elke start te schudden."
+  },
+  {
+    "title": "Veranker een schemauitleg met Copilot Spaces",
+    "description": "Je hebt slides, een gescand schema en tutor-notities en wilt een toegankelijke digitale uitleg in plaats van nog een afbeelding in een pdf.",
+    "href": "cas-usage.html#usecase-2",
+    "category": "use case",
+    "keywords": "Maak een Space aan en voeg de schema-afbeelding, de relevante slidetekst en een heldere legenda toe. Vraag Copilot Chat om dat gegronde materiaal om te zetten in een HTML/CSS-pagina met labels, alt-tekst en een kleine begrippenlijst. Publiceer de goedgekeurde versie op GitHub Pages zodat studenten er buiten de les naar kunnen terugkeren. Een duidelijkere, herbruikbare uitleg die in je eigen lesmateriaal verankerd is. Gebruik dezelfde Space voor het volgende schema-intensieve onderwerp in plaats van alles opnieuw uit te leggen."
+  },
+  {
+    "title": "Genereer varianten van oefeningen om overschrijven te beperken",
+    "description": "Je wilt meerdere versies van dezelfde oefening voor verschillende groepen studenten.",
+    "href": "cas-usage.html#usecase-3",
+    "category": "use case",
+    "keywords": "Geef Copilot Chat een bestaande oefening en vraag: “Genereer 4 varianten van deze oefening met andere waarden maar dezelfde moeilijkheidsgraad.” Vraag om een gedeeld correctiemodel: “Voeg een correctiemodel toe dat elke stap uitlegt.” Vraag Copilot om alles te exporteren naar één gestructureerd document. Meerdere klaar-om-te-verspreiden versies, met een consistent correctiemodel. Vraag Copilot om ook een toegankelijke versie te genereren voor schermlezers."
+  },
+  {
+    "title": "Automatiseer een gewogen-gemiddelde calculator met de agent-modus",
+    "description": "Je beheert een complex puntenoverzicht en wilt automatisch gewogen gemiddelden berekenen.",
+    "href": "cas-usage.html#usecase-4",
+    "category": "use case",
+    "keywords": "Beschrijf je puntensysteem aan de agent-modus: “Bouw een pagina die een gewogen gemiddelde berekent op basis van deze categorieën: [lijst].” Bekijk het voorgestelde plan van de agent voordat je het goedkeurt. Vraag om een CSV-export toe te voegen om resultaten met collega's te delen. Een betrouwbare calculator, afgestemd op jouw eigen puntensysteem. Koppel hem aan een echte database (zie het traject Gevorderd) om hem elk semester te hergebruiken."
+  },
+  {
+    "title": "Leer coderen met Copilot als tutor, niet als kruk",
+    "description": "Je begint met programmeren en wilt code begrijpen, niet enkel kopiëren.",
+    "href": "cas-usage.html#usecase-5",
+    "category": "use case",
+    "keywords": "Schrijf eerst zelf een eenvoudige functie, ook al is ze onvolledig. Vraag Copilot Chat: “Leg regel voor regel uit wat deze code doet.” Vraag daarna: “Overhoor me over één punt om te controleren of ik het begrepen heb.” Een echt begrip van de code, niet zomaar kopiëren en plakken. Vraag Copilot om een iets moeilijkere oefening over hetzelfde concept."
+  },
+  {
+    "title": "Bouw een gedeelde herhalingssite voor je studiegroep",
+    "description": "Je studiegroep wil één gedeelde plek om samen te herhalen voor het examen.",
+    "href": "cas-usage.html#usecase-6",
+    "category": "use case",
+    "keywords": "Beschrijf de flashcard-app die jullie willen aan Copilot Chat. Gebruik Copilot in de terminal om de repository aan te maken: beschrijf wat je wilt doen, Copilot stelt het exacte git-commando voor. Deel de GitHub Pages-link met de groep. Een gratis, gedeeld herhalingsinstrument onder controle van de groep. Voeg een eenvoudig stemsysteem toe voor de beste fiches."
+  },
+  {
+    "title": "Presenteer je thesis of stageverslag online",
+    "description": "Je moet een lang document structureren en repetitieve delen zoals een inhoudstafel automatiseren.",
+    "href": "cas-usage.html#usecase-7",
+    "category": "use case",
+    "keywords": "Vraag Copilot om een sitestructuur te genereren om je thesis online te presenteren (samenvatting, hoofdstukken, bijlagen). Vraag om een interactieve inhoudstafel opgebouwd uit je sectietitels. Voeg een contactpagina toe om feedback te ontvangen. Een online, presenteerbare versie van je thesis, naast het klassieke document. Vraag Copilot om zoeken op trefwoord toe te voegen aan de inhoud."
+  },
+  {
+    "title": "Bouw een portfolio dat in je echte projectbestanden verankerd is",
+    "description": "Je wilt een portfolio zonder elke projectbeschrijving opnieuw uit de losse pols te schrijven.",
+    "href": "cas-usage.html#usecase-8",
+    "category": "use case",
+    "keywords": "Maak een Space met README-bestanden, screenshots, stagesamenvatting en belangrijke links. Vraag Copilot Chat om een portfolio van één pagina met projectkaarten en korte resultaatgerichte bullets. Verfijn de toon en publiceer daarna de gekozen versie op GitHub Pages. Een portfolio dat sneller gebouwd is omdat het bronmateriaal al gegrond is. Houd de Space elk semester bij zodat volgende portfolio-updates een korte bewerkingsronde worden."
+  },
+  {
+    "title": "Prototype een interne tool in één uur",
+    "description": "Een dienst vraagt om een kleine interne tool en je wilt snel een werkend prototype, voordat je engineeringtijd investeert.",
+    "href": "cas-usage.html#usecase-9",
+    "category": "use case",
+    "keywords": "Beschrijf de kernbehoefte van de tool aan de agent-modus: “Bouw een pagina waar personeel een aanvraag kan indienen en de status kan zien.” Bekijk het voorgestelde plan en laat de agent een eerste versie bouwen. Vraag om een realistische verfijning, zoals formuliervalidatie of een statuskleurcode. Een werkend prototype in minder dan een uur, om de behoefte te valideren vóór een volledige bouw. Als het nuttig blijkt, plan dan een volwaardige versie met een echte database en toegangsbeheer."
+  },
+  {
+    "title": "Documenteer een bestaand script automatisch",
+    "description": "Je hebt een niet-gedocumenteerd intern script geërfd en moet het snel begrijpen en documenteren.",
+    "href": "cas-usage.html#usecase-10",
+    "category": "use case",
+    "keywords": "Open het script en vraag Copilot Chat: “Leg stap voor stap uit wat dit script doet.” Vraag: “Genereer een README die het doel, de invoer en de uitvoering beschrijft.” Vraag Copilot om risicovolle of onduidelijke delen van de code te signaleren. Duidelijke documentatie voor een script dat voorheen maar één persoon begreep. Voeg de gegenereerde README rechtstreeks toe aan de repository van het script."
+  },
+  {
+    "title": "Automatiseer een deployment met GitHub Actions",
+    "description": "Je wilt dat een kleine site of tool automatisch opnieuw wordt uitgerold bij elke wijziging.",
+    "href": "cas-usage.html#usecase-11",
+    "category": "use case",
+    "keywords": "Vraag Copilot Chat: “Genereer een GitHub Actions-workflow die deze site bij elke push naar main naar GitHub Pages deployt.” Voeg het voorgestelde bestand toe aan je repository en push een kleine wijziging om te testen. Vraag Copilot om een melding toe te voegen bij een mislukte deployment. Een site die zichzelf automatisch bijwerkt, zonder handmatige herdeployment. Hergebruik hetzelfde workflow-bestand als sjabloon voor andere interne projecten."
+  },
+  {
+    "title": "Bouw een interactieve onboardingchecklist",
+    "description": "Nieuwe medewerkers krijgen een lang, statisch onboardingdocument dat makkelijk uit het oog verloren wordt.",
+    "href": "cas-usage.html#usecase-12",
+    "category": "use case",
+    "keywords": "Beschrijf de onboardingstappen aan Copilot Chat en vraag om een interactieve checklistpagina. Vraag dat de voortgang bewaard wordt zodat iemand later kan verdergaan. Vraag Copilot om een afdrukbare samenvatting toe te voegen voor het HR-dossier. Een vriendelijke, opvolgbare onboardingervaring voor nieuwe collega's. Personaliseer de checklist per functie met een eenvoudig keuzemenu vooraf."
+  },
+  {
+    "title": "Maak in enkele minuten een opleidingsfeedbackformulier",
+    "description": "Je hebt snel een manier nodig om feedback te verzamelen na een opleiding, zonder te wachten op een licentie voor een enquêtetool.",
+    "href": "cas-usage.html#usecase-13",
+    "category": "use case",
+    "keywords": "Vraag Copilot Chat om een pagina te bouwen met een score van 1 tot 5 en een opmerkingenveld. Vraag dat de antwoorden worden opgeslagen zodat je ze achteraf kunt bekijken. Vraag om een eenvoudig overzicht dat de gemiddelde score toont. Een werkend feedbackformulier, live nog vóór het einde van de sessie. Hergebruik dezelfde pagina als sjabloon voor elke volgende opleiding."
+  },
+  {
+    "title": "Bouw een calculator voor het verlofsaldo",
+    "description": "Personeel vraagt HR voortdurend hoeveel vakantiedagen er nog over zijn.",
+    "href": "cas-usage.html#usecase-14",
+    "category": "use case",
+    "keywords": "Beschrijf het verlofbeleid van je instelling aan Copilot Chat. Vraag om een kleine calculator te bouwen die een startdatum neemt en de resterende dagen toont. Vraag om een duidelijke uitleg naast het resultaat, voor bijzondere gevallen. Een zelfbedieningstool die repetitieve vragen aan HR vermindert. Koppel hem aan de onboardingchecklist hierboven."
+  },
+  {
+    "title": "Organiseer een live peiling tijdens een vergadering",
+    "description": "Je wilt real-time feedback van het personeel tijdens een personeelsvergadering, zonder betaalde peilingtool.",
+    "href": "cas-usage.html#usecase-15",
+    "category": "use case",
+    "keywords": "Beschrijf de vraag en de opties aan Copilot Chat, volgens hetzelfde stramien als het voorbeeld van de Snelle Peiling in het begeleide traject. Test ze zelf, en projecteer daarna de link tijdens de vergadering. Vraag Copilot om een live bijgewerkte resultatenweergave toe te voegen. Directe, zichtbare feedback uit de zaal, zonder externe dienst. Hergebruik exact dezelfde pagina voor elke volgende vergadering, en verander enkel de vraag."
+  },
+  {
+    "title": "Bouw een eenvoudig KPI-dashboard",
+    "description": "Je wilt drie of vier cijfers in de tijd opvolgen zonder een volledige BI-tool.",
+    "href": "cas-usage.html#usecase-16",
+    "category": "use case",
+    "keywords": "Beschrijf je KPI's aan Copilot Chat en plak enkele voorbeeldcijfers. Vraag om een overzichtelijk dashboard op één pagina dat ze samenvat. Vraag om een eenvoudige manier om de cijfers elke maand bij te werken. Een licht dashboard dat je volledig zelf beheert en begrijpt. Vraag Copilot om een kleine trendgrafiek toe te voegen zodra je enkele maanden gegevens hebt."
+  },
+  {
+    "title": "Zet strategienotities om in een deelbare one-pager met Copilot Spaces",
+    "description": "Je hebt vergadernotities, KPI-context en een nog ruwe verhaallijn en wilt iets beters dan een muur van bullets.",
+    "href": "cas-usage.html#usecase-17",
+    "category": "use case",
+    "keywords": "Maak een Space met de strategienotities, het KPI-overzicht en de kerntermen die intern gebruikt worden. Vraag Copilot Chat om een samenvatting van één pagina met prioriteiten, risico’s en volgende acties in gewone taal. Bekijk de tekst en publiceer of exporteer daarna de versie die je wilt delen. Een helderdere beleidspagina die in je echte interne materiaal verankerd is. Gebruik dezelfde Space opnieuw voor maand- of kwartaalupdates zodat het vocabulaire consistent blijft."
+  },
+  {
+    "title": "Bouw een calculator voor reiskosten",
+    "description": "Personeel vraagt vaak hoeveel het terugbetaald krijgt voor een verplaatsing vóór het indienen van een onkostennota.",
+    "href": "cas-usage.html#usecase-18",
+    "category": "use case",
+    "keywords": "Beschrijf je terugbetalingsregels aan Copilot Chat (afstand, tarief, plafonds). Vraag om een kleine calculator te bouwen op basis van die regels. Vraag om een duidelijke uitsplitsing van de berekening te tonen aan de gebruiker. Een zelfbedieningsschatter die e-mailverkeer vermindert. Koppel hem aan de interne pagina van het financeteam."
+  },
+  {
+    "title": "Volg een klein terugkerend budget op",
+    "description": "Je beheert een kleine, terugkerende budgetlijn en wilt een lichter alternatief voor een volledig rekenblad.",
+    "href": "cas-usage.html#usecase-19",
+    "category": "use case",
+    "keywords": "Beschrijf de budgetcategorieën aan Copilot Chat. Vraag om een eenvoudige pagina om uitgaven te loggen met een bijgewerkt totaal. Vraag om een maandelijks overzicht. Een lichte tracker, afgestemd op precies jouw eigen categorieën. Exporteer de gegevens naar een rekenblad voor de officiële registers."
+  },
+  {
+    "title": "Zet geplakte gegevens om in een sorteerbare tabel",
+    "description": "Je krijgt regelmatig gegevens als platte tekst of gekopieerde rijen die moeilijk te verwerken zijn.",
+    "href": "cas-usage.html#usecase-20",
+    "category": "use case",
+    "keywords": "Plak de ruwe gegevens in Copilot Chat. Vraag om er een overzichtelijke, sorteerbare HTML-tabel van te maken. Vraag om een zoekbalk om rijen te filteren. Een leesbare, doorzoekbare weergave van gegevens die voorheen een muur van tekst waren. Vraag Copilot om een CSV-exportknop toe te voegen."
+  },
+  {
+    "title": "Ruim een rommelige dataset op met hulp van Copilot",
+    "description": "Je hebt een dataset vol inconsistenties (typfouten, ontbrekende waarden, gemengde formaten) voordat je ze kunt analyseren.",
+    "href": "cas-usage.html#usecase-21",
+    "category": "use case",
+    "keywords": "Beschrijf de problemen van de dataset aan Copilot Chat en plak een voorbeeld. Vraag om een script dat ze opschoont en standaardiseert. Bekijk elke opschoningsregel voordat je ze op de volledige dataset toepast. Een propere, analyseklare dataset, met een gedocumenteerd script dat precies toont wat er veranderd is. Vraag Copilot om een samenvattend rapport toe te voegen van wat er is opgeschoond en waarom."
+  },
+  {
+    "title": "Genereer een eerste statistisch analysescript",
+    "description": "Je wilt een startpunt voor een standaardanalyse zonder telkens standaardcode te herschrijven.",
+    "href": "cas-usage.html#usecase-22",
+    "category": "use case",
+    "keywords": "Beschrijf je gegevens en onderzoeksvraag aan Copilot Chat. Vraag om een script dat de relevante statistische toets uitvoert en een duidelijke samenvatting toont. Vraag Copilot om elke stap van het script toe te lichten in commentaar. Een analysescript dat je regel voor regel begrijpt, geen zwarte doos. Vraag Copilot om een eenvoudige grafiek van de resultaten toe te voegen."
+  },
+  {
+    "title": "Bouw een onderzoekspagina die in je figuren verankerd is",
+    "description": "Je wilt een publieke pagina over je bevindingen, maar de tekst moet dicht bij abstract, figuren en congresnotities blijven.",
+    "href": "cas-usage.html#usecase-23",
+    "category": "use case",
+    "keywords": "Maak een Space met het abstract, figuurlegendes, postertekst en je samenvatting in gewone taal. Vraag Copilot Chat om een resultatenpagina met een korte methodesectie en een heldere samenvatting voor niet-specialisten. Bekijk de tekst en publiceer de pagina naast de link naar het formele artikel. Een gegronde, toegankelijke resultatenpagina die je makkelijk in talks of projectopvolging hergebruikt. Voeg een samenwerkingssectie toe en gebruik de Space als bron voor toekomstig disseminatiemateriaal."
+  },
+  {
+    "title": "Bouw een interactieve bronnencatalogus",
+    "description": "Je wilt een eenvoudige manier voor studenten om aanbevolen bronnen per onderwerp te doorbladeren.",
+    "href": "cas-usage.html#usecase-24",
+    "category": "use case",
+    "keywords": "Beschrijf je bronnenlijst en categorieën aan Copilot Chat. Vraag om een doorzoekbare, filterbare cataloguspagina. Vraag om een eenvoudige manier om na verloop van tijd nieuwe bronnen toe te voegen. Een levende catalogus, makkelijker te doorbladeren dan een statische pdf-lijst. Vraag Copilot om labels toe te voegen zodat bronnen tot meerdere categorieën kunnen behoren."
+  },
+  {
+    "title": "Genereer een automatische FAQ-pagina",
+    "description": "Je beantwoordt steeds dezelfde vragen per e-mail en wilt in plaats daarvan een publieke FAQ.",
+    "href": "cas-usage.html#usecase-25",
+    "category": "use case",
+    "keywords": "Plak je meest voorkomende vragen en antwoorden in Copilot Chat. Vraag om een overzichtelijke FAQ-pagina met een zoekbalk. Vraag Copilot om vragen te groeperen in duidelijke categorieën. Een zelfbedienings-FAQ die repetitieve e-mails vermindert. Voeg onderaan een contactlink “nog hulp nodig” toe."
+  },
+  {
+    "title": "Publiceer een campusevenementenpagina vanuit een gegrond eventpack",
+    "description": "Je hebt kalenderexports, affichetekst en toegankelijkheidsnotities en wilt een betere evenementenpagina dan losse posters.",
+    "href": "cas-usage.html#usecase-26",
+    "category": "use case",
+    "keywords": "Maak een Space met de titels, data, beschrijvingen en toegankelijkheidsnotities van de evenementen. Vraag Copilot Chat om een pagina die evenementen op datum sorteert en de eerstvolgende activiteiten bovenaan zet. Publiceer de pagina op GitHub Pages en werk de Space maandelijks bij in plaats van telkens opnieuw te beginnen. Een lichte evenementenpagina die makkelijker te onderhouden is dan een statisch posterarchief. Voeg een blok “contacteer de organisator” toe en hergebruik dezelfde structuur elke nieuwe maand."
+  },
+  {
+    "title": "Maak van één labobrief drie veilige oefenvarianten",
+    "description": "Je hebt één practicumopdracht en wilt meerdere varianten die dezelfde leerdoelen, rubrictaal en veiligheidsformuleringen behouden.",
+    "href": "cas-usage.html#usecase-27",
+    "category": "use case",
+    "keywords": "Maak in de repository een prompt file die een variant, een antwoordmodel en een korte docentennota vraagt. Voeg custom instructions toe voor toon, toegankelijkheid en veiligheidszinnen die onveranderd moeten blijven. Vraag Copilot Chat om drie versies en bewaar daarna de goedgekeurde set in dezelfde cursusrepository. Een herbruikbare workflow voor oefenvarianten in plaats van elke semester alles opnieuw te schrijven. Bewaar de prompt file in de repo zodat collega’s de volgende set vanuit dezelfde structuur kunnen genereren."
+  },
+  {
+    "title": "Laat Copilot cloud agent een cursus-FAQ bijwerken vanuit issues",
+    "description": "Studenten stellen elke week dezelfde vragen en je wilt de FAQ via reviewbare pull requests updaten in plaats van met handmatig kopiëren en plakken.",
+    "href": "cas-usage.html#usecase-28",
+    "category": "use case",
+    "keywords": "Open een issue zoals “Voeg de terugkerende vragen van deze week toe aan de FAQ” en koppel de cursus-Space als je die al gebruikt. Wijs het issue toe aan Copilot zodat de cloud agent de update op een eigen branch voorbereidt. Vraag daarna Copilot code review op de pull request, lees de tekst zelf na en merge de goedgekeurde versie. Een cursus-FAQ die week na week beter wordt zonder dat het docententeam webbeheerders moet worden. Herhaal hetzelfde issuepatroon na elk lesblok zodat de FAQ een levend lesinstrument wordt."
+  },
+  {
+    "title": "Houd een stage- of thesisproject op koers met Copilot Memory",
+    "description": "Je keert elke week naar hetzelfde project terug en wilt niet telkens opnieuw de context, stack, deadlines en randvoorwaarden uitleggen.",
+    "href": "cas-usage.html#usecase-29",
+    "category": "use case",
+    "keywords": "Bewaar de stabiele projectcontext in een Memory-geschikte Copilot-flow en zet de belangrijkste beslissingen ook in de README van de repository. Vraag Copilot Chat naar de volgende mijlpaal, een voortgangssamenvatting of een opschoonbeurt op de huidige code. Commit elke goedgekeurde wijziging zodat de historiek zichtbaar blijft voor begeleiders en teamgenoten. Een gelijkmatiger projectritme met minder tijdverlies aan dezelfde achtergrond opnieuw uitleggen. Memory helpt voor continuïteit, maar de echte bron van waarheid moet in de repository blijven staan."
+  },
+  {
+    "title": "Standaardiseer repetitieve helpdeskscripts met Agent skills",
+    "description": "Verschillende technici lossen hetzelfde account-opruim- of logverzamelingsprobleem elk net iets anders op, en die variatie creëert onnodig risico.",
+    "href": "cas-usage.html#usecase-30",
+    "category": "use case",
+    "keywords": "Definieer een Agent skill met het goedgekeurde scriptpatroon, logformaat en rollbackverwachtingen. Vraag daarna aan Agent-modus of Copilot CLI om die skill op het ticket van vandaag toe te passen in plaats van van een lege shell te vertrekken. Bekijk het script of de diff eerst na vóór je iets uitvoert in de doelomgeving. Herhaalbare interne automatiseringen met minder copy-paste-afwijking tussen technici. Versioneer de skill op GitHub zodat één update het vertrekpunt van het hele team verbetert."
+  },
+  {
+    "title": "Houd beleidspagina’s consistent met custom instructions",
+    "description": "HR actualiseert vaak beleidspagina’s, maar koppen, toon, verplichte disclaimers en inclusieve formulering gaan al snel uiteenlopen.",
+    "href": "cas-usage.html#usecase-31",
+    "category": "use case",
+    "keywords": "Zet de vereiste toon, sectievolgorde, inclusieve formulering en goedkeuringsnotities in .github/copilot-instructions.md. Vraag Copilot Chat om de bijgewerkte pagina te schrijven op basis van die repositoryregels. Open een pull request en gebruik Copilot code review als extra check vóór interne publicatie. Snellere beleidsredactie met minder vormcorrecties op het einde van het proces. Breid het instructiebestand uit telkens wanneer HR of Legal een nieuwe verplichte sectie toevoegt."
+  },
+  {
+    "title": "Maak een custom agent die pilootideeën omzet in vergelijkbare briefs",
+    "description": "Meerdere diensten pitchen tegelijk kleine interne tools en de directie wil voor elk voorstel eerst een vergelijkbare briefing zien.",
+    "href": "cas-usage.html#usecase-32",
+    "category": "use case",
+    "keywords": "Definieer een custom agent die altijd dezelfde rubrieken moet opleveren: probleem, doelgebruikers, eerste laag-risicoversie, datasensitiviteit en volgende stap. Draai die agent in aparte sessies van de GitHub Copilot-app, één voorstel per worktree. Vergelijk daarna de briefs en PR-samenvattingen naast elkaar in plaats van informele ganggesprekken te moeten vergelijken. Een reviewbare pijplijn van lichte prototypes in plaats van een backlog vol vage verzoeken. Bewaar de winnende briefs in een gedeelde galerijrepository zodat het volgende team op een bestaand idee kan voortbouwen."
+  },
+  {
+    "title": "Genereer maandelijkse budgetnota’s in één gedeelde huisstijl",
+    "description": "Financiën maakt elke maand van dezelfde export een commentaarnota, maar formulering en tabellen verschillen per persoon.",
+    "href": "cas-usage.html#usecase-33",
+    "category": "use case",
+    "keywords": "Bewaar opmaakregels en verplichte tussentitels in de custom instructions. Maak een prompt file die uit de geplakte export een variantiesamenvatting, grootste uitzonderingen en volgende acties vraagt. Voer die prompt elke maand uit en bekijk de conceptnota daarna in een pull request voordat ze circuleert. Consistenter maandrapporteren met zichtbare regels in de repository. Dat is vooral handig wanneer verschillende collega’s hetzelfde rapporteringsritueel afwisselend opnemen."
+  },
+  {
+    "title": "Vraag benuttingspatronen op uit een labo-planningssysteem via MCP",
+    "description": "Een onderzoeksplatformteam wil weten welke equipment-slots onderbenut blijven zonder elke maand opnieuw dezelfde exports te trekken en te herwerken.",
+    "href": "cas-usage.html#usecase-34",
+    "category": "use case",
+    "keywords": "Verbind Copilot met het goedgekeurde planningssysteem via een MCP-server of een andere governed connector. Vraag in gewone taal om benutting per dag, ruimte of labo zodat duidelijke onderbenuttingspatronen zichtbaar worden. Laat Agent-modus vervolgens het dashboard of notebook genereren dat het antwoord reproduceert zodat de methode inspecteerbaar blijft. Een snellere weg van operationele vraag naar reproduceerbaar benuttingsoverzicht. Beperk de koppeling strikt tot goedgekeurde data en hergebruik dezelfde prompts elk semester."
+  },
+  {
+    "title": "Bouw een brongegronde citeerhulp voor de bibliotheek",
+    "description": "Bibliotheekmedewerkers beantwoorden voortdurend dezelfde “Hoe citeer ik dit?”-vragen in handleidingen, workshops en supportmails.",
+    "href": "cas-usage.html#usecase-35",
+    "category": "use case",
+    "keywords": "Maak een Copilot Space met citeergidsen, lokale bibliotheeknotities en uitgewerkte voorbeelden. Vraag Copilot Chat om een doorzoekbare hulppagina of chatbottekst op basis van dat materiaal. Publiceer de goedgekeurde versie op GitHub Pages en werk de Space bij zodra de gids wijzigt. Een citeerhulp die gegrond is in de eigen richtlijnen van de bibliotheek. Ververs de Space telkens wanneer de stijlgidspagina’s of uitzonderingen veranderen."
+  },
+  {
+    "title": "Lanceer een klein incidentmeldingsformulier voor facilitaire diensten",
+    "description": "Facilitaire teams hebben een lichte manier nodig om locatie, foto, urgentie en opvolgstatus voor kleine incidenten te verzamelen zonder op een volledige platformvervanging te wachten.",
+    "href": "cas-usage.html#usecase-36",
+    "category": "use case",
+    "keywords": "Vraag Agent-modus om het formulier, het bevestigingsscherm en de eenvoudigste zinvolle opslag voor een pilot op te zetten. Gebruik Copilot code review om veldlabels, validatie en de duidelijkheid van de opvolgflow te controleren. Test de eerste versie in één gebouw voordat je beslist of de tool een groter systeem verdient. Een praktische meldflow die klein kan starten en toch reviewbaar blijft. Als de pilot werkt, verhuis de tool dan naar een gedeelde repo met een code owner in plaats van naar één laptop."
+  },
+  {
+    "title": "Live iets zichtbaars bouwen zonder zware installatie.",
+    "description": "Een docent heeft een cursusoverzicht, wil een herhalingsquiz en één oefenpagina, maar wil niet eerst een volledige toolchain optuigen om het idee te testen.",
+    "href": "scenarios.html#teacher",
+    "category": "scenario",
+    "keywords": "Docent Copilot Chat GitHub Pages Copilot Spaces Een werkende herhalingspagina in een repository Een GitHub Pages-URL die je dezelfde dag kunt delen Een herbruikbare Space voor de volgende opdracht of FAQ"
+  },
+  {
+    "title": "Van eindprojectidee naar werkende app, branch per branch.",
+    "description": "Een studententeam heeft een projectbrief, weinig tijd en wil van idee naar MVP gaan terwijl het de code nog altijd begrijpt.",
+    "href": "scenarios.html#student",
+    "category": "scenario",
+    "keywords": "Student Copilot Student Agent-modus Copilot code review Een werkend MVP in plaats van enkel een conceptnota Een duidelijkere branch- en commitgeschiedenis voor begeleiders Reviewcommentaar dat de codekwaliteit vóór de indiening versterkt"
+  },
+  {
+    "title": "Meerdere interne tickets parallel aanpakken zonder controle te verliezen.",
+    "description": "Een IT-team heeft een stapel kleine tickets — een pagina restylen, een script migreren, een formulier verbeteren — en wil snelheid zonder chaos.",
+    "href": "scenarios.html#it",
+    "category": "scenario",
+    "keywords": "IT & digitale diensten GitHub Copilot-app Parallelle agents Plan-modus Drie parallelle werkstromen in plaats van één geblokkeerde rij Reviewbare diffs per ticket Een sneller backlogsritme met menselijke goedkeuring in de lus"
+  },
+  {
+    "title": "Een interne assistent bouwen die in beleid verankerd is, zonder zelf een backend te schrijven.",
+    "description": "HR beantwoordt voortdurend dezelfde vragen over onboarding, verlof of contractsjablonen en wil antwoorden die aansluiten op de echte documenten.",
+    "href": "scenarios.html#hr",
+    "category": "scenario",
+    "keywords": "HR Copilot Spaces Copilot Chat Een FAQ die in documenten verankerd is in plaats van nog een overlopende mailbox Snellere antwoorden voor personeel Een herbruikbare Space die toekomstige HR-prompts verbetert"
+  },
+  {
+    "title": "Wekelijkse KPI-jacht omzetten in een geplande, reviewbare synthese.",
+    "description": "Een directie of diensthoofd wil één beknopt wekelijks beeld over meerdere teams zonder alles handmatig samen te voegen.",
+    "href": "scenarios.html#leadership",
+    "category": "scenario",
+    "keywords": "Directie Custom agents Copilot cloud agent Automations Een reproduceerbaar wekelijks rapportageritueel Eén PR waar directie commentaar op kan geven Minder coördinatietijd verloren aan het kopiëren van statusupdates"
+  },
+  {
+    "title": "Een maandelijks exportbestand in minuten omzetten in een dashboard mét begrijpelijk kostenverhaal.",
+    "description": "Het financeteam ontvangt bij elke cyclus dezelfde Excel- of CSV-export en wil een licht dashboard in plaats van telkens dezelfde spreadsheetweergave opnieuw op te bouwen.",
+    "href": "scenarios.html#finance",
+    "category": "scenario",
+    "keywords": "Financiën Prompt files Copilot Chat AI credits Een herbruikbare dashboardworkflow Zichtbare berekeningen in code Een concreet financieel verhaal waarom gedeelde AI credits beter bestuurbaar zijn dan giswerk"
+  },
+  {
+    "title": "Een dataset natuurlijke taalvragen laten beantwoorden en toch het script achter het antwoord krijgen.",
+    "description": "Onderzoekers willen sneller bij vertrouwde data, maar hebben ook reproduceerbaarheid en een controleerbaar analysepad nodig.",
+    "href": "scenarios.html#research",
+    "category": "scenario",
+    "keywords": "Onderzoek MCP servers Copilot Chat Python / R-scriptgeneratie Een sneller pad van vraag naar eerste analyse Een script dat het team kan inspecteren en opnieuw kan uitvoeren Een gegronde workflow die onderzoekstraceerbaarheid respecteert"
+  },
+  {
+    "title": "Een niet-ontwikkelteam laten landen met een nuttige mini-app dit semester.",
+    "description": "Bibliotheek- of campusmedewerkers hebben een eenvoudige ruimteboekings- of inventaristool nodig en willen snel iets bruikbaars.",
+    "href": "scenarios.html#campus",
+    "category": "scenario",
+    "keywords": "Bibliotheek / campusdiensten Agent-modus GitHub Pages GitHub Campus Program Een werkend serviceprototype in plaats van een lange wachtlijst Gratis statische hosting via GitHub Pages Een tastbaar voorbeeld van wat het Campus Program-platform mogelijk maakt"
+  },
+  {
+    "title": "Copilot Chat",
+    "description": "Gespreksinterface om Copilot te vragen iets uit te leggen, te herschrijven of mee op te bouwen.",
+    "href": "glossary.html#copilot-chat",
+    "category": "glossary",
+    "keywords": "Copilot-features, context en agents"
+  },
+  {
+    "title": "Agent mode",
+    "description": "Modus waarin Copilot meerdere stappen kan plannen en uitvoeren in plaats van alleen tekst terug te geven.",
+    "href": "glossary.html#agent-mode",
+    "category": "glossary",
+    "keywords": "Copilot-features, context en agents"
+  },
+  {
+    "title": "Copilot cloud agent",
+    "description": "Een door GitHub gehoste agent die toegewezen taken kan opnemen vanuit issues of natuurlijke taal.",
+    "href": "glossary.html#copilot-cloud-agent",
+    "category": "glossary",
+    "keywords": "Copilot-features, context en agents"
+  },
+  {
+    "title": "Copilot CLI",
+    "description": "De command-line-interface om Copilot vanuit een terminal te gebruiken, interactief of in scripts.",
+    "href": "glossary.html#copilot-cli",
+    "category": "glossary",
+    "keywords": "Copilot-features, context en agents"
+  },
+  {
+    "title": "GitHub Copilot app",
+    "description": "De GitHub-appomgeving die agentische taken en GitHub-native workflows samenbrengt.",
+    "href": "glossary.html#copilot-app",
+    "category": "glossary",
+    "keywords": "Copilot-features, context en agents"
+  },
+  {
+    "title": "Copilot Spaces",
+    "description": "Contextspaces waarin je bestanden, referenties en instructies bundelt voor beter gegronde antwoorden.",
+    "href": "glossary.html#copilot-spaces",
+    "category": "glossary",
+    "keywords": "Copilot-features, context en agents"
+  },
+  {
+    "title": "Copilot Memory",
+    "description": "Mogelijkheid waarbij Copilot bepaalde voorkeuren, feiten of beslissingen kan hergebruiken in de juiste context.",
+    "href": "glossary.html#copilot-memory",
+    "category": "glossary",
+    "keywords": "Copilot-features, context en agents"
+  },
+  {
+    "title": "MCP-servers",
+    "description": "Model Context Protocol-servers die tools of betrouwbare data aanbieden zodat Copilot met echte systemen kan werken.",
+    "href": "glossary.html#mcp-servers",
+    "category": "glossary",
+    "keywords": "Copilot-features, context en agents"
+  },
+  {
+    "title": "Prompt files",
+    "description": "Herbruikbare instructiebestanden om prompts en verwachte output consistenter te maken.",
+    "href": "glossary.html#prompt-files",
+    "category": "glossary",
+    "keywords": "Copilot-features, context en agents"
+  },
+  {
+    "title": "Custom agents",
+    "description": "Agents die op maat gemaakt zijn voor een rol of workflow, met gerichte instructies en soms extra tooling.",
+    "href": "glossary.html#custom-agents",
+    "category": "glossary",
+    "keywords": "Copilot-features, context en agents"
+  },
+  {
+    "title": "Agent skills",
+    "description": "Herbruikbare vaardigheden die een agent kan oproepen voor afgebakende of terugkerende taken.",
+    "href": "glossary.html#agent-skills",
+    "category": "glossary",
+    "keywords": "Copilot-features, context en agents"
+  },
+  {
+    "title": "AI credits",
+    "description": "Verbruikseenheden voor sommige geavanceerde modellen of agentische workloads, afhankelijk van het Copilot-plan.",
+    "href": "glossary.html#ai-credits",
+    "category": "glossary",
+    "keywords": "Copilot-features, context en agents"
+  },
+  {
+    "title": "Repository",
+    "description": "De GitHub-projectruimte waar bestanden, geschiedenis en instellingen samenkomen.",
+    "href": "glossary.html#repository",
+    "category": "glossary",
+    "keywords": "GitHub-basis om te starten"
+  },
+  {
+    "title": "Commit",
+    "description": "Een vastgelegde wijziging in de projectgeschiedenis.",
+    "href": "glossary.html#commit",
+    "category": "glossary",
+    "keywords": "GitHub-basis om te starten"
+  },
+  {
+    "title": "Branch",
+    "description": "Een parallelle werkstroom om wijzigingen te testen voordat je ze in de hoofdbranch samenbrengt.",
+    "href": "glossary.html#branch",
+    "category": "glossary",
+    "keywords": "GitHub-basis om te starten"
+  },
+  {
+    "title": "Pull Request",
+    "description": "Een verzoek om wijzigingen uit één branch te laten nalezen en samen te voegen in een andere.",
+    "href": "glossary.html#pull-request",
+    "category": "glossary",
+    "keywords": "GitHub-basis om te starten"
+  },
+  {
+    "title": "Issue",
+    "description": "Een GitHub-ticket voor ideeën, bugs, taken of werkverzoeken.",
+    "href": "glossary.html#issue",
+    "category": "glossary",
+    "keywords": "GitHub-basis om te starten"
+  },
+  {
+    "title": "GitHub Pages",
+    "description": "De statische hostingdienst van GitHub om snel een site of prototype vanuit een repository te publiceren.",
+    "href": "glossary.html#github-pages",
+    "category": "glossary",
+    "keywords": "GitHub-basis om te starten"
+  },
+  {
+    "title": "GitHub Campus Program",
+    "description": "Een programma voor in aanmerking komende instellingen die GitHub-platformcapaciteit op instellingsniveau willen.",
+    "href": "glossary.html#campus-program",
+    "category": "glossary",
+    "keywords": "Onderwijs en uitrol"
+  }
+]

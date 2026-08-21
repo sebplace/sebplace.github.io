@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+  <html lang="fr">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Boîte à outils — bibliothèque de prompts — Vibe Coding Copilot</title>
+  <meta name="description" content="Des prompts Copilot prêts à l'emploi, organisés par métier. Copie-en un, adapte les détails entre crochets, et colle-le dans Copilot Chat.">
+  <meta property="og:title" content="Boîte à outils — bibliothèque de prompts — Vibe Coding Copilot">
+  <meta property="og:description" content="Des prompts Copilot prêts à l'emploi, organisés par métier. Copie-en un, adapte les détails entre crochets, et colle-le dans Copilot Chat.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Boîte à outils — bibliothèque de prompts — Vibe Coding Copilot">
+  <meta name="twitter:description" content="Des prompts Copilot prêts à l'emploi, organisés par métier. Copie-en un, adapte les détails entre crochets, et colle-le dans Copilot Chat.">
+  <link rel="alternate" hreflang="fr" href="../fr/toolkit.html">
+  <link rel="alternate" hreflang="nl" href="../nl/toolkit.html">
+  <link rel="alternate" hreflang="en" href="../en/toolkit.html">
+  <link rel="alternate" hreflang="x-default" href="../en/toolkit.html">
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+  <link rel="stylesheet" href="../assets/style.min.css">
+  </head>
+  <body class="page-toolkit" data-search-index="../assets/search-index.fr.json" data-lang="fr">
+  <a class="skip-link" href="#main-content">Aller au contenu</a>
+  <header class="site-header">
+  <div class="container header-inner">
+    <a class="brand-mark" href="index.html" aria-label="Vibe Coding Copilot">
+      <svg width="26" height="26" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0a8 8 0 0 0-2.53 15.59c.4.07.55-.17.55-.38l-.01-1.49c-2.01.44-2.43-.97-2.43-.97-.33-.83-.8-1.05-.8-1.05-.66-.45.05-.44.05-.44.72.05 1.1.74 1.1.74.64 1.1 1.68.78 2.09.6.07-.46.25-.78.46-.96-1.6-.18-3.29-.8-3.29-3.57 0-.79.28-1.43.74-1.93-.07-.18-.32-.92.07-1.92 0 0 .61-.19 1.99.74a6.9 6.9 0 0 1 3.63 0c1.38-.93 1.99-.74 1.99-.74.39 1 .14 1.74.07 1.92.46.5.74 1.14.74 1.93 0 2.78-1.69 3.39-3.3 3.57.26.22.49.66.49 1.33l-.01 1.97c0 .21.14.45.55.38A8 8 0 0 0 8 0Z"/></svg>
+      <span class="brand-text"><span class="b1">Vibe Coding Copilot</span><span class="b2">Enseignement Supérieur</span></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Main">
+      <span><a class="nav-trigger accent" href="cas-usage.html">Cas d'usage</a></span>
+      <span><a class="nav-trigger" href="scenarios.html">8 scénarios réels</a></span>
+      <div class="nav-course-group">
+      <a class="nav-trigger" href="vibe-basics.html">Parcours</a>
+      <div class="nav-lesson-panel">
+        <div class="nav-lesson-panel-head"><span>Parcours</span></div>
+        <ol class="nav-lesson-list"><li><a href="vibe-basics.html"><span>1</span><strong>Vibe Coding Débutant</strong></a></li><li><a href="vibe-advanced.html"><span>2</span><strong>Vibe Coding Avancé</strong></a></li><li><a href="vibe-expert.html"><span>3</span><strong>Vibe Coding Expert</strong></a></li></ol>
+        <a class="nav-lesson-overview" href="first-commit.html">Ton premier commit<span aria-hidden="true">→</span></a>
+        <a class="nav-certificate-link" data-certificate-cta href="certificate.html" hidden>Voir mon certificat<span aria-hidden="true">↘</span></a>
+      </div>
+    </div>
+      <span><a class="nav-trigger" href="plans.html">Plans &amp; réalité</a></span>
+      <span><a class="nav-trigger active" href="toolkit.html">Boîte à outils</a></span>
+      <span><a class="nav-trigger" href="best-practices.html">Bonnes pratiques</a></span>
+      <span><a class="nav-trigger" href="about.html">À propos</a></span>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-switch desktop-only"><a class="active" href="../fr/toolkit.html">FR</a><a class="" href="../nl/toolkit.html">NL</a><a class="" href="../en/toolkit.html">EN</a></div>
+      <button class="search-toggle" type="button" data-search-open aria-label="Ouvrir la recherche">🔍</button>
+      <button class="mobile-nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav-panel"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="mobile-nav-panel container" id="mobile-nav-panel" hidden>
+    <div class="mobile-nav-group">
+      <div class="mobile-nav-group-label">Apprendre</div>
+      <a href="scenarios.html" class="mobile-nav-link">8 scénarios réels</a>
+      <details class="mobile-course-details">
+      <summary class="mobile-course-summary"><span>Vibe Coding Débutant</span></summary>
+      <div class="mobile-course-body">
+        <ol class="nav-lesson-list"><li><a href="vibe-basics.html#lesson-1"><span>1</span><strong>Qu'est-ce que le vibe coding ?</strong></a></li><li><a href="vibe-basics.html#lesson-2"><span>2</span><strong>D’un vrai problème de campus à une idée d’application</strong></a></li><li><a href="vibe-basics.html#lesson-3"><span>3</span><strong>Ta première web app avec GitHub Copilot</strong></a></li><li><a href="vibe-basics.html#lesson-4"><span>4</span><strong>Sauvegarder et publier avec GitHub</strong></a></li><li><a href="vibe-basics.html#lesson-5"><span>5</span><strong>Tester et améliorer avec Copilot Chat</strong></a></li><li><a href="vibe-basics.html#lesson-6"><span>6</span><strong>Améliorer le style et l'apparence</strong></a></li><li><a href="vibe-basics.html#lesson-7"><span>7</span><strong>Ajouter images, fichiers et documents</strong></a></li><li><a href="vibe-basics.html#lesson-8"><span>8</span><strong>Synthèse et vers le parcours Avancé</strong></a></li></ol>
+        <a class="nav-lesson-overview" href="vibe-basics.html">Voir le parcours complet<span aria-hidden="true">→</span></a>
+      </div>
+    </details><details class="mobile-course-details">
+      <summary class="mobile-course-summary"><span>Vibe Coding Avancé</span></summary>
+      <div class="mobile-course-body">
+        <ol class="nav-lesson-list"><li><a href="vibe-advanced.html#lesson-1"><span>1</span><strong>Travailler avec l'agent de Copilot</strong></a></li><li><a href="vibe-advanced.html#lesson-2"><span>2</span><strong>Connecter une base de données à ton application</strong></a></li><li><a href="vibe-advanced.html#lesson-3"><span>3</span><strong>Utiliser cette base de données en toute sécurité</strong></a></li><li><a href="vibe-advanced.html#lesson-4"><span>4</span><strong>Concevoir consciemment pour l'apprentissage</strong></a></li><li><a href="vibe-advanced.html#lesson-5"><span>5</span><strong>Faire un bon plan de construction</strong></a></li><li><a href="vibe-advanced.html#lesson-6"><span>6</span><strong>Itérer intelligemment sans casser ton application</strong></a></li><li><a href="vibe-advanced.html#lesson-7"><span>7</span><strong>Donner une mémoire durable à ton projet</strong></a></li><li><a href="vibe-advanced.html#lesson-8"><span>8</span><strong>Utiliser l'IA comme testeuse</strong></a></li><li><a href="vibe-advanced.html#lesson-9"><span>9</span><strong>Gérer ton code comme un vrai projet avec GitHub</strong></a></li></ol>
+        <a class="nav-lesson-overview" href="vibe-advanced.html">Voir le parcours complet<span aria-hidden="true">→</span></a>
+      </div>
+    </details><details class="mobile-course-details">
+      <summary class="mobile-course-summary"><span>Vibe Coding Expert</span></summary>
+      <div class="mobile-course-body">
+        <ol class="nav-lesson-list"><li><a href="vibe-expert.html#lesson-1"><span>1</span><strong>Ajouter de l'IA à ton application pédagogique</strong></a></li><li><a href="vibe-expert.html#lesson-2"><span>2</span><strong>Choisir et comparer les modèles d'IA</strong></a></li><li><a href="vibe-expert.html#lesson-3"><span>3</span><strong>Configurer tes clés d'accès en toute sécurité</strong></a></li><li><a href="vibe-expert.html#lesson-4"><span>4</span><strong>Premier petit projet : un bouton d'explication IA</strong></a></li><li><a href="vibe-expert.html#lesson-5"><span>5</span><strong>Déployer ton intégration IA en toute sécurité</strong></a></li><li><a href="vibe-expert.html#lesson-6"><span>6</span><strong>Construire de façon sûre et abordable</strong></a></li><li><a href="vibe-expert.html#lesson-7"><span>7</span><strong>Aller au-delà du texte</strong></a></li><li><a href="vibe-expert.html#lesson-8"><span>8</span><strong>Exemple complet et conclusion</strong></a></li></ol>
+        <a class="nav-lesson-overview" href="vibe-expert.html">Voir le parcours complet<span aria-hidden="true">→</span></a>
+      </div>
+    </details>
+      <a href="first-commit.html" class="mobile-nav-link">Ton premier commit</a>
+      <a href="build-vs-buy.html" class="mobile-nav-link">Vibe coding vs acheter une solution toute faite</a>
+    </div>
+    <div class="mobile-nav-group">
+      <div class="mobile-nav-group-label">Outils</div>
+      <button type="button" class="mobile-nav-link mobile-nav-button" data-search-open>Recherche</button>
+      <a href="cas-usage.html" class="mobile-nav-link accent">Cas d'usage</a>
+      <a href="plans.html" class="mobile-nav-link">Plans &amp; réalité</a>
+      <a href="toolkit.html" class="mobile-nav-link">Boîte à outils</a>
+      <a href="quick-reference.html" class="mobile-nav-link">Repère en 2 minutes</a>
+      <a href="maturity.html" class="mobile-nav-link">Diagnostic de maturité institutionnelle</a>
+    </div>
+    <div class="mobile-nav-group">
+      <div class="mobile-nav-group-label">Ressources</div>
+      <a href="workshop.html" class="mobile-nav-link">Kit d’atelier « Vibe Coding Challenge »</a>
+      <a href="glossary.html" class="mobile-nav-link">Glossaire</a>
+      <a href="sitemap.html" class="mobile-nav-link">Plan du site</a>
+      <a href="changelog.html" class="mobile-nav-link">Historique du site</a>
+      <a href="best-practices.html" class="mobile-nav-link">Bonnes pratiques</a>
+      <a href="about.html" class="mobile-nav-link">À propos</a>
+    </div>
+  </div>
+  </header>
+  <div class="language-banner-shell" data-language-banner hidden
+  data-alt-fr="../fr/toolkit.html" data-alt-nl="../nl/toolkit.html" data-alt-en="../en/toolkit.html" data-label-fr="Français" data-label-nl="Nederlands" data-label-en="English"
+  data-prefix="Il semble que ton navigateur préfère "
+  data-cta="Passer à cette langue"
+  data-dismiss="Masquer cette suggestion"></div>
+  <main id="main-content">
+<section class="toolkit-page">
+  <div class="container">
+    <div class="section-head" data-reveal>
+      <div class="page-wayfinding">
+      <nav class="page-breadcrumb" aria-label="Breadcrumb"><a href="index.html">Accueil</a><span class="page-breadcrumb-sep" aria-hidden="true">/</span><span aria-current="page">Boîte à outils</span></nav>
+    </div>
+      <h1>Boîte à outils — bibliothèque de prompts</h1>
+      <p>Des prompts Copilot prêts à l'emploi, organisés par métier. Copie-en un, adapte les détails entre crochets, et colle-le dans Copilot Chat.</p>
+      <p class="page-hero-note">Avant de transformer un bon prompt en conversation de déploiement plus large, <a href="maturity.html">fais le diagnostic en 2 minutes</a> pour choisir le meilleur point de départ institutionnel.</p>
+    </div>
+    <div class="toolkit-group" data-reveal data-persona="teaching">
+      <div class="toolkit-group-head">
+        <div class="persona-icon">🎓</div>
+        <h2>Enseignants</h2>
+      </div>
+      <div class="prompt-list"><div class="prompt-item"><span class="quote-mark">&gt;</span><span>Crée un quiz auto-corrigé sur [sujet] avec 5 questions à choix multiple et un retour instantané.</span></div><div class="prompt-item"><span class="quote-mark">&gt;</span><span>Ajoute un bouton qui permet aux étudiants de télécharger leurs résultats de quiz en PDF.</span></div><div class="prompt-item"><span class="quote-mark">&gt;</span><span>Transforme les notes de cours que je vais coller ci-dessous en une fiche de révision structurée et imprimable.</span></div></div>
+    </div><div class="toolkit-group" data-reveal data-persona="students">
+      <div class="toolkit-group-head">
+        <div class="persona-icon">🧑‍🎓</div>
+        <h2>Étudiants</h2>
+      </div>
+      <div class="prompt-list"><div class="prompt-item"><span class="quote-mark">&gt;</span><span>Crée une appli de flashcards pour [matière] où les cartes se retournent au clic et peuvent être marquées comme « sues ».</span></div><div class="prompt-item"><span class="quote-mark">&gt;</span><span>Ajoute un minuteur à ma page de révision qui se relance toutes les 25 minutes.</span></div><div class="prompt-item"><span class="quote-mark">&gt;</span><span>Crée une page de portfolio simple listant mes trois meilleurs projets avec liens et captures d'écran.</span></div></div>
+    </div><div class="toolkit-group" data-reveal data-persona="it">
+      <div class="toolkit-group-head">
+        <div class="persona-icon">🖥️</div>
+        <h2>Services IT</h2>
+      </div>
+      <div class="prompt-list"><div class="prompt-item"><span class="quote-mark">&gt;</span><span>Crée un outil interne simple où le personnel peut demander une réservation de salle et voir la disponibilité en direct.</span></div><div class="prompt-item"><span class="quote-mark">&gt;</span><span>Ajoute une vérification pour que seules les adresses email [domaine] puissent soumettre ce formulaire.</span></div><div class="prompt-item"><span class="quote-mark">&gt;</span><span>Génère un workflow GitHub Actions qui déploie ce site sur GitHub Pages à chaque push.</span></div></div>
+    </div><div class="toolkit-group" data-reveal data-persona="hr">
+      <div class="toolkit-group-head">
+        <div class="persona-icon">🤝</div>
+        <h2>RH</h2>
+      </div>
+      <div class="prompt-list"><div class="prompt-item"><span class="quote-mark">&gt;</span><span>Crée une check-list d'intégration interactive avec suivi de la progression pour les nouveaux collaborateurs.</span></div><div class="prompt-item"><span class="quote-mark">&gt;</span><span>Crée un formulaire de feedback pour une formation avec une note de 1 à 5 et un champ de commentaire.</span></div><div class="prompt-item"><span class="quote-mark">&gt;</span><span>Ajoute une page qui calcule le nombre de jours de congés restants à partir d'une date de début que je saisis.</span></div></div>
+    </div><div class="toolkit-group" data-reveal data-persona="leadership">
+      <div class="toolkit-group-head">
+        <div class="persona-icon">🧭</div>
+        <h2>Direction</h2>
+      </div>
+      <div class="prompt-list"><div class="prompt-item"><span class="quote-mark">&gt;</span><span>Crée une page de sondage en direct où le personnel peut voter sur une question et voir les résultats se mettre à jour instantanément.</span></div><div class="prompt-item"><span class="quote-mark">&gt;</span><span>Crée un tableau de bord simple qui résume les trois indicateurs que je vais coller comme KPI.</span></div><div class="prompt-item"><span class="quote-mark">&gt;</span><span>Transforme ce résumé stratégique en points en une page visuelle claire.</span></div></div>
+    </div><div class="toolkit-group" data-reveal data-persona="finance">
+      <div class="toolkit-group-head">
+        <div class="persona-icon">💶</div>
+        <h2>Finances</h2>
+      </div>
+      <div class="prompt-list"><div class="prompt-item"><span class="quote-mark">&gt;</span><span>Crée un petit calculateur qui estime le remboursement de frais de déplacement à partir d'une distance et d'un tarif.</span></div><div class="prompt-item"><span class="quote-mark">&gt;</span><span>Crée un formulaire simple pour enregistrer des dépenses récurrentes avec un total qui se met à jour.</span></div><div class="prompt-item"><span class="quote-mark">&gt;</span><span>Génère un tableau triable à partir des données que je vais coller ci-dessous.</span></div></div>
+    </div>
+    <section class="toolkit-configurator" id="prompt-configurator">
+      <div class="section-head left" data-reveal>
+        <h2>Configurateur de prompt personnalisé</h2>
+        <p>Choisis un rôle, précise le besoin du moment, ajoute quelques contraintes, puis copie un prompt prêt à coller dans Copilot Chat.</p>
+      </div>
+      <div class="tool-form-layout">
+        <div class="tool-form-card" data-reveal>
+          <div class="tool-form-grid" data-prompt-configurator>
+            <label class="tool-field">
+              <span>Rôle / persona</span>
+              <select data-prompt-role>
+                <option value="">Choisir…</option>
+                <option value="teaching">🎓 Enseignantes et enseignants</option><option value="students">🧑‍🎓 Étudiantes et étudiants</option><option value="it">🖥️ Services IT et numériques</option><option value="hr">🤝 Ressources humaines</option><option value="leadership">🧭 Direction et pilotage</option><option value="finance">💶 Finances et administration</option><option value="research">🔬 Chercheuses et chercheurs</option><option value="campus">📚 Bibliothèque, communication et vie de campus</option>
+              </select>
+            </label>
+            <label class="tool-field">
+              <span>Besoin fréquent</span>
+              <select data-prompt-preset disabled>
+                <option value="">Choisir un besoin fréquent</option>
+              </select>
+            </label>
+            <label class="tool-field tool-field-full">
+              <span>Besoin précis</span>
+              <input type="text" data-prompt-goal placeholder="Ex. préparer un quiz de révision, résumer un document, prototyper un tableau de bord…">
+            </label>
+            <fieldset class="tool-field tool-field-full">
+              <legend>Contraintes à garder en tête</legend>
+              <div class="tool-check-grid"><label class="form-check"><input type="checkbox" data-prompt-constraint value="Le prototype doit rester dans le navigateur et sans backend."><span>Le prototype doit rester dans le navigateur et sans backend.</span></label><label class="form-check"><input type="checkbox" data-prompt-constraint value="La réponse doit s’appuyer sur un document ou un cours existant."><span>La réponse doit s’appuyer sur un document ou un cours existant.</span></label><label class="form-check"><input type="checkbox" data-prompt-constraint value="La proposition doit rester simple à publier sur GitHub Pages."><span>La proposition doit rester simple à publier sur GitHub Pages.</span></label><label class="form-check"><input type="checkbox" data-prompt-constraint value="Je veux un plan étape par étape avant toute génération de code."><span>Je veux un plan étape par étape avant toute génération de code.</span></label></div>
+            </fieldset>
+          </div>
+        </div>
+        <div class="generated-tool-card" data-reveal>
+          <p class="tool-output-label">Prompt prêt à coller</p>
+          <div class="chat-mockup">
+            <div class="chat-head">Copilot Chat</div>
+            <div class="chat-body">
+              <pre class="generated-prompt-output" data-prompt-output>Choisis un rôle puis précise le besoin que tu veux faire avancer.</pre>
+            </div>
+          </div>
+          <div class="generated-tool-actions">
+            <button type="button" class="btn btn-primary" data-prompt-copy>Copier le prompt</button>
+          </div>
+        </div>
+      </div>
+      <script type="application/json" data-prompt-config>{"empty": "Choisis un rôle puis précise le besoin que tu veux faire avancer.", "copy": "Copier le prompt", "copied": "Prompt copié", "fallback": "Prompt sélectionné — copie-le manuellement", "constraintsLabel": "Contraintes à garder en tête", "presetDefault": "Choisir un besoin fréquent", "personas": [{"key": "teaching", "icon": "🎓", "label": "Enseignantes et enseignants", "pitch": "Construis enfin le compagnon de cours, le quiz, la page de révision ou l’aide à la correction que tu imagines depuis longtemps.", "presets": ["un quiz de révision", "une page de syllabus vivante", "un exercice interactif"], "surface": "Copilot Chat, GitHub Pages et Copilot Spaces", "instruction": "Aide-moi à construire un prototype pédagogique clair, léger et réutilisable."}, {"key": "students", "icon": "🧑‍🎓", "label": "Étudiantes et étudiants", "pitch": "Transforme une idée de projet de fin d’études en application qui fonctionne, branche par branche, avec revue de code avant remise.", "presets": ["un portfolio de projet", "une appli de flashcards", "un mini MVP pour un travail de fin d’études"], "surface": "Copilot Chat, Mode Agent et revue de code", "instruction": "Aide-moi à garder le projet compréhensible, livrable et bien découpé par étapes."}, {"key": "it", "icon": "🖥️", "label": "Services IT et numériques", "pitch": "Lance plusieurs sessions agentiques en parallèle, garde la main avec le mode Plan, puis valide les diffs avant publication.", "presets": ["un outil interne simple", "une automatisation de ticket récurrent", "un prototype de service campus"], "surface": "Mode Plan, GitHub Copilot app et pull requests", "instruction": "Propose un flux qui garde les diffs relisibles, testables et faciles à approuver."}, {"key": "hr", "icon": "🤝", "label": "Ressources humaines", "pitch": "Ancre Copilot dans les vraies procédures, modèles et documents d’intégration pour obtenir des réponses alignées sur les politiques internes.", "presets": ["une check-list d’onboarding", "un formulaire de feedback", "une FAQ de procédures internes"], "surface": "Copilot Chat, Copilot Spaces et instructions de contexte", "instruction": "Garde les formulations alignées sur des politiques internes et sur une expérience simple pour le personnel."}, {"key": "leadership", "icon": "🧭", "label": "Direction et pilotage", "pitch": "Automatise les synthèses hebdomadaires grâce aux agents personnalisés et aux exécutions planifiées du cloud agent.", "presets": ["un tableau de bord simple", "une synthèse de KPI", "un sondage de réunion"], "surface": "Copilot Chat, agents personnalisés et synthèses prêtes à relire", "instruction": "Cherche un résultat visible rapidement, avec une lecture claire des risques et des prochaines étapes."}, {"key": "finance", "icon": "💶", "label": "Finances et administration", "pitch": "Transforme les exports en tableaux de bord en gardant un récit de coût honnête grâce au modèle des AI credits mutualisés.", "presets": ["un calculateur budgétaire", "un suivi de dépenses récurrentes", "un tableau triable depuis un export"], "surface": "Copilot Chat, tableaux HTML et publication légère", "instruction": "Privilégie les calculs transparents, les hypothèses explicites et une interface sobre."}, {"key": "research", "icon": "🔬", "label": "Chercheuses et chercheurs", "pitch": "Connecte des données de confiance via MCP et laisse Copilot rédiger le script Python ou R que tu peux inspecter et rejouer.", "presets": ["une exploration de données de confiance", "un assistant de requêtes dataset", "un mini tableau de bord de laboratoire"], "surface": "Copilot Chat, MCP servers et scripts inspectables", "instruction": "Fais ressortir les sources, les hypothèses et les scripts que l’équipe pourra relire et rejouer."}, {"key": "campus", "icon": "📚", "label": "Bibliothèque, communication et vie de campus", "pitch": "Crée un outil léger de réservation, d’inventaire, de FAQ ou d’événements sans attendre un grand projet sur mesure.", "presets": ["une réservation de salle", "une FAQ bibliothèque", "un mini agenda d’événements"], "surface": "Copilot Chat, GitHub Pages et formulaires simples", "instruction": "Cherche un service utile tout de suite, léger à maintenir et facile à partager sur le campus."}]}</script>
+    </section>
+    <section class="toolkit-spotlight">
+      <div class="section-head" data-reveal>
+        <h2>Deux prochaines étapes intelligentes</h2>
+        <p>Si la boîte à outils t’a donné des idées, la question suivante est souvent soit « comment faire mon premier commit ? », soit « quand faut-il construire au lieu d’acheter ? »</p>
+      </div>
+      <div class="resource-grid"><a class="cta-card" data-reveal href="first-commit.html"><span class="plan-icon">🧪</span><h3>Ton premier commit</h3><p>Le guide sans jargon entre création de compte et fusion d’une pull request dans le navigateur.</p><span>Ouvrir le guide →</span></a><a class="cta-card" data-reveal href="build-vs-buy.html"><span class="plan-icon">⚖️</span><h3>Construire ou acheter</h3><p>Utilise la comparaison honnête, l’échelle de maturité et le calculateur avant de laisser un nouveau petit SaaS s’imposer par défaut.</p><span>Ouvrir la comparaison →</span></a><a class="cta-card" data-reveal href="workshop.html"><span class="plan-icon">🧑‍🏫</span><h3>Kit d’atelier « Vibe Coding Challenge »</h3><p>Un atelier interne de 90 à 120 minutes, prêt à animer, pour faire passer une équipe d’une idée campus à un prototype publié.</p><span>Imprimer ce kit d’atelier →</span></a></div>
+    </section>
+  </div>
+</section>
+</main>
+  <footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2026 Vibe Coding Copilot. Une ressource pédagogique indépendante et gratuite pour le vibe coding dans l'enseignement supérieur, propulsée par GitHub Copilot. Non affiliée à GitHub ni à Microsoft et non approuvée par eux.</p>
+    <div class="footer-links"><a href="index.html">Accueil</a><a href="cas-usage.html">Cas d'usage</a><a href="scenarios.html">8 scénarios réels</a><a href="first-commit.html">Ton premier commit</a><a href="build-vs-buy.html">Vibe coding vs acheter une solution toute faite</a><a href="plans.html">Plans &amp; réalité</a><a href="quick-reference.html">Repère en 2 minutes</a><a href="maturity.html">Diagnostic de maturité institutionnelle</a><a href="workshop.html">Kit d’atelier « Vibe Coding Challenge »</a><a href="glossary.html">Glossaire</a><a href="sitemap.html">Plan du site</a><a href="changelog.html">Historique du site</a><a href="best-practices.html">Bonnes pratiques</a><a href="about.html">À propos</a></div>
+  </div>
+  </footer>
+  <div class="search-modal" data-search-modal hidden>
+  <div class="search-modal-backdrop" data-search-close></div>
+  <div class="search-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="search-modal-title">
+    <div class="search-modal-head">
+      <div>
+        <h2 id="search-modal-title">Rechercher dans le site</h2>
+        <p>Commence à taper pour filtrer les pages, leçons, scénarios, cas d’usage et termes du glossaire.</p>
+      </div>
+      <button type="button" class="search-close" data-search-close aria-label="Fermer">×</button>
+    </div>
+    <label class="search-input-wrap">
+      <span class="sr-only">Rechercher dans le site</span>
+      <input type="search" data-search-input placeholder="Chercher une leçon, un cas d’usage, un terme du glossaire…" autocomplete="off">
+    </label>
+    <div class="search-results" data-search-results></div>
+    <p class="search-empty" data-search-empty hidden>Aucun résultat pour cette recherche.</p>
+  </div>
+  </div>
+  <button type="button" class="back-to-top" data-back-to-top aria-label="Retour en haut de page" title="Retour en haut de page" hidden>&#8593;</button>
+  <script src="../assets/qrcode.min.js" defer></script>
+  <script src="../assets/script.js" defer></script>
+  </body>
+  </html>
