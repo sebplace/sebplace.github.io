@@ -117,6 +117,14 @@ FEATURE_KEY_REMAP = {
 CURRENT_YEAR = 2026
 PLACEHOLDER_SITE_BASE = "https://sebplace.github.io/vibe-coding-copilot/"
 
+# Privacy-friendly analytics (GoatCounter — https://www.goatcounter.com). No cookies, no
+# personal data, EU-hosted option available. Sign up for free at goatcounter.com, then
+# replace this placeholder with your real site code (e.g. "vibecodingcopilot" if your
+# dashboard URL is https://vibecodingcopilot.goatcounter.com). Leave as-is to ship the site
+# with the feedback widget working purely visually but with no analytics call sent
+# (the script tag is simply omitted and the click handler no-ops safely).
+GOATCOUNTER_CODE = "PLACEHOLDER_GOATCOUNTER_CODE"
+
 DOC_URLS = {
     "plans": "https://docs.github.com/en/copilot/get-started/plans",
     "students": "https://docs.github.com/en/copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-students",
@@ -156,6 +164,34 @@ SOURCE_LABEL = {"fr": "↗ source", "en": "↗ source", "nl": "↗ bron"}
 SKIP_LINK_LABEL = {"fr": "Aller au contenu", "en": "Skip to content", "nl": "Naar de inhoud gaan"}
 BACK_TO_TOP_LABEL = {"fr": "Retour en haut de page", "en": "Back to top", "nl": "Terug naar boven"}
 OG_LOCALE = {"fr": "fr_FR", "en": "en_US", "nl": "nl_NL"}
+
+# Pages where the "was this helpful?" feedback widget is shown — the meaty, self-serve
+# content pages, not listing/utility pages (home, about, glossary, sitemap, changelog,
+# certificate, workshop already has its own dedicated CTA).
+FEEDBACK_WIDGET_PAGES = {
+    "explorer", "scenarios", "first_commit", "build_vs_buy", "plans", "toolkit",
+    "best_practices", "quick_reference", "maturity", "basics", "advanced", "expert",
+}
+FEEDBACK_WIDGET_TEXT = {
+    "fr": {
+        "question": "Cette page t'a-t-elle aidé\u00b7e ?",
+        "yes": "Oui \U0001F44D",
+        "no": "Pas vraiment \U0001F44E",
+        "thanks": "Merci pour ton retour \u2014 il aide \u00e0 am\u00e9liorer le site.",
+    },
+    "en": {
+        "question": "Was this page helpful?",
+        "yes": "Yes \U0001F44D",
+        "no": "Not really \U0001F44E",
+        "thanks": "Thanks for the feedback \u2014 it helps improve the site.",
+    },
+    "nl": {
+        "question": "Heeft deze pagina je geholpen?",
+        "yes": "Ja \U0001F44D",
+        "no": "Niet echt \U0001F44E",
+        "thanks": "Bedankt voor je feedback \u2014 het helpt de site te verbeteren.",
+    },
+}
 
 FEATURE_DOCS = {
     "Copilot Chat": DOC_URLS["features"],
@@ -4028,11 +4064,30 @@ def generate_site(content, root, langs, lang_label):
   </div>
   </footer>"""
 
+    def feedback_widget_html(lang, current_page):
+        if current_page not in FEEDBACK_WIDGET_PAGES:
+            return ""
+        t = FEEDBACK_WIDGET_TEXT[lang]
+        return f"""<div class="feedback-widget container" data-feedback-widget data-feedback-page="{esc(current_page)}">
+    <p class="feedback-question">{esc(t["question"])}</p>
+    <div class="feedback-actions">
+      <button type="button" class="feedback-btn" data-feedback-vote="up">{esc(t["yes"])}</button>
+      <button type="button" class="feedback-btn" data-feedback-vote="down">{esc(t["no"])}</button>
+    </div>
+    <p class="feedback-thanks" hidden>{esc(t["thanks"])}</p>
+  </div>"""
+
     def page_shell(lang, current_page, title, description, body_html):
         meta = content[lang]["meta"]
         full_title = f"{title} — {meta['site_name']}"
         body_class = f"page-{current_page.replace('_', '-')}"
         body_html = re.sub(r"<main(?=[\s>])", '<main id="main-content"', body_html, count=1)
+        goatcounter_script = ""
+        if GOATCOUNTER_CODE and GOATCOUNTER_CODE != "PLACEHOLDER_GOATCOUNTER_CODE":
+            goatcounter_script = (
+                f'<script data-goatcounter="https://{GOATCOUNTER_CODE}.goatcounter.com/count" '
+                f'async src="https://gc.zgo.at/count.js"></script>\n  '
+            )
         return f"""<!DOCTYPE html>
   <html lang="{meta["html_lang"]}">
   <head>
@@ -4056,12 +4111,13 @@ def generate_site(content, root, langs, lang_label):
   {header_html(lang, current_page)}
   {language_banner_shell(lang, current_page)}
   {body_html}
+  {feedback_widget_html(lang, current_page)}
   {footer_html(lang)}
   {search_modal_html(lang)}
   <button type="button" class="back-to-top" data-back-to-top aria-label="{esc(BACK_TO_TOP_LABEL[lang])}" title="{esc(BACK_TO_TOP_LABEL[lang])}" hidden>&#8593;</button>
   <script src="../assets/qrcode.min.js" defer></script>
   <script src="../assets/script.js" defer></script>
-  </body>
+  {goatcounter_script}</body>
   </html>"""
     def render_counter_card(item):
         return f"""<div class="impact-stat" data-reveal>

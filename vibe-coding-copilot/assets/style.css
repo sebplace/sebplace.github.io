@@ -806,6 +806,36 @@ fieldset.tool-field,
 .about-body p { color: var(--text-muted); font-size: 15.5px; margin-bottom: 16px; }
 .about-body h2 { font-size: 1.3rem; margin: 36px 0 12px; }
 
+/* ---------------- Feedback widget ---------------- */
+
+.feedback-widget {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  margin: 8px auto 32px;
+  padding: 16px 20px;
+  border: 1px solid var(--border-muted);
+  border-radius: var(--radius);
+  background: var(--bg-elevated);
+}
+.feedback-question { margin: 0; font-size: 14px; color: var(--text-muted); flex: 1 1 auto; }
+.feedback-actions { display: flex; gap: 10px; flex: none; }
+.feedback-btn {
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 7px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--bg-elevated-2);
+  color: var(--text);
+  transition: border-color .15s ease, transform .15s ease;
+}
+.feedback-btn:hover, .feedback-btn:focus-visible { border-color: var(--accent-blue); transform: translateY(-1px); }
+.feedback-thanks { margin: 0; font-size: 14px; color: var(--accent-green); }
+
 /* ---------------- Footer ---------------- */
 
 .site-footer { border-top: 1px solid var(--border-muted); padding: 40px 0; }

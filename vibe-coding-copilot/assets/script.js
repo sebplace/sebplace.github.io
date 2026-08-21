@@ -1143,5 +1143,39 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  // "Was this page helpful?" widget: records a lightweight, anonymous vote as a
+  // GoatCounter event (if GoatCounter is loaded) and remembers locally that this
+  // browser already voted on this page, so it doesn't nag on repeat visits.
+  var feedbackWidget = document.querySelector('[data-feedback-widget]');
+  if (feedbackWidget) {
+    var feedbackPage = feedbackWidget.getAttribute('data-feedback-page') || 'page';
+    var feedbackVotedKey = 'vcc-feedback-voted-' + feedbackPage;
+    var feedbackThanks = feedbackWidget.querySelector('.feedback-thanks');
+    var feedbackActions = feedbackWidget.querySelector('.feedback-actions');
+    if (storageGet(feedbackVotedKey)) {
+      if (feedbackActions) feedbackActions.hidden = true;
+      if (feedbackThanks) feedbackThanks.hidden = false;
+    }
+    feedbackWidget.querySelectorAll('[data-feedback-vote]').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var vote = btn.getAttribute('data-feedback-vote') || 'up';
+        storageSet(feedbackVotedKey, vote);
+        if (feedbackActions) feedbackActions.hidden = true;
+        if (feedbackThanks) feedbackThanks.hidden = false;
+        try {
+          if (window.goatcounter && typeof window.goatcounter.count === 'function') {
+            window.goatcounter.count({
+              path: 'feedback-' + vote + '-' + feedbackPage,
+              title: 'Feedback ' + vote + ' on ' + feedbackPage,
+              event: true
+            });
+          }
+        } catch (_error) {
+          // GoatCounter not loaded (placeholder site code, blocked, offline) — no-op.
+        }
+      });
+    });
+  }
+
   refreshCompletionUI();
 });

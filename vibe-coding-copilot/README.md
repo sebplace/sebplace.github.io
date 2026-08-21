@@ -18,11 +18,13 @@ actif) — pour mettre à jour le site en ligne, régénérer localement puis co
 `fr/`, `nl/`, `en/`, `assets/`, `index.html`, `sitemap.xml`, `robots.txt` dans ce sous-dossier
 du dépôt, committer et pousser sur `master`.
 
-**Limite connue** : `robots.txt` et `sitemap.xml` du projet vivent dans le sous-dossier et ne
-gouvernent donc pas réellement le domaine (seul un `robots.txt` à la vraie racine du domaine
-compte pour le SEO — celui du blog Jekyll existant reste en place, inchangé). Les pages du
-site restent normalement indexables, elles ne sont simplement pas listées dans le sitemap
-racine du domaine.
+**Limite corrigée (vérifiée le 21/08/2026)** : contrairement à une inquiétude initiale, le
+`robots.txt`/`sitemap.xml` du vrai domaine racine (générés automatiquement par le plugin Jekyll
+`jekyll-sitemap` du blog existant, cf. `plugins:` dans son `_config.yml`) **incluent bien
+automatiquement toutes les pages statiques du sous-dossier** `vibe-coding-copilot/` — vérifié en
+lisant `https://sebplace.github.io/sitemap.xml` en production, qui liste chaque page FR/NL/EN du
+projet. Le `robots.txt`/`sitemap.xml` propres au sous-dossier (copiés dedans) ne sont donc qu'une
+redondance inoffensive, jamais servis par de vrais robots — rien à corriger.
 
 ## Démarrage rapide
 
@@ -37,9 +39,33 @@ python -m http.server 8765     # sert le site en local
 # puis ouvrir http://localhost:8765/fr/index.html
 ```
 
-Aucune dépendance externe : Python standard uniquement pour la génération, HTML/CSS/JS
-vanilla pour le rendu (aucune bibliothèque externe, aucun appel réseau à l'exécution —
-même le QR code du kit d'atelier est généré par un script vendored dans `assets/`).
+Aucune dépendance externe obligatoire : Python standard uniquement pour la génération, HTML/CSS/JS
+vanilla pour le rendu (aucune bibliothèque externe, aucun appel réseau à l'exécution par défaut —
+même le QR code du kit d'atelier est généré par un script vendored dans `assets/`). Le seul appel
+réseau optionnel est l'analytics GoatCounter décrit ci-dessous, désactivé tant que le code de site
+n'est pas configuré.
+
+## Analytics & feedback (GoatCounter)
+
+Le site peut envoyer des statistiques de visite **sans cookies, sans données personnelles**, via
+[GoatCounter](https://www.goatcounter.com) (gratuit, open source, hébergement EU disponible).
+Tant que ce n'est pas configuré, aucun script n'est injecté et aucune donnée n'est envoyée nulle
+part — le widget de feedback continue de fonctionner visuellement mais sans compter de vote.
+
+Pour l'activer :
+1. Créer un compte gratuit sur https://www.goatcounter.com/signup (aucune carte requise) et
+   choisir un code de site, par ex. `vibecodingcopilot` → tableau de bord sur
+   `https://vibecodingcopilot.goatcounter.com`.
+2. Remplacer `GOATCOUNTER_CODE = "PLACEHOLDER_GOATCOUNTER_CODE"` par le vrai code choisi, ligne
+   ~124 de `site_refresh.py`.
+3. Régénérer (`python generate_site.py`), vérifier, redéployer (voir « Site publié » ci-dessus).
+
+Une fois activé, le script `<script data-goatcounter="…">` est injecté sur chaque page, et le
+widget « Cette page t'a-t-elle aidé ? » (visible sur les pages de contenu — cf. `FEEDBACK_WIDGET_PAGES`
+dans `site_refresh.py`) envoie un événement `feedback-up-<page>` / `feedback-down-<page>` au clic,
+visible dans le tableau de bord GoatCounter sous « Pages » ou via l'onglet Events. Le vote est
+mémorisé en `localStorage` (`vcc-feedback-voted-<page>`) pour ne pas relancer la question à chaque
+visite.
 
 ## Architecture — le point le plus important à comprendre
 
