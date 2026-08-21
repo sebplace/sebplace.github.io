@@ -3969,9 +3969,7 @@ def generate_site(content, root, langs, lang_label):
         glossary_href_local = local_href("glossary", lang)
         workshop_href = local_href("workshop", lang)
         quickref_href = local_href("quick_reference", lang)
-        sitemap_href = local_href("sitemap", lang)
         maturity_href = local_href("maturity", lang)
-        changelog_href = local_href("changelog", lang)
         return f"""<header class="site-header">
   <div class="container header-inner">
     <a class="brand-mark" href="{home_href}" aria-label="{esc(meta["site_name"])}">
@@ -4014,8 +4012,6 @@ def generate_site(content, root, langs, lang_label):
       <div class="mobile-nav-group-label">{esc(nav.get("mobile_group_resources", "Resources"))}</div>
       <a href="{workshop_href}" class="mobile-nav-link">{esc(ui["workshop_title"])}</a>
       <a href="{glossary_href_local}" class="mobile-nav-link">{esc(ui["glossary_title"])}</a>
-      <a href="{sitemap_href}" class="mobile-nav-link">{esc(ui["sitemap_title"])}</a>
-      <a href="{changelog_href}" class="mobile-nav-link">{esc(content[lang]["changelog"]["title"])}</a>
       <a href="{bp_href}" class="mobile-nav-link">{esc(nav["best_practices"])}</a>
       <a href="{about_href}" class="mobile-nav-link">{esc(nav["about"])}</a>
     </div>
