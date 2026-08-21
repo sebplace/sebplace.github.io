@@ -9,12 +9,30 @@ de construction. Il décrit l'architecture réelle, pas une architecture idéale
 choix (voir « Dette technique connue ») mériteraient d'être nettoyés avant un usage à très
 long terme.
 
+## Site publié
+
+Le site est en ligne : **https://sebplace.github.io/vibe-coding-copilot/** (choix de langue
+à la racine, puis `/fr/`, `/nl/`, `/en/`). Déployé dans un sous-dossier `vibe-coding-copilot/`
+du dépôt personnel `sebplace/sebplace.github.io` (qui héberge par ailleurs un vrai blog Jekyll
+actif) — pour mettre à jour le site en ligne, régénérer localement puis copier le contenu de
+`fr/`, `nl/`, `en/`, `assets/`, `index.html`, `sitemap.xml`, `robots.txt` dans ce sous-dossier
+du dépôt, committer et pousser sur `master`.
+
+**Limite connue** : `robots.txt` et `sitemap.xml` du projet vivent dans le sous-dossier et ne
+gouvernent donc pas réellement le domaine (seul un `robots.txt` à la vraie racine du domaine
+compte pour le SEO — celui du blog Jekyll existant reste en place, inchangé). Les pages du
+site restent normalement indexables, elles ne sont simplement pas listées dans le sitemap
+racine du domaine.
+
 ## Démarrage rapide
 
 ```powershell
 # Depuis la racine du projet
 python generate_site.py        # régénère tout le HTML (fr/, nl/, en/, index.html)
 python check_links.py          # vérifie qu'aucun lien interne n'est cassé
+python check_case.py           # vérifie la casse des chemins (Windows est insensible à la
+                                # casse, GitHub Pages/Linux ne l'est pas — un lien qui marche
+                                # en local peut 404 une fois publié si la casse diffère)
 python -m http.server 8765     # sert le site en local
 # puis ouvrir http://localhost:8765/fr/index.html
 ```
