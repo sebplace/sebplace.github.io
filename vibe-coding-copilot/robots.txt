@@ -1,4 +1,0 @@
-# Published at https://sebplace.github.io/vibe-coding-copilot/ via GitHub Pages.
-User-agent: *
-Allow: /
-Sitemap: https://sebplace.github.io/vibe-coding-copilot/sitemap.xml
