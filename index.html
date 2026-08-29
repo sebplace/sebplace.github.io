@@ -1,5 +1,92 @@
----
-layout: home
-title: Mes notes sur Path of Exile 2
-subtitle: Partage d'expérience dans POE2
----
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#fbf1e0">
+<title>Sébastien Place</title>
+<meta name="description" content="Sébastien Place — pédagogue du numérique, aïkidoka, rôliste et lecteur d'imaginaire. Mon site : splc.be.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="canonical" href="https://sebplace.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Sébastien Place">
+<meta property="og:description" content="Pédagogue du numérique, aïkidoka, rôliste et lecteur d'imaginaire. Mon site : splc.be.">
+<meta property="og:url" content="https://sebplace.github.io/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#fbf1e0; --cream-2:#f6e6cd; --ink:#2c1a14; --ink-soft:#8a6a56;
+    --ac:#f2603c; --amber:#f5a623; --plum:#77488a; --rule:#e7d3b4;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    font-family:"Outfit",system-ui,sans-serif;color:var(--ink);
+    background:
+      radial-gradient(120% 90% at 50% -10%, #ffe9c2 0%, var(--cream) 46%, #f3e6cf 100%);
+    min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    padding:40px 22px;line-height:1.6;
+  }
+  .sun{
+    width:96px;height:96px;border-radius:50%;margin:0 auto 26px;
+    background:radial-gradient(circle at 50% 40%, #ffe9b0 0%, var(--amber) 38%, var(--ac) 72%, var(--plum) 120%);
+    box-shadow:0 0 0 10px rgba(245,166,35,.12), 0 0 60px -6px rgba(242,96,60,.55);
+    animation:breathe 7s ease-in-out infinite;
+  }
+  @keyframes breathe{0%,100%{filter:none}50%{filter:brightness(1.07) saturate(1.05)}}
+  main{max-width:560px;text-align:center}
+  h1{font-family:"Fraunces",serif;font-weight:600;font-size:clamp(34px,7vw,52px);letter-spacing:-.02em;margin:0 0 6px}
+  .tag{font-family:"Fraunces",serif;font-style:italic;font-size:clamp(17px,3.4vw,21px);color:var(--ink-soft);margin:0 auto 30px;max-width:44ch}
+  .cta{
+    display:inline-flex;align-items:center;gap:10px;font-weight:600;font-size:18px;text-decoration:none;
+    color:#fff;background:linear-gradient(135deg,var(--ac),var(--amber));padding:14px 30px;border-radius:999px;
+    box-shadow:0 16px 34px -16px rgba(242,96,60,.7);transition:transform .25s,box-shadow .25s;
+  }
+  .cta:hover{transform:translateY(-3px);box-shadow:0 22px 40px -16px rgba(242,96,60,.8)}
+  .cta .arw{transition:transform .25s}
+  .cta:hover .arw{transform:translateX(4px)}
+  .lead{font-size:13px;letter-spacing:1.6px;text-transform:uppercase;color:var(--ink-soft);font-weight:600;margin:44px 0 16px}
+  .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;text-align:left}
+  @media(max-width:480px){.grid{grid-template-columns:1fr}}
+  .proj{
+    display:block;text-decoration:none;color:var(--ink);background:rgba(255,255,255,.6);
+    border:1px solid var(--rule);border-radius:16px;padding:15px 17px;transition:transform .22s,box-shadow .22s,background .22s;
+  }
+  .proj:hover{transform:translateY(-3px);background:#fff;box-shadow:0 18px 36px -24px rgba(60,20,30,.5)}
+  .proj b{font-family:"Fraunces",serif;font-weight:600;font-size:16.5px;display:block}
+  .proj span{font-size:13px;color:var(--ink-soft)}
+  footer{margin-top:40px;font-size:14px;color:var(--ink-soft)}
+  footer a{color:var(--ink-soft);text-decoration:none;font-weight:600;border-bottom:1px solid var(--rule);padding-bottom:1px}
+  footer a:hover{color:var(--ac)}
+  .dot{opacity:.5;margin:0 8px}
+  @media(prefers-reduced-motion:reduce){.sun{animation:none}}
+</style>
+</head>
+<body>
+<main>
+  <div class="sun" aria-hidden="true"></div>
+  <h1>Sébastien Place</h1>
+  <p class="tag">Pédagogue du numérique et aïkidoka. J'explore l'IA et l'apprentissage, les jeux de rôle et les littératures de l'imaginaire — et je bâtis des outils en dialoguant avec la machine.</p>
+
+  <a class="cta" href="https://splc.be" rel="me">Découvrir mon site <span class="arw">→</span></a>
+
+  <p class="lead">Quelques créations</p>
+  <div class="grid">
+    <a class="proj" href="https://sebplace.github.io/vibe-coding-copilot/fr/" rel="noopener"><b>Vibe Coding Copilot</b><span>Apprendre à coder avec l'IA — enseignement supérieur</span></a>
+    <a class="proj" href="https://sebplace.github.io/lheure-du-crime/" rel="noopener"><b>L'Heure du Crime</b><span>Console du MJ pour la murder party</span></a>
+    <a class="proj" href="https://sebplace.github.io/grimoire-du-conteur/" rel="noopener"><b>Grimoire du Conteur</b><span>Assistant Blood on the Clocktower</span></a>
+    <a class="proj" href="https://github.com/sebplace" rel="noopener"><b>GitHub</b><span>Tout le code, à ciel ouvert</span></a>
+  </div>
+
+  <footer>
+    <a href="https://splc.be">splc.be</a>
+    <span class="dot">·</span>
+    <a href="https://www.linkedin.com/in/sebastien-place/" rel="me noopener">LinkedIn</a>
+    <span class="dot">·</span>
+    <a href="https://splc.substack.com" rel="noopener">Newsletter</a>
+  </footer>
+</main>
+</body>
+</html>
